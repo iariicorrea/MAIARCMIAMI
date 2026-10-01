@@ -1,0 +1,1495 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="favicon.svg?v=6" type="image/svg+xml">
+<link rel="alternate icon" href="favicon.ico?v=6">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png?v=6">
+<link rel="apple-touch-icon" href="apple-touch-icon.png?v=6">
+<meta name="description" content="MAIARC Miami — Exceptional residences and private concierge in Miami Beach, Brickell, Coral Gables, Key Biscayne and North Miami.">
+<title>MAIARC Miami · Residences & private concierge in Miami</title>
+<link rel="canonical" href="https://miami.maiarconcierge.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MAIARC Miami">
+<meta property="og:title" content="MAIARC Miami · Exceptional residences. Tailor-made stays.">
+<meta property="og:description" content="Selected residences and private concierge across Miami.">
+<meta property="og:image" content="https://maiarcmiami.maiarc.workers.dev/share.jpg?v=1">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap">
+<style>
+:root{
+  --ivory:#F6F7F9; --sand:#ECEFF4; --white:#FFFFFF; --ph1:#D6DCE5; --ph2:#CDD4DF; --ph3:#DEE3EA;
+  --ink:#0E1A2E; --body:#222D3D; --muted:#4C586A; --phtext:#2C384A; --line:#D2D8E1; --line2:#E2E6ED;
+  --sea:#13233D; --sea-soft:#C5CFDF; --sea-line:#8798B3; --hero:#13233D; --sea-deep:#0A1528; --tint:#E2E8F1; --soft:#D5DDEA;
+  --serif:'Cormorant Garamond', 'Cormorant', Georgia, 'Times New Roman', serif;
+  --sans:'Jost', 'Futura', 'Century Gothic', 'Helvetica Neue', Arial, sans-serif;
+  --gut:80px;
+  color-scheme: light;
+}
+*{box-sizing:border-box}
+html,body{overflow-x:clip}
+#page{width:1440px;margin-inline:auto}
+body{margin:0;background:var(--ivory);color:var(--ink);font-family:var(--sans);font-weight:400;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--sea);outline-offset:3px}
+h1,h2,p{margin:0}
+h1,h2{font-family:var(--serif);font-weight:300;text-wrap:balance}
+em{font-style:italic}
+.wrap{padding-inline:var(--gut)}
+.eyebrow{font-size:11.5px;letter-spacing:.4em;text-transform:uppercase;color:var(--muted);font-weight:400}
+.h2{font-size:57.5px;line-height:1.02}
+.lead{font-size:17px;line-height:1.75;color:var(--body);max-width:62ch}
+.link{font-size:12.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--sea);border-bottom:1px solid var(--sea);padding-bottom:4px;font-weight:400}
+.ph{background:var(--ph1);display:flex;align-items:flex-end;padding:18px;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--phtext);font-weight:400}
+.ph.b{background:var(--ph2)} .ph.c{background:var(--ph3)}
+.btn{min-height:54px;padding:0 30px;display:inline-flex;align-items:center;justify-content:center;gap:12px;font-family:var(--sans);font-size:12.5px;letter-spacing:.2em;text-transform:uppercase;font-weight:400;border:1px solid transparent;cursor:pointer}
+.btn.solid{background:var(--sea);color:#fff}
+.btn.solid:hover{background:var(--sea-deep)}
+.btn.line{border-color:var(--ink);color:var(--ink);background:transparent}
+.sec{padding-block:130px}
+.head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:56px}
+.head > div{display:flex;flex-direction:column;gap:16px}
+
+/* HERO */
+.hero{position:relative;overflow:hidden;background:radial-gradient(120% 90% at 78% 18%,#2A4470 0%,rgba(42,68,112,0) 55%),radial-gradient(90% 80% at 10% 100%,#0B1830 0%,rgba(11,24,48,0) 60%),linear-gradient(160deg,#1A2E4F 0%,#13233D 48%,#0A1528 100%);color:#fff;min-height:810px;display:flex;flex-direction:column;justify-content:space-between}
+.hero-video{position:absolute;inset:0;display:flex;align-items:flex-end;justify-content:flex-end;text-align:right;padding:0 var(--gut) 146px;font-size:11.5px;letter-spacing:.26em;text-transform:uppercase;color:var(--tint);font-weight:400}
+.hero-video span{display:flex;flex-direction:column;align-items:flex-end;gap:14px;max-width:26ch;line-height:1.7;font-size:11px}
+.hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,16,30,.5) 0%,rgba(8,16,30,.22) 42%,rgba(8,16,30,0) 65%),linear-gradient(180deg,rgba(8,16,30,.34) 0%,rgba(8,16,30,0) 22%,rgba(8,16,30,0) 50%,rgba(8,16,30,.46) 100%)}
+.hero h1,.hero .eyebrow,.logo,.menu{text-shadow:0 1px 18px rgba(0,0,0,.18)}
+.nav{position:relative;display:flex;align-items:center;justify-content:space-between;gap:24px;padding-block:28px}
+.logo{display:flex;flex-direction:column;gap:2px}
+.logo b{font-family:var(--serif);font-weight:500;font-size:27px;letter-spacing:.32em}
+.logo small{font-size:9.5px;letter-spacing:.42em;text-transform:uppercase;color:var(--tint);font-weight:400}
+.menu{display:flex;gap:40px;font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:400}
+.nav-right{display:flex;align-items:center;gap:26px}
+.langs{display:flex;gap:14px;font-size:12.5px;letter-spacing:.12em;font-weight:400}
+.langs a{color:var(--tint)}.langs a.on{color:#fff;border-bottom:1px solid #fff;padding-bottom:2px}
+.nav .btn{min-height:44px;padding:0 22px;border-color:#fff;color:#fff}
+.hero-copy{position:relative;display:flex;flex-direction:column;gap:20px;padding-bottom:140px;padding-top:40px}
+.hero-copy .eyebrow{color:var(--tint)}
+.hero h1{font-size:65px;line-height:1.02;max-width:none}
+.hero h1 span,.hero h1 em{display:block}
+.places{font-size:11px;letter-spacing:.42em;text-transform:uppercase;color:rgba(255,255,255,.82);font-weight:400;display:flex;align-items:center;gap:0;text-shadow:0 1px 14px rgba(0,0,0,.2);padding-bottom:18px;margin-bottom:6px;border-bottom:1px solid rgba(255,255,255,.28);align-self:flex-start}
+.places i{font-style:normal;padding-inline:.9em;opacity:.7}
+.hero-lead{font-size:21px;line-height:1.55;color:#FFFFFF;max-width:44ch;font-weight:400;text-shadow:0 1px 3px rgba(0,0,0,.35),0 2px 22px rgba(0,0,0,.35);margin-top:4px}
+.hero-ctas{display:flex;gap:14px;margin-top:10px}
+.hero .btn.hero-solid{background:var(--ivory);color:var(--ink)}
+.hero .btn.hero-solid:hover{background:#fff}
+.hero .btn.hero-line{border-color:#fff;color:#fff}
+.hero .btn.hero-line:hover{background:rgba(255,255,255,.12)}
+
+.search{position:relative;margin-top:-64px}
+.search form{display:grid;grid-template-columns:repeat(3,minmax(0,1fr)) minmax(220px,300px);background:var(--white);border:1px solid var(--line2)}
+.search label{display:flex;flex-direction:column;justify-content:center;gap:8px;padding:26px 30px;border-right:1px solid var(--line2);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);font-weight:400}
+.search input,.search select{border:0;padding:0;font:300 18px var(--sans);color:var(--ink);background:transparent;outline:none;letter-spacing:0;text-transform:none}
+.search .btn{min-height:auto}
+.intro{padding-block:48px 8px;font-size:18.5px;line-height:1.65;color:var(--body);max-width:60ch}
+
+/* PROPIEDADES */
+.chips{display:flex;flex-wrap:wrap;gap:10px;font-size:12.5px;letter-spacing:.08em;font-weight:400}
+.chips a{min-height:40px;padding:0 18px;display:flex;align-items:center;border:1px solid var(--line)}
+.chips a.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.featured{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(0,1fr);gap:56px;margin-bottom:56px}
+.featured .ph{aspect-ratio:4/3;max-width:100%}
+.feat-copy{display:flex;flex-direction:column;justify-content:center;gap:24px}
+.feat-copy .name{font-family:var(--serif);font-weight:300;font-size:65px;line-height:1}
+.facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;border-block:1px solid var(--line2);padding-block:20px}
+.facts div{display:flex;flex-direction:column;gap:4px}
+.facts b{font-family:var(--serif);font-weight:400;font-size:27.5px}
+.facts span,.card .zone{font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:400}
+.feat-foot{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;font-size:14.5px;color:var(--body)}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}
+.card{display:flex;flex-direction:column;gap:16px}
+.card .ph{aspect-ratio:4/5}
+.card .row{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
+.card .nm{font-family:var(--serif);font-size:27.5px}
+.card .meta{font-size:13px;color:var(--muted)}
+.offcard{display:flex;flex-direction:column;justify-content:space-between;gap:32px;padding:40px 36px;background:var(--sea);color:#fff;min-height:320px}
+.offcard .eyebrow{color:var(--sea-soft);letter-spacing:.32em}
+.offcard .big{font-family:var(--serif);font-weight:300;font-size:38px;line-height:1.08}
+.offcard .go{display:flex;align-items:center;gap:12px;font-size:12.5px;letter-spacing:.2em;text-transform:uppercase;font-weight:400}
+.offcard:hover .go svg{transform:translateX(4px)}
+.offcard svg{transition:transform .25s ease}
+
+/* OFF-MARKET */
+.off{background:var(--sand)}
+.off-grid{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,9fr);gap:48px 24px}
+.off-grid > .eyebrow{padding-top:20px}
+.off-main{display:flex;flex-direction:column;gap:44px}
+.off h2{font-size:79px;line-height:1;letter-spacing:-.01em}
+.off .say{font-family:var(--serif);font-weight:300;font-size:27.5px;line-height:1.35;color:var(--body);max-width:40ch}
+.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px}
+.step{display:flex;flex-direction:column;gap:12px;border-top:1px solid var(--ink);padding-top:22px}
+.step i{font-family:var(--serif);font-size:29px;color:var(--sea)}
+.step b{font-family:var(--serif);font-weight:400;font-size:27px}
+.step span{font-size:15.5px;line-height:1.6;color:var(--muted)}
+.ctas{display:flex;flex-wrap:wrap;gap:14px}
+
+/* SERVICIOS */
+.serv{display:grid;grid-template-columns:minmax(0,440px) minmax(0,1fr);gap:120px;align-items:start}
+.serv-l{display:flex;flex-direction:column;gap:28px;position:sticky;top:64px}
+.serv-l .h2 em{display:block}
+.list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;border-bottom:1px solid var(--line)}
+.item{border-top:1px solid var(--line)}
+.item-a{display:grid;grid-template-columns:72px minmax(0,1fr) auto;gap:24px;align-items:baseline;padding-block:36px;color:var(--ink)}
+.item-go{align-self:center;opacity:0;transform:translateX(-6px);transition:opacity .25s,transform .25s}
+.item-a:hover .item-go,.item-a:focus-visible .item-go{opacity:1;transform:none}
+.item-a:hover b{font-style:italic}
+.item .num,.more .num{font-size:11.5px;letter-spacing:.2em;color:var(--muted);font-weight:400;font-variant-numeric:tabular-nums}
+.item-a > div,.more > div{display:flex;flex-direction:column;gap:10px}
+.item b{font-family:var(--serif);font-weight:400;font-size:29px;line-height:1.15}
+.item-a > div > span{font-size:15.5px;line-height:1.6;color:var(--muted);max-width:46ch}
+.sshow{margin:14px 0 0;display:flex;flex-direction:column;gap:16px}
+.sshow-frame{position:relative;aspect-ratio:4/3;overflow:hidden;background:var(--ph1)}
+.sshow-slide{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;transition:opacity 1.2s ease;display:flex;align-items:flex-end;padding:18px;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--phtext);font-weight:400}
+.sshow-slide.on{opacity:1}
+.sshow-slide.ph{background-color:var(--ph1)}
+.sshow-slide.ph:nth-child(3n+2){background-color:var(--ph2)}
+.sshow-slide.ph:nth-child(3n){background-color:var(--ph3)}
+.sshow-cap{display:flex;align-items:baseline;gap:18px;font-family:var(--serif);font-size:21px;color:var(--ink);padding-top:14px;border-top:1px solid var(--line)}
+.sshow-cap .num{font-family:var(--sans);font-size:11.5px;letter-spacing:.2em;color:var(--muted)}
+.item .num{transition:color .4s}
+.item.on .num{color:var(--ink)}
+.item.on b{font-style:italic}
+.more{display:grid;grid-template-columns:72px minmax(0,1fr) auto;gap:24px;align-items:center;margin-top:56px;padding:40px 36px 40px 0;color:var(--ink)}
+.more .num{font-family:var(--serif);font-size:25.5px;letter-spacing:0;color:var(--ink);align-self:start;line-height:1.1}
+.more b{font-family:var(--serif);font-weight:300;font-style:italic;font-size:34px;line-height:1.1}
+.more > div > span{font-size:15.5px;line-height:1.6;color:var(--body)}
+.more svg{transition:transform .25s ease}
+.more:hover svg{transform:translateX(5px)}
+
+/* NOSOTROS */
+.us{background:var(--white)}
+.us-top{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:96px;align-items:center}
+.us-photo{aspect-ratio:4/5;background-color:var(--ph1);background-size:cover;background-position:center 30%}
+.us-copy{display:flex;flex-direction:column;gap:28px}
+.us-copy h2{font-size:57.5px;line-height:1.04}
+.us-copy h2 span,.us-copy h2 em{display:block}
+.us-text{display:flex;flex-direction:column;gap:22px}
+.us-text p{margin:0;font-size:16px;line-height:1.75;color:var(--body);max-width:54ch}
+.founders{display:flex;flex-direction:column;gap:6px;padding-top:24px;border-top:1px solid var(--line);margin-top:6px}
+.f-names{font-family:var(--serif);font-style:italic;font-size:25px;color:var(--ink)}
+.f-role{font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--muted);font-weight:400}
+.values{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:40px;border-top:1px solid var(--line);padding-top:52px;margin-top:96px}
+.val{display:flex;flex-direction:column;gap:14px}
+.val b{font-family:var(--serif);font-weight:400;font-size:23px;line-height:1.2}
+.val span{font-size:13px;line-height:1.65;color:var(--muted)}
+@media (max-width:1024px){.values{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){.values{grid-template-columns:minmax(0,1fr)}}
+
+/* REELS */
+.reels{background:var(--sand)}
+.reel-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.reel-v{position:relative;overflow:hidden;background:var(--sea-deep);display:block;padding:0}
+.reel-v video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.reel-cap{position:absolute;left:0;right:0;bottom:0;padding:40px 18px 16px;background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.45));color:#fff;font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:400}
+.reel-sound{position:absolute;top:14px;right:14px;width:40px;height:40px;border-radius:50%;border:1px solid rgba(255,255,255,.6);background:rgba(0,0,0,.25);color:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer}
+.reel-sound:hover{background:rgba(0,0,0,.45)}
+.reel{aspect-ratio:9/16;flex-direction:column;justify-content:space-between;align-items:flex-start}
+
+/* CONSULTA */
+.ask{background:var(--sea);color:#fff}
+.ask-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:120px;align-items:start}
+.ask-l{display:flex;flex-direction:column;gap:32px;position:sticky;top:48px}
+.ask .eyebrow{color:var(--sea-soft)}
+.ask h2{font-size:61px;line-height:1.02;letter-spacing:-.005em}
+.ask h2 span,.ask h2 em{display:block}
+.ask-l p{font-size:17px;line-height:1.7;color:var(--soft);max-width:40ch}
+.ask .btn.ask-wa{align-self:flex-start;border:1px solid rgba(255,255,255,.7);color:#fff;background:transparent;min-height:56px;padding:0 28px;gap:14px;margin-top:8px}
+.ask .btn.ask-wa:hover{background:rgba(255,255,255,.1);border-color:#fff}
+.ask form{display:flex;flex-direction:column;gap:52px}
+.ask .lbl{font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--sea-soft);font-weight:400}
+.stay{display:flex;flex-direction:column;gap:16px;padding-bottom:30px;border-bottom:1px solid rgba(255,255,255,.22)}
+.stay-line{font-family:var(--serif);font-size:25.5px;line-height:1.25;color:#fff;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 0}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.pick{position:relative;display:inline-flex;flex-direction:column;cursor:pointer}
+.pl{font:400 10px var(--sans);letter-spacing:.24em;text-transform:uppercase;color:var(--sea-soft);height:0;overflow:hidden;opacity:0;transition:height .2s,opacity .2s,margin .2s}
+.stay-line.editing .pl{height:14px;opacity:1;margin-bottom:8px}
+.stay-line.editing .pv{border-bottom:1px solid rgba(255,255,255,.8)}
+.stay-line{align-items:flex-end}
+.stay-line > i{align-self:flex-end;margin-bottom:12px;line-height:1}
+.stay-head{display:flex;align-items:baseline;justify-content:space-between;gap:24px}
+.edit-btn{border:0;background:transparent;color:#fff;font:400 11px var(--sans);letter-spacing:.24em;text-transform:uppercase;cursor:pointer;padding:4px 0;border-bottom:1px solid rgba(255,255,255,.55)}
+.edit-btn:hover{border-bottom-color:#fff}
+.ask label.f > span{white-space:nowrap}
+.ask .stay .pick input,.ask .stay .pick select{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer;margin:0;padding:0;border:0;font-size:15.5px}
+.pv{font:300 27px/1.25 var(--serif);color:#fff;border-bottom:1px dashed rgba(255,255,255,.35);padding-bottom:4px;white-space:nowrap}
+.pv.empty{color:rgba(255,255,255,.55);font-style:italic}
+.pick:hover .pv,.pick:focus-within .pv{border-bottom:1px solid #fff}
+.stay-line i{font-style:normal;color:var(--sea-soft);padding-inline:.55em;font-size:21px}
+.thanks[hidden],#ask[hidden],.err[hidden]{display:none}
+.ask label.f{display:flex;flex-direction:column;gap:12px;font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--sea-soft);font-weight:400}
+.ask input:not([type=checkbox]),.ask select{height:46px;border:0;border-bottom:1px solid var(--sea-line);background:transparent;color:#fff;font:300 18px var(--sans);outline:none;letter-spacing:0;text-transform:none;border-radius:0}
+.ask input::placeholder,.ask textarea::placeholder{color:rgba(255,255,255,.45)}
+.ask input:focus,.ask select:focus,.ask textarea:focus{border-color:#fff}
+.ask select option{color:var(--ink)}
+.phone-f{display:flex;flex-direction:column;gap:12px;font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--sea-soft);font-weight:400}
+.phone-f > label > span{white-space:nowrap}
+.phone{display:flex;align-items:stretch;gap:14px}
+.cc{position:relative;flex:0 0 auto;min-width:92px;display:flex;align-items:center;gap:10px;height:46px;border-bottom:1px solid var(--sea-line);color:#fff;letter-spacing:0;text-transform:none;font:300 18px var(--sans)}
+.cc .ccv.empty{color:rgba(255,255,255,.45)}
+.ask .cc select{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer;border:0;margin:0;padding:0;font-size:15.5px}
+.cc:focus-within{border-color:#fff}
+.phone input{flex:1 1 auto;min-width:0}
+.who{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:36px 32px}
+.who .full{grid-column:1/-1}
+.ask textarea{min-height:150px;resize:vertical;border:1px solid var(--sea-line);background:rgba(255,255,255,.03);color:#fff;font:300 18px/1.6 var(--sans);padding:18px 20px;outline:none;letter-spacing:0;text-transform:none}
+.ask fieldset{border:0;padding:0;margin:0;display:flex;flex-direction:column;gap:18px}
+.ask legend{padding:0;margin-bottom:18px}
+.pills{display:flex;flex-wrap:wrap;gap:8px}
+.pills label{min-height:44px;padding:0 12px;display:flex;align-items:center;border:1px solid var(--sea-line);font-size:13px;letter-spacing:.02em;cursor:pointer;transition:background .2s,color .2s}
+.pills label:hover{border-color:#fff}
+.pills input{position:absolute;opacity:0;pointer-events:none}
+.pills label:has(input:checked){background:#fff;color:var(--sea);border-color:#fff}
+.pills label:has(input:focus-visible){outline:2px solid #fff;outline-offset:3px}
+.send-wrap{display:flex;flex-direction:column;gap:18px}
+.ask .send{width:100%;background:var(--ivory);color:var(--ink);min-height:64px;gap:14px}
+.ask .send:hover{background:#fff}
+.send-note{font-size:12.5px;color:rgba(255,255,255,.62);text-align:center;letter-spacing:.02em}
+.req{color:var(--sea-soft)}
+.err{font-size:12.5px;color:#F2D6CF;letter-spacing:0;text-transform:none}
+.ask-alt{margin:22px 0 0;font-size:13.5px;line-height:1.7;color:rgba(255,255,255,.62)}
+.ask-alt a{color:rgba(255,255,255,.85);border-bottom:1px solid rgba(255,255,255,.25);transition:color .2s,border-color .2s}
+.ask-legal{margin-top:10px!important;font-size:12.5px!important}
+.ask-alt a:hover{color:#fff;border-color:#fff}
+.thanks{display:flex;flex-direction:column;gap:18px;padding-top:12px}
+.thanks [hidden]{display:none!important}
+.thanks .t-sub{font-size:15.5px;color:rgba(255,255,255,.62)}
+.ask .thanks .btn.ask-wa span{font-size:inherit;color:inherit;line-height:inherit;max-width:none}
+.thanks b span{font-size:inherit!important;color:inherit;line-height:inherit;max-width:none}
+.ask .thanks .btn.ask-wa{margin-top:10px;background:#fff;color:var(--sea);border-color:#fff}
+.ask .thanks .btn.ask-wa:hover{background:transparent;color:#fff}
+.thanks-edit{align-self:flex-start;background:none;border:0;color:var(--soft);font:inherit;font-size:var(--fs-label);text-decoration:underline;text-underline-offset:4px;cursor:pointer;padding:0}
+.thanks-edit:hover{color:#fff}
+.thanks b{font-family:var(--serif);font-weight:300;font-size:38px;line-height:1.1}
+.thanks span{font-size:16px;line-height:1.7;color:var(--soft);max-width:44ch}
+
+/* ZONAS */
+.zones{display:grid;grid-template-columns:minmax(0,280px) repeat(3,minmax(0,1fr));gap:40px 36px;padding-block:88px 36px}
+.zones > :first-child{grid-row:span 2}
+.zone{display:flex;flex-direction:column;gap:10px}
+.zone b{font-family:var(--serif);font-weight:400;font-size:27px}
+.zone span{font-size:14.5px;line-height:1.55;color:var(--muted)}
+
+/* FOOTER */
+footer{padding-block:64px 48px;display:flex;flex-direction:column;gap:48px;border-top:1px solid var(--line2)}
+.foot{display:grid;grid-template-columns:minmax(0,2fr) repeat(3,minmax(0,1fr));gap:40px}
+.foot .logo b{font-size:32.5px}.foot .logo small{color:var(--muted)}
+.fcol{display:flex;flex-direction:column;gap:12px;font-size:14.5px}
+.fcol .eyebrow{font-size:11px;letter-spacing:.22em;margin-bottom:4px}
+.legal{display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;border-top:1px solid var(--line2);padding-top:22px;font-size:12.5px;color:var(--muted)}
+
+.feat-wrap{position:relative;margin-bottom:56px}
+.feat-wrap .featured{margin-bottom:0;transition:opacity .6s ease}
+.feat-wrap .featured.fade{opacity:0}
+.feat-dots{display:flex;gap:10px;margin-top:22px}
+.feat-dots button{width:44px;height:20px;border:0;background:transparent;padding:0;cursor:pointer;position:relative}
+.feat-dots button::before{content:"";position:absolute;left:0;right:0;top:50%;height:1px;background:var(--line)}
+.feat-dots button span{position:absolute;left:0;top:50%;height:1px;width:0;background:var(--ink);transform:translateY(-.5px)}
+.feat-dots button.on span{width:100%}
+.feat-dots button.run span{animation:featbar 30s linear forwards}
+@keyframes featbar{from{width:0}to{width:100%}}
+.coll-sub{font-size:16px;line-height:1.7;color:var(--muted);max-width:46ch;margin-top:6px}
+.off-body{display:flex;flex-direction:column;gap:16px}
+.offcard .off-sub{font-size:15.5px;line-height:1.6;color:var(--soft);max-width:28ch}
+/* PROPIETARIOS */
+.own{background:var(--sea);color:#fff}
+.own .eyebrow{color:var(--sea-soft)}
+.own-head h2{color:#fff}
+.own-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:96px;align-items:end}
+.own-head{display:flex;flex-direction:column;gap:24px}
+.own-head h2{font-size:54px;line-height:1.04}
+.own-head h2 span,.own-head h2 em{display:block}
+.own-side{display:flex;flex-direction:column;gap:30px}
+.own-text{display:flex;flex-direction:column;gap:16px}
+.own-text p{margin:0;font-size:16px;line-height:1.7;color:var(--soft);max-width:52ch}
+.own-points{list-style:none;margin:72px 0 0;padding:32px 0 0;border-top:1px solid rgba(255,255,255,.22);display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px}
+.own-points li{display:flex;flex-direction:column;gap:8px}
+.own-points b{font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:#fff;font-weight:400}
+.own-points span{font-size:14.5px;line-height:1.6;color:var(--sea-soft);max-width:36ch}
+.own .btn.solid.own-cta{background:var(--ivory);color:var(--ink)}
+.own .btn.solid.own-cta:hover{background:#fff}
+.own-cta{align-self:flex-start;min-height:62px;padding:0 34px;gap:14px}
+.own-cta svg:last-child{transition:transform .25s ease}
+.own-cta:hover svg:last-child{transform:translateX(4px)}
+/* TODAS LAS PROPIEDADES */
+.all-cta{display:flex;justify-content:center;margin-top:72px}
+.all-cta a{display:inline-flex;align-items:center;gap:16px;font-size:12.5px;letter-spacing:.22em;text-transform:uppercase;font-weight:400;color:var(--ink);padding:0 4px 8px;border-bottom:1px solid var(--ink)}
+.all-cta a:hover svg{transform:translateX(4px)}
+.all-cta svg{transition:transform .25s ease}
+.all-head{display:flex;align-items:flex-end;justify-content:space-between;gap:48px;padding-block:24px 48px}
+.all-title{font-size:79px;line-height:1}
+.all-tools{display:flex;flex-direction:column;align-items:flex-end;gap:18px}
+.all-count{font-size:11.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--muted);font-weight:400}
+.all-zones{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end}
+.all-zones button{min-height:40px;padding:0 18px;border:1px solid var(--line);background:transparent;color:var(--ink);font:400 13px var(--sans);letter-spacing:.06em;cursor:pointer}
+.all-zones button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.all-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:56px 32px}
+.all-grid .card .photo{aspect-ratio:4/5}
+.all-grid .offcard{grid-column:1/-1;min-height:0;flex-direction:row;align-items:center;justify-content:space-between;gap:48px;padding:48px 56px}
+.all-grid .offcard .off-body{flex-direction:row;align-items:baseline;gap:32px}
+.all-grid .offcard .off-sub{max-width:none}
+.all-grid .offcard .big{white-space:nowrap}
+.all-grid .offcard .eyebrow{white-space:nowrap}
+.all-head{margin-bottom:40px}
+.fbar{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:32px;margin-bottom:28px}
+.fsel{display:flex;flex-direction:column;gap:10px}
+.fsel label{font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--muted);font-weight:400}
+.fsel select{height:46px;border:0;border-bottom:1px solid var(--line);background:transparent;color:var(--ink);font:300 17px var(--sans);outline:none;border-radius:0;cursor:pointer}
+.fsel select:focus{border-color:var(--ink)}
+.fsel.set select{border-bottom-color:var(--ink)}
+.fchips{display:flex;align-items:center;gap:20px;flex-wrap:wrap;padding-bottom:40px;margin-bottom:48px;border-bottom:1px solid var(--line2)}
+.fchips-l{font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--muted);font-weight:400}
+.fchips-list{display:flex;gap:10px;flex-wrap:wrap;flex:1}
+.fchips-list button{min-height:38px;padding:0 16px;border:1px solid var(--line);background:transparent;color:var(--ink);font:400 13px var(--sans);letter-spacing:.04em;cursor:pointer}
+.fchips-list button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.fclear{border:0;background:transparent;font:400 12px var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--ink);border-bottom:1px solid var(--ink);padding:4px 0;cursor:pointer}
+.fclear[hidden],.all-empty[hidden]{display:none}
+.all-empty{display:flex;flex-direction:column;align-items:flex-start;gap:14px;padding:24px 0 56px}
+.all-empty b{font-family:var(--serif);font-weight:300;font-size:29px}
+.all-empty span{font-size:15.5px;line-height:1.7;color:var(--muted);max-width:52ch}
+/* FICHA */
+.photo{background-size:cover;background-position:center;background-color:var(--ph1)}
+.featured .photo{aspect-ratio:4/3}
+.fnav{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-block:28px;border-bottom:1px solid var(--line2)}
+.fnav .logo small{color:var(--muted)}
+.fnav .menu a{color:var(--ink)}
+.back{display:inline-flex;align-items:center;gap:12px;font-size:11.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--muted);font-weight:400;padding-block:32px 24px}
+.gal{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);grid-template-rows:300px 300px;gap:12px}
+.gal .photo:first-child{grid-row:1/3}
+.gal-more{position:relative}
+.gal-more span{position:absolute;right:16px;bottom:16px;background:rgba(246,247,249,.94);color:var(--ink);font-size:11.5px;letter-spacing:.18em;text-transform:uppercase;padding:10px 16px;font-weight:400}
+.f-top{display:grid;grid-template-columns:minmax(0,1fr) 420px;gap:96px;padding-block:72px 96px}
+.f-main{display:flex;flex-direction:column;gap:40px}
+.f-title{display:flex;flex-direction:column;gap:18px}
+.f-title h1{font-size:86.5px;line-height:.95;font-style:italic}
+.f-facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-block:1px solid var(--line2)}
+.f-facts div{display:flex;flex-direction:column;gap:6px;padding:26px 0 24px}
+.f-facts div+div{padding-left:28px;border-left:1px solid var(--line2)}
+.f-facts b{font-family:var(--serif);font-weight:300;font-size:38px;line-height:1}
+.f-facts span{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);font-weight:400}
+.f-cols{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:56px}
+.f-cols h3{margin:0 0 18px;font-size:11.5px;letter-spacing:.34em;text-transform:uppercase;color:var(--muted);font-weight:400}
+.amen{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.amen li{padding-block:14px;border-top:1px solid var(--line2);font-family:var(--serif);font-size:23px}
+.amen li:last-child{border-bottom:1px solid var(--line2)}
+.book{position:sticky;top:24px;align-self:start;background:var(--white);border:1px solid var(--line2);padding:36px;display:flex;flex-direction:column;gap:22px}
+.book .price{font-family:var(--serif);font-weight:300;font-size:39px;line-height:1}
+.book .per{font-size:13px;color:var(--muted)}
+.book label{display:flex;flex-direction:column;gap:8px;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);font-weight:400}
+.book input{height:46px;border:0;border-bottom:1px solid var(--line);font:300 17px var(--sans);color:var(--ink);background:transparent;outline:none}
+.book .btn{width:100%}
+.book small{font-size:12.5px;line-height:1.6;color:var(--muted)}
+.f-serv{background:var(--sand)}
+.f-serv-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+.f-serv-row a{display:flex;flex-direction:column;gap:10px;padding-top:22px;border-top:1px solid var(--ink)}
+.f-serv-row b{font-family:var(--serif);font-weight:400;font-size:27px}
+.f-serv-row span{font-size:14.5px;color:var(--muted);line-height:1.55}
+.f-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.f-grid .photo{aspect-ratio:4/3}
+.f-grid .wide{grid-column:span 2;aspect-ratio:auto}
+
+/* CALENDARIO */
+.has-cal{position:relative;cursor:pointer}
+.has-cal input{cursor:pointer}
+.cal{position:absolute;top:calc(100% + 10px);left:0;z-index:30;background:var(--white);color:var(--ink);border:1px solid var(--line2);box-shadow:0 24px 60px rgba(14,26,46,.16);padding:28px 30px 22px;width:680px;text-transform:none;letter-spacing:0;font-weight:300;cursor:default}
+.cal.right{left:auto;right:0}
+.cal-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
+.cal-nav{width:40px;height:40px;border:1px solid var(--line2);background:transparent;color:var(--ink);display:flex;align-items:center;justify-content:center;cursor:pointer}
+.cal-nav:hover:not(:disabled){border-color:var(--ink)}
+.cal-nav:disabled{opacity:.3;cursor:default}
+.cal-months{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:36px}
+.cal-title{font-family:var(--serif);font-size:23px;text-align:center;margin-bottom:14px;text-transform:capitalize}
+.cal-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));row-gap:2px}
+.cal-wd{font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);text-align:center;padding-bottom:10px;font-weight:400}
+.cal-day{height:42px;border:0;background:transparent;font:300 15.5px var(--sans);color:var(--ink);cursor:pointer;position:relative;font-variant-numeric:tabular-nums}
+.cal-day:hover:not(:disabled){outline:1px solid var(--ink);outline-offset:-1px}
+.cal-day:disabled{color:#B4BDCA;cursor:default}
+.cal-day.in{background:var(--sand)}
+.cal-day.start,.cal-day.end{background:var(--sea);color:#fff;font-weight:400}
+.cal-day.today::after{content:"";position:absolute;left:50%;bottom:7px;width:4px;height:4px;border-radius:50%;background:currentColor;transform:translateX(-50%)}
+.cal-foot{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:20px;padding-top:18px;border-top:1px solid var(--line2)}
+.cal-sum{font-size:13px;color:var(--muted)}
+.cal-sum b{font-family:var(--serif);font-weight:400;font-size:19.5px;color:var(--ink)}
+.cal-actions{display:flex;gap:10px}
+.cal-clear{border:0;background:transparent;font:400 12px var(--sans);letter-spacing:.18em;text-transform:uppercase;color:var(--muted);cursor:pointer;padding:0 12px}
+.cal-done{min-height:44px;padding:0 24px;border:0;background:var(--sea);color:#fff;font:400 12px var(--sans);letter-spacing:.2em;text-transform:uppercase;cursor:pointer}
+
+.wa-float{position:fixed;right:28px;bottom:calc(28px + env(safe-area-inset-bottom,0px));z-index:40;width:60px;height:60px;border-radius:50%;background:var(--sea);display:flex;align-items:center;justify-content:center;box-shadow:0 10px 30px rgba(14,26,46,.22);transition:transform .25s ease,background .25s ease}
+.wa-float:hover{transform:translateY(-2px);background:var(--sea-deep)}
+.wa-tip{position:absolute;right:72px;top:50%;transform:translateY(-50%);white-space:nowrap;background:var(--white);color:var(--ink);font-size:11.5px;letter-spacing:.18em;text-transform:uppercase;padding:9px 14px;border:1px solid var(--line2);opacity:0;pointer-events:none;transition:opacity .2s}
+.wa-float:hover .wa-tip,.wa-float:focus-visible .wa-tip{opacity:1}
+.note{position:fixed;left:50%;bottom:calc(16px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:#fff;font-size:11.5px;letter-spacing:.08em;padding:10px 16px;z-index:10;max-width:calc(100% - 32px);text-align:center}
+
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* ===== ESCALA TIPOGRÁFICA UNIFICADA ===== */
+:root{--fs-title:57.5px;--fs-sub:29px;--fs-text:17px;--fs-desc:15.5px;--fs-btn:15.5px;--fs-label:15.5px}
+/* Títulos principales de sección */
+.h2,.us-copy h2,.ask h2,.own-head h2,.feat-copy .name{font-size:var(--fs-title);line-height:1.04}
+/* Títulos secundarios */
+.card .nm,.item b,.val b,.f-serv-row b,.step b,.zone b,.facts b,.all-empty b,.offcard .big,.more b,.f-names,.stay-line,.pv{font-size:var(--fs-sub);line-height:1.15}
+.more .num{font-size:var(--fs-sub)}
+/* Textos / párrafos */
+.lead,.us-text p,.ask-l p,.own-text p,.coll-sub,.item-a > div > span,.more > div > span,.step span,.all-empty span,.thanks span,.intro{font-size:var(--fs-text);line-height:1.7}
+/* Descripciones cortas */
+.card .meta,.val span,.own-points span,.f-serv-row span,.offcard .off-sub,.feat-foot,.zone span,.fcol,.book .per,.book small,.cal-sum{font-size:var(--fs-desc);line-height:1.6}
+/* Campos de formulario */
+.search input,.search select,.ask input:not([type=checkbox]),.ask select,.cc,.ask textarea,.fsel select,.book input{font-size:var(--fs-text)}
+/* Botones, menú y enlaces */
+.btn,.link,.menu,.langs,.chips,.offcard .go,.all-cta a,.all-zones button,.fchips-list button,.fclear,.cal-clear,.cal-done,.edit-btn,.legal,.err,.send-note{font-size:var(--fs-btn)}
+.pills label{font-size:13.5px}
+.val b{font-size:24px}
+/* Etiquetas en mayúsculas */
+.eyebrow,.places,.search label,.facts span,.card .zone,.item .num,.sshow-cap .num,.f-role,.reel-cap,.ask .lbl,.ask label.f,.phone-f,.fsel label,.fchips-l,.own-points b,.f-facts span,.f-cols h3,.book label,.all-count,.back,.gal-more span,.fcol .eyebrow,.ph,.sshow-slide{font-size:var(--fs-label)}
+
+/* Ajustes por etiquetas y botones en 18px */
+.eyebrow,.places,.search label,.facts span,.card .zone,.item .num,.sshow-cap .num,.f-role,.reel-cap,.ask .lbl,.ask label.f,.phone-f,.fsel label,.fchips-l,.own-points b,.f-facts span,.f-cols h3,.book label,.all-count,.back,.gal-more span,.fcol .eyebrow,.ph,.sshow-slide{letter-spacing:.14em}
+.btn,.link,.menu,.langs,.offcard .go,.all-cta a,.edit-btn{letter-spacing:.12em}
+.search form{grid-template-columns:repeat(3,minmax(0,1fr)) minmax(340px,380px)}
+.search .btn{white-space:nowrap}
+.stay-line,.pv{font-size:24px}
+.fsel label{white-space:nowrap}
+.fbar{align-items:end}
+.facts{gap:12px}
+.facts span{font-size:12.5px;letter-spacing:.12em}
+
+/* Selectores propios: sin el gris del sistema */
+select{-webkit-appearance:none;-moz-appearance:none;appearance:none;border-radius:0;background-color:transparent;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8' fill='none' stroke='%231F1D1A' stroke-width='1.3'%3E%3Cpath d='M1 1.5l5 5 5-5'/%3E%3C/svg%3E")!important;background-repeat:no-repeat!important;background-position:right 2px center!important;background-size:12px 8px!important;padding-right:26px!important;box-shadow:none;cursor:pointer}
+select::-ms-expand{display:none}
+.ask select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8' fill='none' stroke='%23FFFFFF' stroke-width='1.3'%3E%3Cpath d='M1 1.5l5 5 5-5'/%3E%3C/svg%3E")!important}
+.search select{width:100%}
+
+/* ================= VERSIÓN CELULAR ================= */
+.m-toggle,.m-menu{display:none}
+
+/* Combos escribibles (huéspedes, prefijo) */
+input.cb{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8' fill='none' stroke='%231F1D1A' stroke-width='1.3'%3E%3Cpath d='M1 1.5l5 5 5-5'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 2px center;background-size:12px 8px;padding-right:26px!important;cursor:text}
+.ask input.cb{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8' fill='none' stroke='%23FFFFFF' stroke-width='1.3'%3E%3Cpath d='M1 1.5l5 5 5-5'/%3E%3C/svg%3E")}
+.fsel input.cb{height:46px;border:0;border-bottom:1px solid var(--line);background-color:transparent;color:var(--ink);font:300 17px var(--sans);outline:none;border-radius:0;width:100%;min-width:0}
+.fsel input.cb::placeholder{color:var(--ink);opacity:1}
+.fsel input.cb:focus,.fsel.set input.cb{border-bottom-color:var(--ink)}
+.ask .cc input.cb{position:static;opacity:1;width:92px;height:100%;border:0;padding:0;background-color:transparent;color:#fff;font:inherit;outline:none}
+.ask .cc input.cb,.ask .stay .pick input.cb{background-image:none!important}
+.pick .cb-pop{min-width:190px}
+.ask .cc input.cb::placeholder{color:rgba(255,255,255,.45)}
+.ask .cc #ccv{display:none}
+.cb-pop{position:absolute;left:0;top:calc(100% + 6px);z-index:80;min-width:100%;max-height:300px;overflow:auto;margin:0;padding:6px 0;list-style:none;background:#fff;color:var(--ink);box-shadow:0 18px 40px rgba(14,26,46,.18);border:1px solid var(--line2);text-align:left;letter-spacing:0;text-transform:none;font:300 16px/1.3 var(--sans);opacity:1!important;pointer-events:auto}
+.cb-pop[hidden]{display:none}
+.cb-pop li{padding:9px 16px;white-space:nowrap;cursor:pointer}
+.cb-pop li.cb-g{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);cursor:default;padding-top:12px}
+.cb-pop li.cb-o:hover,.cb-pop li.cb-o.act{background:var(--sand)}
+.cc .cb-pop{min-width:280px}
+
+/* === Cada sección entra en una pantalla (solo computadora) === */
+@media (min-width:900px){
+ .fitv{min-height:var(--vh,810px);display:flex;flex-direction:column;justify-content:center;padding-block:44px!important}
+ #propiedades{margin-top:24px!important}
+ #propiedades .head{margin-bottom:26px}
+ #propiedades .feat-wrap{margin-bottom:0}
+ #propiedades .featured{gap:48px;align-items:center}
+ #propiedades .featured .photo{aspect-ratio:auto!important;height:calc(var(--vh,810px) - 330px);min-height:300px}
+ #propiedades .feat-dots{margin-top:14px}
+ #coleccion-2 .grid3 .photo{aspect-ratio:auto!important;height:calc(var(--vh,810px) - 290px);min-height:280px}
+ #coleccion-2 .all-cta{margin-top:26px!important}
+ #servicios .serv{grid-template-columns:minmax(0,400px) minmax(0,1fr);gap:72px;align-items:center}
+ #servicios .serv-l{position:static;gap:16px}
+ #servicios .sshow{margin-top:6px;gap:10px}
+ #servicios .sshow-frame{aspect-ratio:auto;height:calc(var(--vh,810px) - 420px);min-height:200px}
+ #servicios .sshow-cap{padding-top:10px}
+ #servicios .list{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:48px;border-bottom:0}
+ #servicios .item-a{grid-template-columns:30px minmax(0,1fr) auto;gap:12px;padding-block:15px}
+ #servicios .item b{font-size:21px}
+ #servicios .item-a > div{gap:4px}
+ #servicios .item-a > div > span{font-size:13.5px;line-height:1.45}
+ #servicios .more{margin-top:0;padding:16px 0;grid-template-columns:30px minmax(0,1fr) auto;gap:12px;border-top:1px solid var(--line)}
+ #servicios .more .num{font-size:21px}
+ #servicios .more b{font-size:23px}
+ #servicios .more > div{gap:4px}
+ #servicios .more > div > span{font-size:13.5px}
+ #nosotros .us-top{gap:72px;align-items:center}
+ #nosotros .us-photo{aspect-ratio:auto;height:calc(var(--vh,810px) - 290px);min-height:340px}
+ #nosotros .us-copy{gap:16px}
+ #nosotros .us-copy h2{font-size:46px}
+ #nosotros .us-copy h2 span,#nosotros .us-copy h2 em{display:inline}
+ #nosotros .us-text{gap:12px}
+ #nosotros .us-text p{font-size:14.5px;line-height:1.62}
+ #nosotros .values{margin-top:30px;padding-top:24px;gap:32px}
+ #nosotros .val{gap:6px}
+ #nosotros .val svg{width:20px;height:20px}
+ #nosotros .val b{font-size:19px}
+ #nosotros .val span{font-size:12.5px;line-height:1.5}
+ .reels .head{margin-bottom:26px}
+ .reels .reel{aspect-ratio:auto;height:calc(var(--vh,810px) - 250px);min-height:320px}
+ #consulta .ask-grid{align-items:center;gap:96px}
+ #consulta .ask-l{position:static;gap:24px}
+ #consulta h2{font-size:52px}
+ #consulta form{gap:24px}
+ #consulta .stay{padding-bottom:16px;gap:10px}
+ #consulta textarea{min-height:80px}
+ #consulta .ask-alt{margin-top:12px}
+}
+
+.search input::placeholder,.book input::placeholder{color:var(--muted);opacity:1}
+/* === Visor de fotos === */
+.gal .photo,.f-grid .photo{cursor:zoom-in}
+.lb{position:fixed;inset:0;z-index:200;background:#08111F;display:flex;align-items:center;justify-content:center;touch-action:pan-y}
+.lb[hidden]{display:none}
+.lb img{max-width:92vw;max-height:84vh;object-fit:contain;user-select:none;-webkit-user-drag:none;transition:opacity .2s}
+.lb button{position:absolute;background:transparent;border:0;color:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;width:56px;height:56px;padding:0}
+.lb .lb-x{top:14px;right:14px}
+.lb .lb-p{left:10px;top:50%;transform:translateY(-50%)}
+.lb .lb-n{right:10px;top:50%;transform:translateY(-50%)}
+.lb .lb-c{position:absolute;bottom:18px;left:0;right:0;text-align:center;color:var(--tint);font:400 12px var(--sans);letter-spacing:.24em}
+.lb .lb-cap{position:absolute;top:24px;left:24px;right:84px;color:var(--tint);font:400 13px var(--sans);letter-spacing:.04em}
+@media (max-width:899px){.lb .lb-p,.lb .lb-n{display:none}.lb img{max-width:100vw;max-height:78vh}}
+@media (max-width:899px){
+  :root{--gut:20px;--fs-title:40px;--fs-sub:26px;--fs-text:17px;--fs-desc:16px;--fs-btn:14px;--fs-label:12px}
+  #page{width:auto!important;zoom:1!important}
+  html,body{overflow-x:hidden}
+  .wrap{padding-inline:var(--gut)}
+  .sec{padding-block:72px}
+  .note{display:none}
+  /* nav */
+  .menu,.nav-right .langs{display:none!important}
+  .nav,.fnav{padding-block:18px}
+  .logo b{font-size:24px}
+  .m-toggle{display:flex;align-items:center;justify-content:center;width:44px;height:44px;border:0;background:transparent;color:inherit;cursor:pointer;padding:0}
+  .fnav .m-toggle{color:var(--ink)}
+  .m-menu{position:fixed;inset:0;z-index:60;background:var(--ivory);display:flex;flex-direction:column;padding:18px var(--gut) calc(32px + env(safe-area-inset-bottom,0px));transform:translateY(-100%);transition:transform .35s ease;visibility:hidden}
+  .m-menu.open{transform:none;visibility:visible}
+  .m-top{display:flex;align-items:center;justify-content:space-between;height:52px}
+  .m-top .logo small{color:var(--muted)}
+  .m-close{width:44px;height:44px;border:0;background:transparent;color:var(--ink);cursor:pointer}
+  .m-links{display:flex;flex-direction:column;margin-top:40px;border-top:1px solid var(--line2)}
+  .m-links a{font-family:var(--serif);font-size:34px;color:var(--ink);padding-block:18px;border-bottom:1px solid var(--line2)}
+  .m-langs{display:flex;gap:22px;margin-top:auto;font-size:15px;letter-spacing:.14em}
+  .m-langs a{color:var(--muted)}.m-langs a.on{color:var(--ink);border-bottom:1px solid var(--ink)}
+  .m-wa{margin-top:26px;width:100%}
+  /* hero */
+  .hero{min-height:620px}
+  .hero h1{font-size:42px;line-height:1.05}
+  .hero-copy{padding-bottom:96px;padding-top:24px;gap:16px}
+  .places{font-size:11px;letter-spacing:.12em;flex-wrap:wrap;row-gap:6px;padding-bottom:14px}
+  .places i{padding-inline:.6em}
+  .hero-shade{background:linear-gradient(180deg,rgba(8,16,30,.62) 0%,rgba(8,16,30,.18) 26%,rgba(8,16,30,.22) 48%,rgba(8,16,30,.72) 100%)}
+  .hero .logo b,.hero .logo small,.hero .places{text-shadow:0 1px 3px rgba(0,0,0,.55),0 0 18px rgba(0,0,0,.35)}
+  .hero .m-toggle{filter:drop-shadow(0 1px 3px rgba(0,0,0,.6))}
+  .hero h1{font-weight:400;text-shadow:0 1px 4px rgba(0,0,0,.45),0 2px 26px rgba(0,0,0,.45)}
+  .hero .logo small{color:#fff}
+  .search{margin-top:-56px}
+  .search form{grid-template-columns:minmax(0,1fr)!important}
+  .search label{border-right:0;border-bottom:1px solid var(--line2);padding:16px 20px}
+  .search .btn{min-height:58px;white-space:normal}
+  /* titles */
+  .head{flex-direction:column;align-items:flex-start;gap:22px;margin-bottom:32px}
+  .h2,.us-copy h2,.ask h2,.own-head h2,.feat-copy .name{line-height:1.06}
+  /* the collection */
+  #propiedades{margin-top:32px!important}
+  .chips{flex-wrap:nowrap!important;overflow-x:auto;width:calc(100% + var(--gut));margin-right:calc(var(--gut) * -1);padding-bottom:6px;scrollbar-width:none}
+  .chips::-webkit-scrollbar{display:none}
+  .chips a{flex:0 0 auto}
+  .featured{grid-template-columns:minmax(0,1fr)!important;gap:26px}
+  .feat-copy{gap:18px}
+  .facts b{font-size:26px}
+  .facts span{font-size:11px!important;letter-spacing:.08em!important}
+  .feat-wrap{margin-bottom:40px}
+  .grid3{grid-template-columns:minmax(0,1fr)!important;gap:40px}
+  .offcard{min-height:280px;padding:32px 26px}
+  .offcard .big{font-size:32px}
+  .all-cta{margin-top:48px}
+  .all-cta a{font-size:13px}
+  /* concierge */
+  .serv{grid-template-columns:minmax(0,1fr)!important;gap:48px}
+  .serv-l{position:static}
+  .item-a{grid-template-columns:36px minmax(0,1fr)!important;gap:12px;padding-block:24px}
+  .item-go{display:none}
+  .more{grid-template-columns:36px minmax(0,1fr) auto!important;gap:12px;padding:28px 0;margin-top:32px}
+  .more b{font-size:30px}
+  .sshow-cap{font-size:20px}
+  /* nosotros */
+  .us-top{grid-template-columns:minmax(0,1fr)!important;gap:36px}
+  .values{grid-template-columns:minmax(0,1fr)!important;gap:28px;margin-top:56px;padding-top:36px}
+  .val b{font-size:24px!important}
+  .f-names{font-size:24px}
+  /* propietarios */
+  .own-row{grid-template-columns:minmax(0,1fr)!important;gap:28px}
+  .own-points{grid-template-columns:minmax(0,1fr)!important;gap:22px;margin-top:44px;padding-top:28px}
+  .own-cta{align-self:stretch;justify-content:center;padding:0 18px}
+  /* reels */
+  .reel-row{display:grid;grid-auto-flow:column;grid-template-columns:none;grid-auto-columns:72%;overflow-x:auto;scroll-snap-type:x mandatory;width:calc(100% + var(--gut)*2);margin-inline:calc(var(--gut) * -1);padding-inline:var(--gut);scroll-padding-inline:var(--gut);scrollbar-width:none;gap:14px}
+  .reel-row::-webkit-scrollbar{display:none}
+  .reel{scroll-snap-align:start}
+  /* consulta */
+  .ask-grid{grid-template-columns:minmax(0,1fr)!important;gap:44px}
+  .ask-l{position:static;gap:22px}
+  .ask .btn.ask-wa{align-self:stretch;justify-content:center}
+  .ask form{gap:40px}
+  .stay-line,.pv{font-size:22px!important}
+  .stay-line{gap:10px 22px!important}
+  .stay-line > i{display:none}
+  .who{grid-template-columns:minmax(0,1fr)!important;gap:28px}
+  .ask .send{min-height:60px}
+  .thanks b{font-size:34px}
+  /* footer */
+  .foot{grid-template-columns:minmax(0,1fr)!important;gap:32px}
+  .legal{flex-direction:column;gap:8px}
+  footer{padding-block:48px 96px}
+  /* whatsapp */
+  .wa-float{right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));width:54px;height:54px}
+  .wa-tip{display:none}
+  /* ficha */
+  .back{padding-block:18px}
+  .gal{grid-template-columns:repeat(2,minmax(0,1fr))!important;grid-template-rows:auto!important;gap:8px}
+  .gal .photo:first-child{grid-row:auto!important;grid-column:1/-1;aspect-ratio:4/3}
+  .gal .photo:not(:first-child){aspect-ratio:1/1}
+  .gal-more span{right:8px;bottom:8px;font-size:11px;padding:7px 10px}
+  .f-top{grid-template-columns:minmax(0,1fr)!important;gap:40px;padding-block:36px 56px}
+  .f-title h1{font-size:52px}
+  .f-facts{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+  .f-facts div{padding:18px 0!important;border-left:0!important}
+  .f-facts div:nth-child(even){padding-left:18px!important;border-left:1px solid var(--line2)!important}
+  .f-facts div:nth-child(n+3){border-top:1px solid var(--line2)}
+  .f-facts b{font-size:32px}
+  #f-lead{font-size:22px!important}
+  .f-cols{grid-template-columns:minmax(0,1fr)!important;gap:36px}
+  .amen li{font-size:20px}
+  .book{position:static;padding:26px}
+  .book .price{font-size:34px}
+  .f-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:8px}
+  .f-grid .photo{aspect-ratio:1/1}
+  .f-grid .wide{grid-column:1/-1;aspect-ratio:16/10}
+  .f-serv-row{grid-template-columns:minmax(0,1fr)!important;gap:20px}
+  .f-serv-row b{font-size:24px}
+  /* listado */
+  .all-head{flex-direction:column;align-items:flex-start;gap:18px;padding-block:8px 28px}
+  .all-title{font-size:48px}
+  .fbar{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:20px 16px}
+  .fsel label{white-space:normal!important;font-size:11px!important}
+  .fsel select{font-size:16px!important}
+  .fchips{gap:12px;padding-bottom:28px;margin-bottom:32px}
+  .fchips-list{flex:1 1 100%}
+  .all-grid{grid-template-columns:minmax(0,1fr)!important;gap:40px}
+  .all-grid .offcard{flex-direction:column!important;align-items:flex-start!important;gap:24px!important;padding:32px 26px!important}
+  .all-grid .offcard .off-body{flex-direction:column!important;gap:12px!important}
+  .all-grid .offcard .big{white-space:normal!important}
+  /* calendario */
+  .cal{position:fixed!important;left:12px!important;right:12px!important;top:50%!important;transform:translateY(-50%);width:auto!important;max-height:86vh;overflow:auto;padding:20px 16px 16px;z-index:70}
+  .cal-months{grid-template-columns:minmax(0,1fr)!important}
+  .cal-months > div:nth-child(2){display:none}
+  .cal-foot{flex-direction:column;align-items:stretch}
+  .cal-actions{justify-content:space-between}
+  .cal-day{height:40px}
+}
+/* ===== Versión celular minimalista (prueba) ===== */
+.m2-only{display:none}
+@media (max-width:899px){
+ .m2-only{display:revert}
+ .sec{padding-block:68px!important}
+ /* Portada: video a pantalla completa y un solo botón */
+ #home .hero{min-height:100svh!important}
+ #home .search.wrap{display:none!important}
+ #propiedades{margin-top:0!important}
+ .m2-cta{display:inline-flex!important;align-items:center;gap:12px;align-self:flex-start;margin-top:26px;min-height:52px;padding:0 24px;background:var(--ivory);color:var(--ink);font:400 12.5px var(--sans);letter-spacing:.2em;text-transform:uppercase;text-shadow:none}
+ /* Listas hacia abajo (sin deslizar de costado) */
+ .m2-rail{display:flex!important;flex-direction:column;gap:34px}
+ .m2-rail.m2-grid{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ /* The Collection */
+ #propiedades .coll-sub,#home-zones,#propiedades .feat-wrap,#coleccion-2{display:none!important}
+ #propiedades .head{margin-bottom:22px!important}
+ .m2-card{display:flex!important;flex-direction:column;color:var(--ink)}
+ .m2-card .ph{aspect-ratio:4/3;background:var(--ph1) center/cover no-repeat}
+ .m2-card .zn{margin-top:14px;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+ .m2-card .nm{font-family:var(--serif);font-size:28px;line-height:1.1;margin-top:4px}
+ .m2-card .mt{font-size:14px;color:var(--body);margin-top:4px}
+ .m2-more{display:flex!important;flex-direction:column;gap:18px;margin-top:34px;padding-top:26px;border-top:1px solid var(--line)}
+ .m2-more p{margin:0;font-size:15.5px;line-height:1.6;color:var(--body)}
+ .m2-link{display:inline-flex!important;align-items:center;gap:10px;align-self:flex-start;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink);border-bottom:1px solid currentColor;padding-bottom:5px}
+ /* Concierge */
+ #servicios .serv-l .lead,#servicios .sshow,#servicios .list,#servicios .more{display:none!important}
+ #servicios .serv-l{gap:14px!important}
+ .m2-svc{position:relative;display:flex!important;align-items:flex-end;aspect-ratio:1/1;padding:12px;background:var(--ph1) center/cover no-repeat;color:#fff}
+ .m2-svc::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 40%,rgba(0,0,0,.62))}
+ .m2-svc span{position:relative;font-family:var(--serif);font-size:19px;line-height:1.1}
+ /* Quiénes somos */
+ #nosotros .us-text p:nth-child(n+2){display:none}
+ #nosotros .values{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:20px 16px!important;margin-top:36px!important;padding-top:28px!important}
+ #nosotros .val span{display:none}
+ #nosotros .val b{font-size:18px!important}
+ /* Propietarios */
+ #propietarios .own-text p:nth-child(2),#propietarios .own-points{display:none!important}
+ /* Reels: grilla 2x2 hacia abajo */
+ .reels .reel-row{display:grid!important;grid-auto-flow:row!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;grid-auto-columns:auto!important;overflow:visible!important;width:auto!important;margin-inline:0!important;padding:0!important;gap:10px!important}
+ .reels .reel-row > .reel{aspect-ratio:9/16!important}
+ .reels .reel-cap{font-size:9.5px!important;padding:24px 10px 10px!important}
+ /* Contacto: WhatsApp primero, formulario opcional */
+ #consulta .ask-l p{display:none}
+ #consulta .btn.ask-wa{background:var(--ivory)!important;color:var(--ink)!important;border-color:var(--ivory)!important;align-self:stretch;justify-content:center}
+ #consulta #ask.m2-closed{display:none!important}
+ .m2-toggle{display:flex!important;align-items:center;justify-content:center;gap:10px;width:100%;margin-top:6px;min-height:50px;background:transparent;border:1px solid rgba(255,255,255,.45);color:#fff;font:400 12px var(--sans);letter-spacing:.2em;text-transform:uppercase;cursor:pointer}
+}
+
+/* Miami: recuadros a la espera de foto */
+.sshow-slide.ph,.sshow-slide.ph:nth-child(3n+2),.sshow-slide.ph:nth-child(3n){background:linear-gradient(150deg,#1D3255 0%,#13233D 55%,#0A1528 100%);color:var(--tint)}
+.m2-svc.noimg{background:linear-gradient(150deg,#1D3255 0%,#13233D 55%,#0A1528 100%)}
+section[hidden]{display:none!important}
+.coll-empty{display:grid;grid-template-columns:minmax(0,1fr) minmax(300px,420px);gap:56px;align-items:end;padding:8px 0 4px}
+.coll-empty > div{display:flex;flex-direction:column;gap:14px;max-width:52ch}
+@media (max-width:899px){.coll-empty{grid-template-columns:1fr;gap:28px}.coll-empty .offcard{min-height:240px}#propiedades.is-empty .m2-more{display:none!important}}
+.coll-empty > div > b{font-family:var(--serif);font-weight:300;font-size:34px;line-height:1.1;color:var(--ink)}
+.coll-empty > div > span{font-size:var(--fs-text,17px);line-height:1.7;color:var(--muted)}
+</style>
+
+<div id="page">
+<div id="home">
+<!-- HERO -->
+<section class="hero" id="top">
+  <!-- Video de portada: cuando esté, subir hero.mp4 y hero-poster.jpg y descomentar la línea de abajo -->
+  <!-- <video class="hero-bg" autoplay muted loop playsinline preload="auto" poster="hero-poster.jpg" aria-hidden="true"><source src="hero.mp4" type="video/mp4"></video> -->
+  <div class="hero-shade" aria-hidden="true"></div>
+  <header class="nav wrap">
+    <a class="logo" href="#top"><b>MAIARC</b><small>Miami</small></a>
+    <nav class="menu" aria-label="Principal">
+      <a href="#todas">Propiedades</a><a href="#servicios">Concierge</a><a href="#nosotros">Nosotros</a><a href="#propietarios">Propietarios</a><a href="#consulta">Contacto</a>
+    </nav>
+    <div class="nav-right">
+      <div class="langs"><a href="#top">EN</a><a class="on" href="#top">ES</a><a href="#top">PT</a></div>
+    </div>
+  </header>
+  <div class="hero-copy wrap">
+    <span class="places">Miami Beach<i>·</i>Brickell<i>·</i>Coral Gables<i>·</i>Key Biscayne<i>·</i>North Miami</span>
+    <h1><span>Propiedades excepcionales.</span> <em>Estadías a tu medida.</em></h1>
+  </div>
+</section>
+
+<div class="search wrap">
+  <form id="quick" aria-label="Consulta rápida">
+    <label for="q-fechas">Fechas<input id="q-fechas" type="text" placeholder="Llegada — Salida"></label>
+    <label for="q-huespedes">Huéspedes<input id="q-huespedes" type="text" placeholder="8 personas"></label>
+    <label for="q-zona">Zona<select id="q-zona"><option>Sin preferencia</option><option>Miami Beach</option><option>Brickell</option><option>Downtown</option><option>Coral Gables</option><option>Coconut Grove</option><option>Key Biscayne</option><option>North Miami</option></select></label>
+    <button class="btn solid" type="submit">Comenzar mi búsqueda</button>
+  </form>
+</div>
+
+<!-- PROPIEDADES -->
+<section class="sec wrap fitv" id="propiedades" style="background:var(--white);margin-top:56px">
+  <div class="head">
+    <div><span class="eyebrow">Propiedades</span><h2 class="h2">“The Collection”</h2><p class="coll-sub">Una selección de nuestras residencias. Gran parte de nuestro portfolio se comparte de forma privada, según cada búsqueda.</p></div>
+    <div class="chips" id="home-zones" style="flex-direction:row"></div>
+  </div>
+  <div class="feat-wrap">
+  <a class="featured" id="feat" href="#todas">
+    <div class="photo" id="feat-photo" role="img" aria-label=""></div>
+    <div class="feat-copy">
+      <span class="eyebrow" id="feat-zone" style="letter-spacing:.32em"></span>
+      <span class="name" id="feat-name"></span>
+      <p class="lead" id="feat-lead"></p>
+      <div class="facts" id="feat-facts"></div>
+      <div class="feat-foot"><span id="feat-price">Tarifa a consultar</span><span class="link">Descubrir</span></div>
+    </div>
+  </a>
+  <div class="feat-dots" id="feat-dots" aria-label="Propiedades"></div>
+  </div>
+  <div class="coll-empty" id="coll-empty" hidden><div><b>Nuevas residencias en Miami, muy pronto.</b><span>Mientras tanto, compartimos nuestro portfolio de forma privada. Contanos qué buscás y te enviamos opciones.</span></div></div>
+</section>
+<section class="sec wrap fitv" id="coleccion-2" style="background:var(--white)">
+  <div class="grid3">
+    <a class="offcard" href="#consulta">
+      <span class="eyebrow">Colección off-market</span>
+      <span class="off-body"><span class="big">¿Buscás algo más?</span><span class="off-sub">Accedé a propiedades que compartimos únicamente de forma privada.</span></span>
+      <span class="go">Contáctanos <svg width="22" height="12" viewBox="0 0 22 12" fill="none" stroke="#FFFFFF" stroke-width="1.2" aria-hidden="true"><path d="M0 6h20M15 1l5 5-5 5"/></svg></span>
+    </a>
+  </div>
+  <div class="all-cta"><a href="#todas">Ver todas las propiedades <svg width="22" height="12" viewBox="0 0 22 12" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 6h20M15 1l5 5-5 5"/></svg></a></div>
+</section>
+
+<!-- SERVICIOS -->
+<section class="sec wrap fitv" id="servicios">
+  <div class="serv">
+    <div class="serv-l">
+      <span class="eyebrow">Concierge</span>
+      <h2 class="h2">Todo lo que necesitás, <em>en un solo lugar.</em></h2>
+      <p class="lead">Servicios y experiencias diseñados a medida para tu estadía.</p>
+      <figure class="sshow" id="sshow" aria-live="polite">
+        <div class="sshow-frame" id="sshow-frame"></div>
+        <figcaption class="sshow-cap"><span class="num" id="sshow-num">01</span><span id="sshow-name">Itinerarios a medida</span></figcaption>
+      </figure>
+    </div>
+    <div>
+    <ol class="list">
+      <li class="item"><a class="item-a" href="https://wa.me/14028160673?text=Hola%20MAIARC%2C%20me%20interesa%20el%20servicio%20de%20Itinerarios%20a%20medida%20en%20Miami." target="_blank" rel="noopener"><span class="num">01</span><div><b>Itinerarios a medida</b><span>Diseñamos cada día alrededor de tus intereses, tiempos y preferencias.</span></div><svg class="item-go" width="22" height="12" viewBox="0 0 22 12" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 6h20M15 1l5 5-5 5"/></svg></a></li>
+      <li class="item"><a class="item-a" href="https://wa.me/14028160673?text=Hola%20MAIARC%2C%20me%20interesa%20el%20servicio%20de%20Gastronom%C3%ADa%20y%20reservas%20en%20Miami." target="_blank" rel="noopener"><span class="num">02</span><div><b>Gastronomía y reservas</b><span>Recomendaciones y reservas seleccionadas para cada ocasión.</span></div><svg class="item-go" width="22" height="12" viewBox="0 0 22 12" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 6h20M15 1l5 5-5 5"/></svg></a></li>
+      <li class="item"><a class="item-a" href="https://wa.me/14028160673?text=Hola%20MAIARC%2C%20me%20interesa%20el%20servicio%20de%20Yates%20y%20embarcaciones%20en%20Miami." target="_blank" rel="noopener"><span class="num">03</span><div><b>Yates y embarcaciones</b><span>Salidas privadas y experiencias en el mar.</span></div><svg class="item-go" width="22" height="12" viewBox="0 0 22 12" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 6h20M15 1l5 5-5 5"/></svg></a></li>
+      <li class="item"><a class="item-a" href="https://wa.me/14028160673?text=Hola%20MAIARC%2C%20me%20interesa%20el%20servicio%20de%20Chef%20privado%20en%20Miami." target="_blank" rel="noopener"><span class="num">04</span><div><b>Chef privado</b><span>Experiencias gastronómicas en la privacidad de tu residencia.</span></div><svg class="item-go" width="22" height="12" viewBox="0 0 22 12" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 6h20M15 1l5 5-5 5"/></svg></a></li>
+      <li class="item"><a class="item-a" href="https://wa.me/14028160673?text=Hola%20MAIARC%2C%20me%20interesa%20el%20servicio%20de%20Eventos%20y%20celebraciones%20en%20Miami." target="_blank" rel="noopener"><span class="num">05</span><div><b>Eventos y celebraciones</b><span>Producción y organización de experiencias privadas.</span></div><svg class="item-go" width="22" height="12" viewBox="0 0 22 12" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 6h20M15 1l5 5-5 5"/></svg></a></li>
+      <li class="item"><a class="item-a" href="https://wa.me/14028160673?text=Hola%20MAIARC%2C%20me%20interesa%20el%20servicio%20de%20Mesas%20VIP%20%26%20nightlife%20en%20Miami." target="_blank" rel="noopener"><span class="num">06</span><div><b>Mesas VIP &amp; nightlife</b><span>Reservas y acceso a los lugares más buscados de la ciudad.</span></div><svg class="item-go" width="22" height="12" viewBox="0 0 22 12" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 6h20M15 1l5 5-5 5"/></svg></a></li>
+      <li class="item"><a class="item-a" href="https://wa.me/14028160673?text=Hola%20MAIARC%2C%20me%20interesa%20el%20servicio%20de%20Traslados%20y%20aviaci%C3%B3n%20privada%20en%20Miami." target="_blank" rel="noopener"><span class="num">07</span><div><b>Traslados y aviación privada</b><span>Choferes, traslados, jets y helicópteros.</span></div><svg class="item-go" width="22" height="12" viewBox="0 0 22 12" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 6h20M15 1l5 5-5 5"/></svg></a></li>
+      <li class="item"><a class="item-a" href="https://wa.me/14028160673?text=Hola%20MAIARC%2C%20me%20interesa%20el%20servicio%20de%20Wellness%20en%20Miami." target="_blank" rel="noopener"><span class="num">08</span><div><b>Wellness</b><span>Masajes, yoga, Pilates, entrenamiento y bienestar durante tu estadía.</span></div><svg class="item-go" width="22" height="12" viewBox="0 0 22 12" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 6h20M15 1l5 5-5 5"/></svg></a></li>
+      <li class="item"><a class="item-a" href="https://wa.me/14028160673?text=Hola%20MAIARC%2C%20me%20interesa%20el%20servicio%20de%20Seguridad%20privada%20en%20Miami." target="_blank" rel="noopener"><span class="num">09</span><div><b>Seguridad privada</b><span>Soluciones de seguridad adaptadas a cada necesidad.</span></div><svg class="item-go" width="22" height="12" viewBox="0 0 22 12" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 6h20M15 1l5 5-5 5"/></svg></a></li>
+    </ol>
+    <a class="more" href="https://wa.me/14028160673?text=Hola%20MAIARC%2C%20me%20gustar%C3%ADa%20consultar%20por%20sus%20servicios%20de%20concierge%20para%20mi%20estad%C3%ADa%20en%20Miami." target="_blank" rel="noopener">
+      <span class="num" aria-hidden="true">+</span>
+      <div><b>Y mucho más</b><span>Decinos qué necesitás. Nuestro equipo se ocupa del resto.</span></div>
+      <svg width="22" height="12" viewBox="0 0 22 12" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 6h20M15 1l5 5-5 5"/></svg>
+    </a>
+    </div>
+  </div>
+</section>
+
+<!-- NOSOTROS -->
+<section class="us sec wrap fitv" id="nosotros">
+  <div class="us-top">
+    <div class="photo us-photo" id="us-photo" role="img" aria-label="Iara Correa y Maximiliano Brener, fundadores de MAIARC" style="background-image:url(img/fundadores.jpg);background-position:56% center"></div>
+    <div class="us-copy">
+      <span class="eyebrow">Quiénes somos</span>
+      <h2><span>Bienvenidos</span> <em>a MAIARC.</em></h2>
+      <div class="us-text">
+        <p>MAIARC es una empresa de Real Estate &amp; Concierge especializada en crear estadías a medida, con presencia en Miami, Ibiza, Tulum y Punta del Este.</p>
+        <p>Conocemos Miami desde adentro: sus barrios, sus residencias, su gastronomía y los lugares que hacen a la ciudad. Nuestra experiencia en otros destinos internacionales nos permite entender los estándares de servicio y atención de un cliente global.</p>
+        <p>Combinamos conocimiento local, visión internacional y un servicio profundamente personalizado, cuidando la privacidad y confidencialidad de nuestros clientes en cada etapa de su experiencia.</p>
+      </div>
+      <div class="founders"><span class="f-names">Iara Correa &amp; Maximiliano Brener</span><span class="f-role">Founders, MAIARC</span></div>
+    </div>
+  </div>
+  <div class="values">
+    <div class="val"><svg width="26" height="26" viewBox="0 0 32 32" fill="none" stroke="#13233D" stroke-width="1.1" aria-hidden="true"><path d="M16 29s-9-8.5-9-15a9 9 0 0 1 18 0c0 6.5-9 15-9 15z"/><circle cx="16" cy="14" r="3"/></svg><b>Conocimiento local</b><span>Conocemos Miami, sus barrios, sus residencias y todo lo que la ciudad tiene para ofrecer.</span></div>
+    <div class="val"><svg width="26" height="26" viewBox="0 0 32 32" fill="none" stroke="#13233D" stroke-width="1.1" aria-hidden="true"><circle cx="16" cy="16" r="12"/><path d="M4 16h24M16 4c3.5 3.5 5 7.5 5 12s-1.5 8.5-5 12c-3.5-3.5-5-7.5-5-12s1.5-8.5 5-12z"/></svg><b>Visión internacional</b><span>Experiencia trabajando en destinos como Ibiza, Tulum y Punta del Este, con estándares de servicio internacionales.</span></div>
+    <div class="val"><svg width="26" height="26" viewBox="0 0 32 32" fill="none" stroke="#13233D" stroke-width="1.1" aria-hidden="true"><rect x="7" y="14" width="18" height="14" rx="1"/><path d="M11 14V10a5 5 0 0 1 10 0v4"/></svg><b>Discreción y confidencialidad</b><span>Privacidad y absoluta reserva en cada interacción, para huéspedes y propietarios.</span></div>
+    <div class="val"><svg width="26" height="26" viewBox="0 0 32 32" fill="none" stroke="#13233D" stroke-width="1.1" aria-hidden="true"><circle cx="16" cy="11" r="5"/><path d="M6 28c1.5-5.5 5.5-8 10-8s8.5 2.5 10 8"/></svg><b>Atención personal</b><span>Un servicio cercano y personalizado, desde la primera conversación hasta el final de cada estadía.</span></div>
+  </div>
+</section>
+
+<!-- PROPIETARIOS -->
+<section class="own sec wrap fitv" id="propietarios">
+  <div class="own-row">
+    <div class="own-head">
+      <span class="eyebrow">Join “The Collection”</span>
+      <h2><span>Tu propiedad, parte de</span> <em>“The Collection”.</em></h2>
+    </div>
+    <div class="own-side">
+      <div class="own-text">
+        <p>¿Tenés una propiedad en Miami Beach, Brickell, Coral Gables, Key Biscayne o North Miami? Nos encantaría conocerla.</p>
+        <p>Trabajamos junto a propietarios de Miami para conectar sus propiedades con nuestros clientes y búsquedas, de forma pública o privada.</p>
+      </div>
+      <a class="btn solid own-cta" href="https://wa.me/14028160673?text=Hola%2C%20tengo%20una%20propiedad%20en%20la%20zona%20y%20me%20gustar%C3%ADa%20conversar%20con%20ustedes%20sobre%20The%20Collection." target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20 12a8 8 0 0 1-11.8 7L4 20l1.1-4A8 8 0 1 1 20 12z"/></svg>Escribinos por WhatsApp <svg width="22" height="12" viewBox="0 0 22 12" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 6h20M15 1l5 5-5 5"/></svg></a>
+    </div>
+  </div>
+  <ul class="own-points">
+    <li><b>Presentación a medida</b><span>Fotos, video y una presentación cuidada de cada propiedad.</span></li>
+    <li><b>Visibilidad a tu elección</b><span>Podemos compartir tu propiedad públicamente o únicamente en búsquedas privadas.</span></li>
+    <li><b>Gestión personal</b><span>Coordinamos consultas, visitas y estadías directamente con vos.</span></li>
+  </ul>
+</section>
+
+<!-- REELS -->
+<section class="reels sec wrap fitv" hidden>
+  <!-- Videos de Miami: subir reels/reelN.mp4 + reels/reelN-poster.jpg, agregar un bloque .reel-v por video y quitar "hidden" -->
+  <div class="head">
+    <div><span class="eyebrow">En movimiento</span><h2 class="h2">MAIARC, <em>en movimiento</em></h2></div>
+    <a class="link" href="https://www.instagram.com/maiarc.conciergeagency">@maiarc.conciergeagency</a>
+  </div>
+  <div class="reel-row"></div>
+</section>
+
+<!-- CONSULTA -->
+<section class="ask sec wrap fitv" id="consulta">
+  <div class="ask-grid">
+    <div class="ask-l">
+      <h2><span>Tu próxima estadía,</span> <em>completamente personalizada.</em></h2>
+      <p>Compartinos tus preferencias y nuestro equipo se ocupará de encontrar la residencia y los servicios que mejor se adapten a tu viaje.</p>
+      <a class="btn ask-wa" href="https://wa.me/14028160673?text=Hola%20MAIARC%2C%20quiero%20consultar%20por%20una%20estad%C3%ADa%20en%20Miami." target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20 12a8 8 0 0 1-11.8 7L4 20l1.1-4A8 8 0 1 1 20 12z"/></svg>Escribinos directamente <svg width="22" height="12" viewBox="0 0 22 12" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 6h20M15 1l5 5-5 5"/></svg></a>
+    </div>
+    <div>
+    <form id="ask" novalidate>
+      <div class="stay">
+        <div class="stay-head"><span class="lbl">Tu búsqueda</span><button type="button" class="edit-btn" id="edit-btn" aria-pressed="false">Editar</button></div>
+        <div class="stay-line" id="stay-line">
+          <label class="pick" for="c-fechas" title="Elegir fechas"><span class="pl">Fechas</span><span class="pv" id="pv-c-fechas"></span><input id="c-fechas" type="text" placeholder="Fechas a definir"></label>
+          <i aria-hidden="true">·</i>
+          <label class="pick" for="c-huespedes"><span class="pl">Huéspedes</span><span class="pv" id="pv-c-huespedes"></span><select id="c-huespedes"><option value="">Huéspedes</option><option value="1">1 huésped</option><option value="2">2 huéspedes</option><option value="3">3 huéspedes</option><option value="4">4 huéspedes</option><option value="5">5 huéspedes</option><option value="6">6 huéspedes</option><option value="7">7 huéspedes</option><option value="8">8 huéspedes</option><option value="9">9 huéspedes</option><option value="10">10 huéspedes</option><option value="11">11 huéspedes</option><option value="12">12 huéspedes</option><option value="13">13 huéspedes</option><option value="14">14 huéspedes</option><option value="15">15 huéspedes</option><option value="16">16 huéspedes</option><option value="17">17 huéspedes</option><option value="18">18 huéspedes</option><option value="19">19 huéspedes</option><option value="20">20 huéspedes</option></select></label>
+          <i aria-hidden="true">·</i>
+          <label class="pick" for="c-zona"><span class="pl">Zona</span><span class="pv" id="pv-c-zona"></span><select id="c-zona"><option value="Sin preferencia">Cualquier zona</option><option>Miami Beach</option><option>Brickell</option><option>Downtown</option><option>Coral Gables</option><option>Coconut Grove</option><option>Key Biscayne</option><option>North Miami</option></select></label>
+        </div>
+      </div>
+      <div class="who">
+        <label class="f full" for="c-nombre"><span>Nombre <span class="req">*</span></span><input id="c-nombre" type="text" autocomplete="name" required></label>
+        <div class="f phone-f"><label for="c-wa"><span>WhatsApp / Teléfono <span class="req">*</span></span></label><div class="phone"><span class="cc"><span class="ccv empty" id="ccv">Prefijo</span><select id="c-cc" aria-label="Prefijo de país" autocomplete="tel-country-code" required><option value="">Prefijo</option><optgroup label="Frecuentes"><option value="+1">Estados Unidos (+1)</option><option value="+52">México (+52)</option><option value="+54">Argentina (+54)</option><option value="+55">Brasil (+55)</option><option value="+57">Colombia (+57)</option></optgroup><optgroup label="Todos los países"><option value="+93">Afganistán (+93)</option><option value="+355">Albania (+355)</option><option value="+49">Alemania (+49)</option><option value="+376">Andorra (+376)</option><option value="+244">Angola (+244)</option><option value="+1">Anguila (+1)</option><option value="+1">Antigua y Barbuda (+1)</option><option value="+966">Arabia Saudí (+966)</option><option value="+213">Argelia (+213)</option><option value="+54">Argentina (+54)</option><option value="+374">Armenia (+374)</option><option value="+297">Aruba (+297)</option><option value="+61">Australia (+61)</option><option value="+43">Austria (+43)</option><option value="+994">Azerbaiyán (+994)</option><option value="+1">Bahamas (+1)</option><option value="+880">Bangladés (+880)</option><option value="+1">Barbados (+1)</option><option value="+973">Baréin (+973)</option><option value="+32">Bélgica (+32)</option><option value="+501">Belice (+501)</option><option value="+229">Benín (+229)</option><option value="+1">Bermudas (+1)</option><option value="+375">Bielorrusia (+375)</option><option value="+591">Bolivia (+591)</option><option value="+387">Bosnia y Herzegovina (+387)</option><option value="+267">Botsuana (+267)</option><option value="+55">Brasil (+55)</option><option value="+673">Brunéi (+673)</option><option value="+359">Bulgaria (+359)</option><option value="+226">Burkina Faso (+226)</option><option value="+257">Burundi (+257)</option><option value="+975">Bután (+975)</option><option value="+238">Cabo Verde (+238)</option><option value="+855">Camboya (+855)</option><option value="+237">Camerún (+237)</option><option value="+1">Canadá (+1)</option><option value="+599">Caribe neerlandés (+599)</option><option value="+974">Catar (+974)</option><option value="+235">Chad (+235)</option><option value="+420">Chequia (+420)</option><option value="+56">Chile (+56)</option><option value="+86">China (+86)</option><option value="+357">Chipre (+357)</option><option value="+39">Ciudad del Vaticano (+39)</option><option value="+57">Colombia (+57)</option><option value="+269">Comoras (+269)</option><option value="+242">Congo (+242)</option><option value="+850">Corea del Norte (+850)</option><option value="+82">Corea del Sur (+82)</option><option value="+506">Costa Rica (+506)</option><option value="+225">Côte d’Ivoire (+225)</option><option value="+385">Croacia (+385)</option><option value="+53">Cuba (+53)</option><option value="+599">Curazao (+599)</option><option value="+45">Dinamarca (+45)</option><option value="+1">Dominica (+1)</option><option value="+593">Ecuador (+593)</option><option value="+20">Egipto (+20)</option><option value="+503">El Salvador (+503)</option><option value="+971">Emiratos Árabes Unidos (+971)</option><option value="+291">Eritrea (+291)</option><option value="+421">Eslovaquia (+421)</option><option value="+386">Eslovenia (+386)</option><option value="+34">España (+34)</option><option value="+1">Estados Unidos (+1)</option><option value="+372">Estonia (+372)</option><option value="+268">Esuatini (+268)</option><option value="+251">Etiopía (+251)</option><option value="+63">Filipinas (+63)</option><option value="+358">Finlandia (+358)</option><option value="+679">Fiyi (+679)</option><option value="+33">Francia (+33)</option><option value="+241">Gabón (+241)</option><option value="+220">Gambia (+220)</option><option value="+995">Georgia (+995)</option><option value="+233">Ghana (+233)</option><option value="+350">Gibraltar (+350)</option><option value="+1">Granada (+1)</option><option value="+30">Grecia (+30)</option><option value="+299">Groenlandia (+299)</option><option value="+590">Guadalupe (+590)</option><option value="+1">Guam (+1)</option><option value="+502">Guatemala (+502)</option><option value="+594">Guayana Francesa (+594)</option><option value="+44">Guernesey (+44)</option><option value="+224">Guinea (+224)</option><option value="+240">Guinea Ecuatorial (+240)</option><option value="+245">Guinea-Bisáu (+245)</option><option value="+592">Guyana (+592)</option><option value="+509">Haití (+509)</option><option value="+504">Honduras (+504)</option><option value="+36">Hungría (+36)</option><option value="+91">India (+91)</option><option value="+62">Indonesia (+62)</option><option value="+964">Irak (+964)</option><option value="+98">Irán (+98)</option><option value="+353">Irlanda (+353)</option><option value="+247">Isla de la Ascensión (+247)</option><option value="+44">Isla de Man (+44)</option><option value="+61">Isla de Navidad (+61)</option><option value="+672">Isla Norfolk (+672)</option><option value="+354">Islandia (+354)</option><option value="+358">Islas Aland (+358)</option><option value="+1">Islas Caimán (+1)</option><option value="+61">Islas Cocos (+61)</option><option value="+682">Islas Cook (+682)</option><option value="+298">Islas Feroe (+298)</option><option value="+500">Islas Malvinas (+500)</option><option value="+1">Islas Marianas del Norte (+1)</option><option value="+692">Islas Marshall (+692)</option><option value="+677">Islas Salomón (+677)</option><option value="+1">Islas Turcas y Caicos (+1)</option><option value="+1">Islas Vírgenes Británicas (+1)</option><option value="+1">Islas Vírgenes de EE. UU. (+1)</option><option value="+972">Israel (+972)</option><option value="+39">Italia (+39)</option><option value="+1">Jamaica (+1)</option><option value="+81">Japón (+81)</option><option value="+44">Jersey (+44)</option><option value="+962">Jordania (+962)</option><option value="+7">Kazajistán (+7)</option><option value="+254">Kenia (+254)</option><option value="+996">Kirguistán (+996)</option><option value="+686">Kiribati (+686)</option><option value="+383">Kosovo (+383)</option><option value="+965">Kuwait (+965)</option><option value="+856">Laos (+856)</option><option value="+266">Lesoto (+266)</option><option value="+371">Letonia (+371)</option><option value="+961">Líbano (+961)</option><option value="+231">Liberia (+231)</option><option value="+218">Libia (+218)</option><option value="+423">Liechtenstein (+423)</option><option value="+370">Lituania (+370)</option><option value="+352">Luxemburgo (+352)</option><option value="+389">Macedonia del Norte (+389)</option><option value="+261">Madagascar (+261)</option><option value="+60">Malasia (+60)</option><option value="+265">Malaui (+265)</option><option value="+960">Maldivas (+960)</option><option value="+223">Mali (+223)</option><option value="+356">Malta (+356)</option><option value="+212">Marruecos (+212)</option><option value="+596">Martinica (+596)</option><option value="+230">Mauricio (+230)</option><option value="+222">Mauritania (+222)</option><option value="+262">Mayotte (+262)</option><option value="+52">México (+52)</option><option value="+691">Micronesia (+691)</option><option value="+373">Moldavia (+373)</option><option value="+377">Mónaco (+377)</option><option value="+976">Mongolia (+976)</option><option value="+382">Montenegro (+382)</option><option value="+1">Montserrat (+1)</option><option value="+258">Mozambique (+258)</option><option value="+95">Myanmar (Birmania) (+95)</option><option value="+264">Namibia (+264)</option><option value="+674">Nauru (+674)</option><option value="+977">Nepal (+977)</option><option value="+505">Nicaragua (+505)</option><option value="+227">Níger (+227)</option><option value="+234">Nigeria (+234)</option><option value="+683">Niue (+683)</option><option value="+47">Noruega (+47)</option><option value="+687">Nueva Caledonia (+687)</option><option value="+64">Nueva Zelanda (+64)</option><option value="+968">Omán (+968)</option><option value="+31">Países Bajos (+31)</option><option value="+92">Pakistán (+92)</option><option value="+680">Palaos (+680)</option><option value="+507">Panamá (+507)</option><option value="+675">Papúa Nueva Guinea (+675)</option><option value="+595">Paraguay (+595)</option><option value="+51">Perú (+51)</option><option value="+689">Polinesia Francesa (+689)</option><option value="+48">Polonia (+48)</option><option value="+351">Portugal (+351)</option><option value="+1">Puerto Rico (+1)</option><option value="+852">RAE de Hong Kong (China) (+852)</option><option value="+853">RAE de Macao (China) (+853)</option><option value="+44">Reino Unido (+44)</option><option value="+236">República Centroafricana (+236)</option><option value="+243">República Democrática del Congo (+243)</option><option value="+1">República Dominicana (+1)</option><option value="+262">Reunión (+262)</option><option value="+250">Ruanda (+250)</option><option value="+40">Rumanía (+40)</option><option value="+7">Rusia (+7)</option><option value="+212">Sáhara Occidental (+212)</option><option value="+685">Samoa (+685)</option><option value="+1">Samoa Americana (+1)</option><option value="+590">San Bartolomé (+590)</option><option value="+1">San Cristóbal y Nieves (+1)</option><option value="+378">San Marino (+378)</option><option value="+590">San Martín (+590)</option><option value="+508">San Pedro y Miquelón (+508)</option><option value="+1">San Vicente y las Granadinas (+1)</option><option value="+290">Santa Elena (+290)</option><option value="+1">Santa Lucía (+1)</option><option value="+239">Santo Tomé y Príncipe (+239)</option><option value="+221">Senegal (+221)</option><option value="+381">Serbia (+381)</option><option value="+248">Seychelles (+248)</option><option value="+232">Sierra Leona (+232)</option><option value="+65">Singapur (+65)</option><option value="+1">Sint Maarten (+1)</option><option value="+963">Siria (+963)</option><option value="+252">Somalia (+252)</option><option value="+94">Sri Lanka (+94)</option><option value="+27">Sudáfrica (+27)</option><option value="+249">Sudán (+249)</option><option value="+211">Sudán del Sur (+211)</option><option value="+46">Suecia (+46)</option><option value="+41">Suiza (+41)</option><option value="+597">Surinam (+597)</option><option value="+47">Svalbard y Jan Mayen (+47)</option><option value="+66">Tailandia (+66)</option><option value="+886">Taiwán (+886)</option><option value="+255">Tanzania (+255)</option><option value="+992">Tayikistán (+992)</option><option value="+246">Territorio Británico del Océano Índico (+246)</option><option value="+970">Territorios Palestinos (+970)</option><option value="+670">Timor-Leste (+670)</option><option value="+228">Togo (+228)</option><option value="+690">Tokelau (+690)</option><option value="+676">Tonga (+676)</option><option value="+1">Trinidad y Tobago (+1)</option><option value="+290">Tristán de Acuña (+290)</option><option value="+216">Túnez (+216)</option><option value="+993">Turkmenistán (+993)</option><option value="+90">Turquía (+90)</option><option value="+688">Tuvalu (+688)</option><option value="+380">Ucrania (+380)</option><option value="+256">Uganda (+256)</option><option value="+598">Uruguay (+598)</option><option value="+998">Uzbekistán (+998)</option><option value="+678">Vanuatu (+678)</option><option value="+58">Venezuela (+58)</option><option value="+84">Vietnam (+84)</option><option value="+681">Wallis y Futuna (+681)</option><option value="+967">Yemen (+967)</option><option value="+253">Yibuti (+253)</option><option value="+260">Zambia (+260)</option><option value="+263">Zimbabue (+263)</option></optgroup></select><svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M1 1l4 4 4-4"/></svg></span><input id="c-wa" type="tel" autocomplete="tel-national" placeholder="Número" required></div></div>
+        <label class="f" for="c-email">Email<input id="c-email" type="email" autocomplete="email"></label>
+      </div>
+      <label class="f" for="c-pref">Preferencias<textarea id="c-pref" placeholder="Dormitorios, ubicación, presupuesto y cualquier detalle que sea importante para vos."></textarea></label>
+      <fieldset>
+        <legend class="lbl">Servicios para tu estadía</legend>
+        <div class="pills">
+          <label><input id="s-yate" type="checkbox">Yate</label>
+          <label><input id="s-chef" type="checkbox">Chef privado</label>
+          <label><input id="s-evento" type="checkbox">Eventos</label>
+          <label><input id="s-traslados" type="checkbox">Traslados</label>
+          <label><input id="s-vip" type="checkbox">Mesas VIP</label>
+          <label><input id="s-wellness" type="checkbox">Wellness</label>
+        </div>
+      </fieldset>
+      <div class="send-wrap">
+        <span class="err" id="ask-err" hidden>Completá tu nombre y tu WhatsApp o teléfono con el prefijo del país.</span>
+        <button class="btn send" type="submit">Enviar mi solicitud <svg width="22" height="12" viewBox="0 0 22 12" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 6h20M15 1l5 5-5 5"/></svg></button>
+      </div>
+      <p class="ask-alt ask-legal">Al enviar, aceptás nuestra <a href="privacidad/">política de privacidad</a>.</p>
+      <p class="ask-alt">¿Preferís escribirnos directo? <a href="mailto:contact@maiarconcierge.com">contact@maiarconcierge.com</a><span aria-hidden="true"> · </span><a href="https://wa.me/14028160673" target="_blank" rel="noopener">WhatsApp +1 402 816 0673</a></p>
+    </form>
+    <div class="thanks" id="thanks" hidden>
+      <span class="lbl t-m">Último paso</span><span class="lbl t-d" hidden>Solicitud recibida</span>
+      <b>Gracias, <span id="thanks-name"></span>.</b>
+      <span class="t-m">Tu solicitud ya está lista en WhatsApp. Solo tenés que tocar enviar y te respondemos a la brevedad.</span>
+      <span class="t-d" hidden>Tu consulta ya nos llegó. Nuestro equipo la revisa y te contactamos a la brevedad.</span>
+      <span class="t-d t-sub" hidden>Si preferís seguir la conversación por WhatsApp, podés escribirnos directo. Tu consulta ya va escrita.</span>
+      <a class="btn ask-wa" id="thanks-wa" href="https://wa.me/14028160673" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20 12a8 8 0 0 1-11.8 7L4 20l1.1-4A8 8 0 1 1 20 12z"/></svg><span class="t-m">Enviar por WhatsApp</span><span class="t-d" hidden>Continuar por WhatsApp</span> <svg width="22" height="12" viewBox="0 0 22 12" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 6h20M15 1l5 5-5 5"/></svg></a>
+      <button type="button" class="thanks-edit" id="thanks-edit">Modificar mi solicitud</button>
+    </div>
+    </div>
+  </div>
+</section>
+
+<footer class="wrap">
+  <div class="foot">
+    <div class="logo"><b>MAIARC</b><small>Miami</small></div>
+    <div class="fcol"><span class="eyebrow">Explorar</span><a href="#todas">Propiedades</a><a href="#servicios">Concierge</a><a href="#nosotros">Nosotros</a><a href="#propietarios">Propietarios</a><a href="#consulta">Contacto</a></div>
+    <div class="fcol"><span class="eyebrow">Contacto</span><span>contact@maiarconcierge.com</span><a href="https://wa.me/14028160673" target="_blank" rel="noopener">+1 402 816 0673</a></div>
+    <div class="fcol"><span class="eyebrow">Seguinos</span><a href="https://www.instagram.com/maiarc.conciergeagency" target="_blank" rel="noopener">Instagram</a><a href="https://www.maiarconcierge.com" target="_blank" rel="noopener">Otros destinos</a></div>
+  </div>
+  <div class="legal"><span>© 2026 MAIARC Global LLC</span><a href="privacidad/">Política de privacidad</a></div>
+</footer>
+
+</div>
+<div id="ficha" hidden>
+  <header class="fnav wrap">
+    <a class="logo" href="#top"><b>MAIARC</b><small>Miami</small></a>
+    <nav class="menu" aria-label="Principal">
+      <a href="#todas">Propiedades</a><a href="#servicios">Concierge</a><a href="#nosotros">Nosotros</a><a href="#propietarios">Propietarios</a><a href="#consulta">Contacto</a>
+    </nav>
+    <div class="nav-right">
+      <div class="langs"><a href="#top" style="color:var(--muted)">EN</a><a class="on" href="#top" style="color:var(--ink);border-color:var(--ink)">ES</a><a href="#top" style="color:var(--muted)">PT</a></div>
+    </div>
+  </header>
+  <div class="wrap">
+    <a class="back" href="#propiedades"><svg width="22" height="12" viewBox="0 0 22 12" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M22 6H2M7 1L2 6l5 5"/></svg>“The Collection”</a>
+    <div class="gal">
+      <div class="photo" id="g1" role="img"></div>
+      <div class="photo" id="g2" role="img"></div>
+      <div class="photo gal-more" id="g3" role="img"><span id="g-count"></span></div>
+    </div>
+    <div class="f-top">
+      <div class="f-main">
+        <div class="f-title">
+          <span class="eyebrow" id="f-zone"></span>
+          <h1 id="f-name"></h1>
+        </div>
+        <div class="f-facts" id="f-facts"></div>
+        <p id="f-lead" style="font-family:var(--serif);font-size:31.5px;line-height:1.4;color:var(--body);max-width:32ch"></p>
+        <div class="f-cols">
+          <div><h3>La casa</h3><p class="lead" id="f-desc"></p></div>
+          <div><h3>Amenities</h3><ul class="amen" id="f-amen"></ul></div>
+        </div>
+      </div>
+      <aside class="book">
+        <span class="eyebrow" id="f-season"></span>
+        <div style="display:flex;flex-direction:column;gap:8px"><span class="price" id="f-price"></span><span class="per" id="f-per"></span></div>
+        <label for="v-fechas">Fechas<input id="v-fechas" type="text" placeholder="Llegada — Salida"></label>
+        <label for="v-huespedes">Huéspedes<input id="v-huespedes" type="text"></label>
+        <a class="btn solid" href="https://wa.me/14028160673" target="_blank" rel="noopener" id="f-ask"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20 12a8 8 0 0 1-11.8 7L4 20l1.1-4A8 8 0 1 1 20 12z"/></svg>Consultar por WhatsApp</a>
+        <a class="btn line" id="f-wa" hidden style="display:none!important" href="https://wa.me/14028160673" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20 12a8 8 0 0 1-11.8 7L4 20l1.1-4A8 8 0 1 1 20 12z"/></svg>WhatsApp</a>
+        <small id="f-sale"></small>
+      </aside>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:28px;padding-bottom:110px">
+      <span class="eyebrow">Galería</span>
+      <div class="f-grid" id="f-grid"></div>
+    </div>
+  </div>
+  <section class="f-serv sec wrap">
+    <div class="head"><div><span class="eyebrow">Concierge</span><h2 class="h2">Completá la experiencia</h2></div><a class="link" href="#servicios">Todos los servicios</a></div>
+    <div class="f-serv-row">
+      <a href="#servicios"><b>Chef privado</b><span>Experiencias gastronómicas en la privacidad de tu residencia.</span></a>
+      <a href="#servicios"><b>Yates y embarcaciones</b><span>Salidas privadas y experiencias en el mar.</span></a>
+      <a href="#servicios"><b>Traslados y aviación privada</b><span>Choferes, traslados, jets y helicópteros.</span></a>
+      <a href="#servicios"><b>Eventos y celebraciones</b><span>Producción y organización de experiencias privadas.</span></a>
+    </div>
+  </section>
+  <footer class="wrap">
+    <div class="legal" style="border-top:0;padding-top:0"><span>© 2026 MAIARC Global LLC · <a href="privacidad/">Política de privacidad</a></span><a href="#propiedades">Volver a “The Collection”</a></div>
+  </footer>
+</div>
+<div id="todas" hidden>
+  <header class="fnav wrap">
+    <a class="logo" href="#top"><b>MAIARC</b><small>Miami</small></a>
+    <nav class="menu" aria-label="Principal">
+      <a href="#todas">Propiedades</a><a href="#servicios">Concierge</a><a href="#nosotros">Nosotros</a><a href="#propietarios">Propietarios</a><a href="#consulta">Contacto</a>
+    </nav>
+    <div class="nav-right">
+      <div class="langs"><a href="#top" style="color:var(--muted)">EN</a><a class="on" href="#top" style="color:var(--ink);border-color:var(--ink)">ES</a><a href="#top" style="color:var(--muted)">PT</a></div>
+    </div>
+  </header>
+  <section class="wrap" style="padding-block:24px 120px">
+    <a class="back" href="#propiedades"><svg width="22" height="12" viewBox="0 0 22 12" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M22 6H2M7 1L2 6l5 5"/></svg>Inicio</a>
+    <div class="all-head">
+      <div style="display:flex;flex-direction:column;gap:16px">
+        <span class="eyebrow">Propiedades publicadas</span>
+        <h1 class="all-title">“The Collection”</h1>
+        <p class="coll-sub">Una selección de nuestras residencias. Gran parte de nuestro portfolio se comparte de forma privada, según cada búsqueda.</p>
+      </div>
+      <span class="all-count" id="all-count"></span>
+    </div>
+    <div class="fbar" role="search" aria-label="Filtrar propiedades">
+      <div class="fsel"><label for="f-op">Operación</label><select id="f-op"><option value="">Alquiler y venta</option><option value="alquiler">Alquiler</option><option value="venta">Venta</option></select></div>
+      <div class="fsel"><label for="f-zona">Ubicación</label><select id="f-zona"><option value="">Todas las zonas</option></select></div>
+      <div class="fsel"><label for="f-tipo">Tipo de propiedad</label><select id="f-tipo"><option value="">Todos</option><option>Casa</option><option>Departamento</option><option>Penthouse</option><option>Villa</option></select></div>
+      <div class="fsel"><label for="f-dorm">Dormitorios</label><select id="f-dorm"><option value="0">Cualquier cantidad</option><option value="3">3 o más</option><option value="5">5 o más</option><option value="7">7 o más</option><option value="10">10 o más</option></select></div>
+      <div class="fsel"><label for="f-hues">Huéspedes</label><select id="f-hues"><option value="0">Cualquier cantidad</option><option value="6">6 o más</option><option value="10">10 o más</option><option value="15">15 o más</option><option value="20">20 o más</option></select></div>
+    </div>
+    <div class="fchips">
+      <span class="fchips-l">Características</span>
+      <div class="fchips-list" id="f-tags"></div>
+      <button type="button" class="fclear" id="f-clear" hidden>Limpiar filtros</button>
+    </div>
+    <div class="all-grid" id="all-grid"></div>
+    <div class="all-empty" id="all-empty" hidden><b>No hay propiedades publicadas con estos filtros.</b><span>Muchas de nuestras residencias se comparten de forma privada. Contanos qué buscás y te enviamos opciones.</span><a class="link" href="#consulta">Contáctanos →</a></div>
+  </section>
+  <footer class="wrap">
+    <div class="legal" style="border-top:0;padding-top:0"><span>© 2026 MAIARC Global LLC · <a href="privacidad/">Política de privacidad</a></span><a href="#propiedades">Volver al inicio</a></div>
+  </footer>
+</div>
+</div>
+<a class="wa-float" href="https://wa.me/14028160673?text=Hola%20MAIARC%2C%20quiero%20hacer%20una%20consulta." target="_blank" rel="noopener" aria-label="Escribinos por WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="#FFFFFF" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.84 9.84 0 0 0 12.04 2zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.22 8.22 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24 2.2 0 4.27.86 5.83 2.42a8.19 8.19 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.16.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.51.11-.11.25-.29.37-.43.13-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28z"/></svg>
+  <span class="wa-tip">Escribinos</span>
+</a>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Fotos">
+  <span class="lb-cap" id="lb-cap"></span>
+  <button type="button" class="lb-x" id="lb-x" aria-label="Cerrar"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M5 5l14 14M19 5L5 19"/></svg></button>
+  <button type="button" class="lb-p" id="lb-p" aria-label="Anterior"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M15 4l-8 8 8 8"/></svg></button>
+  <img id="lb-img" alt="">
+  <button type="button" class="lb-n" id="lb-n" aria-label="Siguiente"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M9 4l8 8-8 8"/></svg></button>
+  <span class="lb-c" id="lb-c"></span>
+</div>
+<script src="content/props.js"></script>
+<script>
+(function(){ /* selects -> inputs escribibles (antes de que el resto enganche eventos) */
+ const g=id=>document.getElementById(id);
+ function toInput(id,ph){const sel=g(id);if(!sel||sel.tagName!=='SELECT')return;const opts=[];let grp=null;
+  sel.querySelectorAll('option').forEach(o=>{if(!o.value)return;opts.push({label:o.textContent.trim(),value:o.value,group:o.parentNode.tagName==='OPTGROUP'?o.parentNode.label:null});});
+  const i=document.createElement('input');i.type='text';i.id=id;i.className='cb';i.placeholder=ph;
+  if(sel.getAttribute('aria-label'))i.setAttribute('aria-label',sel.getAttribute('aria-label'));
+  if(id==='c-cc'){i.setAttribute('inputmode','tel');i.setAttribute('autocomplete','tel-country-code');}
+  sel.replaceWith(i);window.__cbOpts=window.__cbOpts||{};window.__cbOpts[id]=opts;}
+ toInput('c-cc','Prefijo');
+ toInput('c-huespedes','Huéspedes');
+ toInput('f-hues','Cualquier cantidad');
+ ['q-huespedes','v-huespedes'].forEach(id=>{const e=g(id);if(e)e.classList.add('cb');});
+})();
+const PROPS=(function(){const S=(window.SITE_PROPS&&window.SITE_PROPS.props)||[];const Q=window.__TRQ=window.__TRQ||[];
+ const tr=o=>{if(o&&typeof o==='object'){if(o.es)Q.push([o.es,o.en,o.pt]);return o.es||'';}return o||'';};
+ const R={};S.filter(p=>p&&p.id&&p.visible!==false).forEach(p=>{
+  const facts=[];if(p.beds)facts.push([String(p.beds),'Dormitorios']);if(p.baths)facts.push([String(p.baths),'Baños']);if(p.guests)facts.push([String(p.guests),'Huéspedes']);
+  (p.extra||[]).forEach(x=>{if(x&&x.v)facts.push([String(x.v),tr(x.l)]);});
+  const sh=p.short||{};const mk=(b,g,t)=>[p.beds?p.beds+' '+b:'',p.guests?p.guests+' '+g:'',t||''].filter(Boolean).join(' · ');
+  const meta=mk('dormitorios','huéspedes',sh.es);Q.push([meta,mk('bedrooms','guests',sh.en||sh.es),mk('quartos','hóspedes',sh.pt||sh.es)]);
+  const am=p.amen||{};(am.es||[]).forEach((x,k)=>Q.push([x,(am.en||[])[k],(am.pt||[])[k]]));
+  const ph=(p.photos||[]).map(f=>[f.id,tr(f.alt)||p.name]);const first=ph[0]?ph[0][0]:'';
+  R[p.id]={name:p.name,type:p.type||'Casa',beds:p.beds||0,guests:p.guests||null,ops:p.ops||[],tags:(p.tags||[]).map(tr).filter(Boolean),
+   feat:p.feat||first,card:p.card||p.feat||first,meta,zone:(p.zone||'')+(p.area?' · '+p.area:''),facts,lead:tr(p.lead),desc:tr(p.desc),amen:am.es||[],
+   season:'Tarifa',price:'A consultar',per:'Disponibilidad y tarifa, en privado',gph:p.guests?'Hasta '+p.guests:'¿Cuántos son?',
+   sale:(p.ops||[]).includes('venta')?'También disponible para la venta. Consultanos en privado.':'',photos:ph,home:p.home!==false};});
+ return R;})();
+function bg(el,p){if(!p){el.style.backgroundImage='';return;}el.style.backgroundImage='url(img/'+p[0]+'.jpg)';el.setAttribute('aria-label',p[1]||'');}
+function render(id){const d=PROPS[id];const $=x=>document.getElementById(x);
+ $('f-name').textContent=d.name; $('f-wa').href='https://wa.me/14028160673?text='+encodeURIComponent('Hola MAIARC, me interesa '+d.name+' en Miami. ¿Me pasan disponibilidad?');$('f-ask').onclick=()=>{const L=window.__lang||'es',f=$('v-fechas').value.trim(),h=$('v-huespedes').value.trim();
+  const T={es:['Hola MAIARC, me interesa '+d.name+' en Miami.','Fechas','Huéspedes','¿Me pasan disponibilidad?'],en:['Hi MAIARC, I’m interested in '+d.name+' in Miami.','Dates','Guests','Could you share availability?'],pt:['Olá MAIARC, tenho interesse em '+d.name+' em Miami.','Datas','Hóspedes','Podem me passar a disponibilidade?']}[L]||[];
+  let m=T[0];if(f)m+='\n'+T[1]+': '+f;if(h)m+='\n'+T[2]+': '+h;m+='\n'+T[3];
+  $('f-ask').href='https://wa.me/14028160673?text='+encodeURIComponent(m);};$('f-zone').textContent=d.zone;$('f-lead').textContent=d.lead;$('f-desc').textContent=d.desc;
+ $('f-season').textContent=d.season;$('f-price').textContent=d.price;$('f-per').textContent=d.per;$('f-sale').textContent=d.sale;$('v-huespedes').placeholder=d.gph||'¿Cuántos son?';
+ const ff=$('f-facts');ff.style.gridTemplateColumns='repeat('+d.facts.length+',minmax(0,1fr))';ff.replaceChildren(...d.facts.map(([v,l])=>{const x=document.createElement('div'),b=document.createElement('b'),s=document.createElement('span');b.textContent=v;s.textContent=l;x.append(b,s);return x;}));
+ $('f-amen').replaceChildren(...d.amen.map(a=>{const li=document.createElement('li');li.textContent=a;return li;}));
+ const P0=d.photos;bg($('g1'),P0[0]);bg($('g2'),P0[1]||P0[0]);bg($('g3'),P0[2]||P0[1]||P0[0]);window.__gal=P0;$('g1').dataset.gi=0;$('g2').dataset.gi=P0[1]?1:0;$('g3').dataset.gi=0;$('g-count').textContent='Ver las '+d.photos.length+' fotos';
+ const items=d.photos.slice(1),nw=(3-items.length%3)%3;$('f-grid').replaceChildren(...items.map((p,i)=>{const x=document.createElement('div');x.className='photo'+((nw>=1&&i===0)||(nw===2&&i===items.length-1)?' wide':'');x.setAttribute('role','img');x.dataset.gi=i+1;bg(x,p);return x;}));
+}
+function route(){const id=location.hash.slice(1);const f=!!PROPS[id],l=id==='todas';document.getElementById('ficha').hidden=!f;document.getElementById('todas').hidden=!l;document.getElementById('home').hidden=f||l;
+ if(l){window.renderAll&&renderAll();scrollTo(0,0);}else if(f){render(id);scrollTo(0,0);}else{const t=id&&document.getElementById(id);if(t)requestAnimationFrame(()=>t.scrollIntoView());}}
+(function(){
+ const g=id=>document.getElementById(id);const tagsOn=new Set();let built=false;
+ function el(t,c,txt){const e=document.createElement(t);if(c)e.className=c;if(txt!=null)e.textContent=txt;return e;}
+ const zoneOf=d=>d.zone.split(' · ')[0];
+ function build(){const ids=Object.keys(PROPS);
+  [...new Set(ids.map(i=>zoneOf(PROPS[i])))].forEach(z=>g('f-zona').append(new Option(z,z)));
+  [...new Set(ids.flatMap(i=>PROPS[i].tags||[]))].forEach(t=>{const b=el('button','',t);b.type='button';b.setAttribute('aria-pressed','false');
+   b.onclick=()=>{tagsOn.has(t)?tagsOn.delete(t):tagsOn.add(t);b.classList.toggle('on');b.setAttribute('aria-pressed',tagsOn.has(t));renderAll();};g('f-tags').append(b);});
+  ['f-op','f-zona','f-tipo','f-dorm','f-hues'].forEach(id=>g(id).addEventListener('change',renderAll));
+  g('f-clear').onclick=()=>{['f-op','f-zona','f-tipo'].forEach(id=>g(id).value='');g('f-dorm').value='0';g('f-hues').value='';tagsOn.clear();g('f-tags').querySelectorAll('button').forEach(b=>{b.classList.remove('on');b.setAttribute('aria-pressed','false');});renderAll();};
+  built=true;}
+ window.renderAll=function(){if(!built)build();
+  if(window.__zonePick){g('f-zona').value=window.__zonePick;window.__zonePick=null;}
+  const op=g('f-op').value,zo=g('f-zona').value,ty=g('f-tipo').value,dm=+g('f-dorm').value,hu=guestNum(g('f-hues').value);
+  ['f-op','f-zona','f-tipo','f-dorm','f-hues'].forEach(id=>g(id).parentNode.classList.toggle('set',g(id).value!==''&&g(id).value!=='0'));
+  const list=Object.keys(PROPS).filter(id=>{const d=PROPS[id];
+   return (!op||(d.ops||[]).includes(op))&&(!zo||zoneOf(d)===zo)&&(!ty||d.type===ty)&&(!dm||(d.beds||0)>=dm)&&(!hu||d.guests==null||d.guests>=hu)&&[...tagsOn].every(t=>(d.tags||[]).includes(t));});
+  const active=op||zo||ty||dm||hu||tagsOn.size;g('f-clear').hidden=!active;
+  g('all-count').textContent=list.length+(list.length===1?' propiedad':' propiedades');
+  const cards=list.map(id=>{const o=PROPS[id],a=el('a','card');a.href='#'+id;
+   const ph=el('div','photo');ph.setAttribute('role','img');ph.setAttribute('aria-label',o.name);ph.style.backgroundImage='url(img/'+o.card+'.jpg)';
+   const row=el('div','row');row.append(el('span','nm',o.name),el('span','zone',zoneOf(o)));
+   a.append(ph,row,el('span','meta',o.meta));return a;});
+  g('all-empty').hidden=list.length>0;
+  const off=document.querySelector('#coleccion-2 .offcard').cloneNode(true);
+  g('all-grid').replaceChildren(...cards,...(list.length?[off]:[]));
+ };
+ if(location.hash==='#todas')renderAll();
+})();
+addEventListener('hashchange',route);route();
+(function(){
+ const ORDER=Object.keys(PROPS).filter(id=>PROPS[id].home);if(!ORDER.length)ORDER.push(...Object.keys(PROPS));let cur=0,timer=null,paused=false;
+ const g=id=>document.getElementById(id),feat=g('feat'),dots=g('feat-dots'),grid=document.querySelector('#coleccion-2 .grid3'),off=grid.querySelector('.offcard');
+ if(!ORDER.length){feat.closest('.feat-wrap').hidden=true;const ce=g('coll-empty');ce.hidden=false;ce.append(off.cloneNode(true));g('home-zones').style.display='none';g('coleccion-2').hidden=true;g('propiedades').classList.add('is-empty');return;}
+ function el(t,c,txt){const e=document.createElement(t);if(c)e.className=c;if(txt!=null)e.textContent=txt;return e;}
+ function fill(i){const id=ORDER[i],d=PROPS[id];
+  feat.href='#'+id;g('feat-photo').style.backgroundImage='url(img/'+d.feat+'.jpg)';g('feat-photo').setAttribute('aria-label',d.name);
+  g('feat-zone').textContent=d.zone.split(' · ')[0];g('feat-name').textContent=d.name;g('feat-lead').textContent=d.lead;
+  g('feat-facts').replaceChildren(...d.facts.slice(0,3).map(([v,l])=>{const x=el('div');x.append(el('b',null,v),el('span',null,l));return x;}));
+  const pr=g('feat-price');pr.replaceChildren();
+  if(/^USD/.test(d.price)){pr.append('Desde ',el('strong',null,d.price),' / '+d.per.replace('por ',''));pr.querySelector('strong').style.fontWeight='500';}
+  else pr.append('Tarifa a consultar');
+  grid.querySelectorAll('a.card').forEach(c=>c.remove());
+  [1,2].map(k=>ORDER[(i+k)%ORDER.length]).filter((oid,k,arr)=>ORDER.length>k+1&&arr.indexOf(oid)===k).forEach(oid=>{const o=PROPS[oid],a=el('a','card');a.href='#'+oid;
+   const ph=el('div','photo');ph.setAttribute('role','img');ph.setAttribute('aria-label',o.name);ph.style.aspectRatio='4/5';ph.style.backgroundImage='url(img/'+o.card+'.jpg)';
+   const row=el('div','row');row.append(el('span','nm',o.name),el('span','zone',o.zone.split(' · ')[0]));
+   a.append(ph,row,el('span','meta',o.meta));grid.insertBefore(a,off);});
+  [...dots.children].forEach((b,k)=>{b.classList.toggle('on',k===i);b.classList.remove('run');if(k===i&&!paused){void b.offsetWidth;b.classList.add('run');}});
+ }
+ function go(i){feat.classList.add('fade');setTimeout(()=>{cur=(i+ORDER.length)%ORDER.length;fill(cur);feat.classList.remove('fade');},600);}
+ function start(){clearInterval(timer);timer=setInterval(()=>{if(!paused)go(cur+1);},30000);}
+ ORDER.forEach((id,k)=>{const b=el('button');b.type='button';b.setAttribute('aria-label','Ver '+PROPS[id].name);b.append(el('span'));b.onclick=()=>{go(k);start();};dots.append(b);});
+ fill(0);start();
+})();
+
+const page=document.getElementById('page');
+function fit(){const w=document.documentElement.clientWidth;const z=w<900?1:Math.min(1.34,w/1440);page.style.zoom=w<900?'':z;
+ const hero=document.querySelector('#home .hero')||document.querySelector('.hero');
+ if(hero){if(w<900){hero.style.minHeight='';}else{const avail=window.innerHeight/z;const h=Math.round(Math.max(560,Math.min(810,avail-36-28)));hero.style.minHeight=h+'px';}}
+ fitSections(w,z);}
+function fitSections(w,z){const root=document.documentElement;const secs=document.querySelectorAll('.fitv');
+ if(w<900){root.style.removeProperty('--vh');secs.forEach(el=>el.style.zoom='');return;}
+ const vh=Math.round(Math.max(620,window.innerHeight/z));root.style.setProperty('--vh',vh+'px');
+ secs.forEach(el=>{el.style.zoom='';const h=el.offsetHeight;if(h>vh+2){el.style.zoom=Math.max(.72,vh/h).toFixed(3);}});}
+addEventListener('load',()=>fit());
+(function(){const t=setInterval(()=>{if(window.setLang&&!window.setLang.__fit){const o=window.setLang;window.setLang=function(l){const r=o.apply(this,arguments);setTimeout(fit,60);return r;};window.setLang.__fit=1;clearInterval(t);}},200);setTimeout(()=>clearInterval(t),5000);})();
+fit();addEventListener('resize',fit);
+(function(){
+ const MESL={es:['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'],en:['January','February','March','April','May','June','July','August','September','October','November','December'],pt:['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro']};const LG=()=>window.__lang||'es';
+ const MCL={es:['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'],en:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],pt:['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez']};
+ const WDL={es:['L','M','M','J','V','S','D'],en:['M','T','W','T','F','S','S'],pt:['S','T','Q','Q','S','S','D']};
+ const today=new Date();today.setHours(0,0,0,0);
+ const fmt=d=>String(d.getDate()).padStart(2,'0')+' '+MCL[LG()][d.getMonth()];
+ const same=(a,b)=>a&&b&&a.getTime()===b.getTime();
+ let open=null;
+ function close(){if(open){open.el.remove();open=null;}}
+ function attach(input,align){
+  const label=input.closest('label');label.classList.add('has-cal');input.readOnly=true;
+  const st={start:null,end:null,hover:null,view:new Date(today.getFullYear(),today.getMonth(),1)};
+  input.addEventListener('click',e=>{e.preventDefault();if(open&&open.input===input){close();return;}close();render();});
+  input.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();close();render();}});
+  function commit(){input.value=st.start?(fmt(st.start)+(st.end?' — '+fmt(st.end):' — …')):'';input.dispatchEvent(new Event('input'));}
+  function render(){
+   const el=document.createElement('div');el.className='cal'+(align==='right'?' right':'');el.setAttribute('role','dialog');el.setAttribute('aria-label','Elegir fechas');
+   el.addEventListener('click',e=>{e.stopPropagation();e.preventDefault();});
+   const head=document.createElement('div');head.className='cal-head';
+   const prev=document.createElement('button');prev.type='button';prev.className='cal-nav';prev.setAttribute('aria-label','Mes anterior');prev.innerHTML='<svg width="16" height="10" viewBox="0 0 22 12" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M22 6H2M7 1L2 6l5 5"/></svg>';
+   const next=document.createElement('button');next.type='button';next.className='cal-nav';next.setAttribute('aria-label','Mes siguiente');next.innerHTML='<svg width="16" height="10" viewBox="0 0 22 12" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M0 6h20M15 1l5 5-5 5"/></svg>';
+   prev.disabled=st.view.getFullYear()===today.getFullYear()&&st.view.getMonth()===today.getMonth();
+   prev.onclick=()=>{st.view=new Date(st.view.getFullYear(),st.view.getMonth()-1,1);redraw();};
+   next.onclick=()=>{st.view=new Date(st.view.getFullYear(),st.view.getMonth()+1,1);redraw();};
+   const hint=document.createElement('span');hint.className='eyebrow';hint.style.fontSize='11px';hint.textContent=st.start&&!st.end?'Elegí la salida':'Elegí la llegada';
+   head.append(prev,hint,next);
+   const months=document.createElement('div');months.className='cal-months';
+   for(let k=0;k<2;k++){
+    const m=new Date(st.view.getFullYear(),st.view.getMonth()+k,1);
+    const box=document.createElement('div');const t=document.createElement('div');t.className='cal-title';t.textContent=MESL[LG()][m.getMonth()]+' '+m.getFullYear();
+    const g=document.createElement('div');g.className='cal-grid';
+    WDL[LG()].forEach(w=>{const c=document.createElement('span');c.className='cal-wd';c.textContent=w;g.append(c);});
+    const lead=(m.getDay()+6)%7;for(let i=0;i<lead;i++)g.append(document.createElement('span'));
+    const days=new Date(m.getFullYear(),m.getMonth()+1,0).getDate();
+    for(let d=1;d<=days;d++){
+     const dt=new Date(m.getFullYear(),m.getMonth(),d);const b=document.createElement('button');b.type='button';b.className='cal-day';b.textContent=d;
+     b.setAttribute('aria-label',d+' de '+MESL[LG()][m.getMonth()]);
+     if(dt<today)b.disabled=true;
+     if(same(dt,today))b.classList.add('today');
+     const endRef=st.end||(st.start&&st.hover&&st.hover>st.start?st.hover:null);
+     if(same(dt,st.start))b.classList.add('start');
+     if(same(dt,st.end))b.classList.add('end');
+     if(st.start&&endRef&&dt>st.start&&dt<endRef)b.classList.add('in');
+     b.onmouseenter=()=>{if(st.start&&!st.end&&!same(st.hover,dt)){st.hover=dt;redraw();}};
+     b.onclick=()=>{if(!st.start||st.end||dt<=st.start){st.start=dt;st.end=null;}else{st.end=dt;}st.hover=null;commit();redraw();};
+     g.append(b);
+    }
+    box.append(t,g);months.append(box);
+   }
+   const foot=document.createElement('div');foot.className='cal-foot';
+   const sum=document.createElement('span');sum.className='cal-sum';
+   if(st.start&&st.end){const n=Math.round((st.end-st.start)/864e5);sum.innerHTML='';const b=document.createElement('b');b.textContent=n+(n===1?' noche':' noches');sum.append(b,document.createTextNode('  ·  '+fmt(st.start)+' — '+fmt(st.end)));}
+   else sum.textContent=st.start?'Llegada: '+fmt(st.start):'Seleccioná tus fechas';
+   const act=document.createElement('div');act.className='cal-actions';
+   const clr=document.createElement('button');clr.type='button';clr.className='cal-clear';clr.textContent='Borrar';clr.onclick=()=>{st.start=st.end=st.hover=null;commit();redraw();};
+   const done=document.createElement('button');done.type='button';done.className='cal-done';done.textContent='Listo';done.onclick=close;
+   act.append(clr,done);foot.append(sum,act);
+   el.append(head,months,foot);label.append(el);open={el,input};
+   function redraw(){close();render();}
+  }
+ }
+ document.addEventListener('click',e=>{if(open&&!open.el.contains(e.target)&&e.target!==open.input)close();});
+ document.addEventListener('keydown',e=>{if(e.key==='Escape')close();});
+ attach(document.getElementById('q-fechas'));
+ attach(document.getElementById('c-fechas'));
+ attach(document.getElementById('v-fechas'),'right');
+})();
+(function(){
+ const g=id=>document.getElementById(id);
+ function fit(el){const pv=g('pv-'+el.id);let t,empty;
+  if(el.tagName==='SELECT'){empty=!el.value||el.value==='Sin preferencia';t=el.options[el.selectedIndex].text;}
+  else{const v=el.value.replace(' — …','');empty=!v;t=v||el.placeholder;}
+  pv.textContent=t;pv.classList.toggle('empty',empty);}
+ g('edit-btn').addEventListener('click',()=>{const on=g('stay-line').classList.toggle('editing');g('edit-btn').textContent=on?'Listo':'Editar';g('edit-btn').setAttribute('aria-pressed',on);});
+ window.updateStay=function(){['c-fechas','c-huespedes','c-zona'].forEach(id=>fit(g(id)));};
+ ['c-huespedes','c-zona'].forEach(id=>g(id).addEventListener('change',updateStay));
+ g('c-fechas').addEventListener('input',updateStay);
+ updateStay();
+ g('quick').addEventListener('submit',e=>{e.preventDefault();
+  g('c-fechas').value=g('q-fechas').value;g('c-huespedes').value=guestNorm(g('q-huespedes').value);g('c-zona').value=g('q-zona').value;
+  updateStay();g('consulta').scrollIntoView({behavior:'smooth'});});
+ g('ask').addEventListener('submit',e=>{e.preventDefault();
+  const n=g('c-nombre').value.trim(),w=g('c-wa').value.trim();
+  const cc=(g('c-cc').value||'').trim();const ccOk=/^\+\d{1,4}$/.test(cc);
+  if(!n||!w||!ccOk){g('ask-err').hidden=false;(!n?g('c-nombre'):!ccOk?g('c-cc'):g('c-wa')).focus();return;}
+  g('ask-err').hidden=true;
+  const L=window.__lang||'es';
+  const T={es:['Hola MAIARC, les envío mi solicitud desde la web:','Nombre','Teléfono','Email','Fechas','Huéspedes','Zona','Preferencias','Servicios','Cualquier zona'],
+   en:['Hi MAIARC, here is my request from the website:','Name','Phone','Email','Dates','Guests','Area','Preferences','Services','Any area'],
+   pt:['Olá MAIARC, envio minha solicitação pelo site:','Nome','Telefone','E-mail','Datas','Hóspedes','Região','Preferências','Serviços','Qualquer região']}[L]||[];
+  const pv=id=>g(id).value?(g('pv-'+id)?g('pv-'+id).textContent.trim():g(id).value):'';
+  const sv=[...document.querySelectorAll('#ask .pills label')].filter(l=>l.querySelector('input').checked).map(l=>l.textContent.trim());
+  const rows=[[T[1],n],[T[2],cc+' '+w],[T[3],g('c-email').value.trim()],[T[4],pv('c-fechas')],[T[5],pv('c-huespedes')],[T[6],pv('c-zona')],[T[7],g('c-pref').value.trim()],[T[8],sv.join(', ')]];
+  const msg=T[0]+'\n\n'+rows.filter(r=>r[1]).map(r=>'• '+r[0]+': '+r[1]).join('\n');
+  const url='https://wa.me/14028160673?text='+encodeURIComponent(msg);
+  g('thanks-wa').href=url;
+  g('thanks-name').textContent=n.split(' ')[0];g('ask').hidden=true;g('thanks').hidden=false;
+  try{const fd={'form-name':'consulta','nombre':n,'telefono':cc+' '+w,'email':g('c-email').value.trim(),'fechas':pv('c-fechas'),'huespedes':pv('c-huespedes'),'zona':pv('c-zona'),'preferencias':g('c-pref').value.trim(),'servicios':sv.join(', '),'idioma':L};
+   delete fd['form-name'];fd.access_key='8853620e-4cee-421c-a482-83fb439ed4c2';fd.subject='Nueva consulta web · '+n;fd.from_name='MAIARC Miami · Web';if(fd.email)fd.replyto=fd.email;
+   fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(fd),keepalive:true}).catch(()=>{});}catch(_){}
+  const desk=!(window.matchMedia&&matchMedia('(pointer:coarse)').matches)&&window.innerWidth>=900;
+  g('thanks').querySelectorAll('.t-m').forEach(e=>e.hidden=desk);g('thanks').querySelectorAll('.t-d').forEach(e=>e.hidden=!desk);
+  if(!desk){try{window.open(url,'_blank','noopener');}catch(_){}}
+ });
+ g('thanks-edit').addEventListener('click',()=>{g('thanks').hidden=true;g('ask').hidden=false;});
+})();
+(function(){const c=document.getElementById('c-cc'),v=document.getElementById('ccv');c.addEventListener('change',()=>{v.textContent=c.value||'Prefijo';v.classList.toggle('empty',!c.value);});})();
+(function(){
+ // Para sumar la foto de un servicio: poner el archivo en img/ y escribir su nombre en "img" (ej. img:'serv-gastronomia').
+ // Fotos de Miami pendientes: cuando estén, poner el nombre del archivo en img (ej. img:'serv-yates').
+ const SLIDES=[
+  {img:'',label:'Itinerarios a medida'},{img:'',label:'Gastronomía y reservas'},{img:'',label:'Yates y embarcaciones'},
+  {img:'',label:'Chef privado'},{img:'',label:'Eventos y celebraciones'},{img:'',label:'Mesas VIP & nightlife'},
+  {img:'',label:'Traslados y aviación privada'},{img:'',label:'Wellness'},{img:'',label:'Seguridad privada'}];
+ const items=[...document.querySelectorAll('#servicios .item')],frame=document.getElementById('sshow-frame');
+ const slides=SLIDES.map(d=>{const e=document.createElement('div');e.className='sshow-slide'+(d.img?'':' ph');
+  if(d.img){e.style.backgroundImage='url(img/'+d.img+'.jpg)';if(d.pos)e.style.backgroundPosition=d.pos;e.setAttribute('role','img');e.setAttribute('aria-label',d.label);}else e.textContent=d.label;frame.append(e);return e;});
+ let i=0;
+ function show(k){i=(k+slides.length)%slides.length;slides.forEach((e,n)=>e.classList.toggle('on',n===i));items.forEach((e,n)=>e.classList.toggle('on',n===i));
+  document.getElementById('sshow-num').textContent=String(i+1).padStart(2,'0');document.getElementById('sshow-name').textContent=items[i].querySelector('b').textContent;}
+ show(0);let hold=false;setInterval(()=>{if(!hold)show(i+1);},5000);
+ items.forEach((e,n)=>{e.addEventListener('mouseenter',()=>{hold=true;show(n);});e.addEventListener('mouseleave',()=>{hold=false;});});
+})();
+(function(){
+ document.querySelectorAll('.reel-v').forEach(r=>{const v=r.querySelector('video'),b=r.querySelector('.reel-sound');
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)v.play().catch(()=>{});else v.pause();}),{threshold:.35});io.observe(r);
+  b.addEventListener('click',()=>{v.muted=!v.muted;if(!v.muted)v.play().catch(()=>{});b.setAttribute('aria-pressed',!v.muted);b.setAttribute('aria-label',v.muted?'Activar sonido':'Silenciar');
+   b.querySelector('.x').style.display=v.muted?'':'none';b.querySelector('.w').style.display=v.muted?'none':'';});});
+})();
+(function(){
+ // Zonas generadas a partir de las propiedades cargadas: al sumar una casa en una zona nueva, aparece sola.
+ const zoneOf=d=>d.zone.split(' · ')[0];
+ const zones=[...new Set(Object.values(PROPS).map(zoneOf))];
+ const box=document.getElementById('home-zones');
+ const mk=(label,href,on)=>{const a=document.createElement('a');a.href=href;a.textContent=label;if(on)a.className='on';return a;};
+ box.replaceChildren(mk('Todas','#todas',true),...zones.map(z=>{const a=mk(z,'#todas');a.addEventListener('click',()=>{window.__zonePick=z;});return a;}));
+ const base=['Miami Beach', 'Brickell', 'Downtown', 'Coral Gables', 'Coconut Grove', 'Key Biscayne', 'North Miami'];
+ ['q-zona','c-zona'].forEach(id=>{const sel=document.getElementById(id);if(!sel)return;const have=new Set([...sel.options].map(o=>o.value||o.text));
+  zones.forEach(z=>{if(!have.has(z)){sel.append(new Option(z,z));}});});
+})();
+(function(){
+ // Menú para celular
+ const burger='<svg width="24" height="16" viewBox="0 0 24 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M0 1h24M0 8h24M0 15h24"/></svg>';
+ const menu=document.createElement('div');menu.className='m-menu';menu.id='m-menu';menu.setAttribute('aria-hidden','true');
+ const waHref=document.querySelector('.wa-float').getAttribute('href');
+ menu.innerHTML='<div class="m-top"><a class="logo" href="#top"><b>MAIARC</b><small>Miami</small></a><button type="button" class="m-close" aria-label="Cerrar menú"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M2 2l16 16M18 2L2 18"/></svg></button></div>'+
+  '<nav class="m-links" aria-label="Menú"><a href="#todas">Propiedades</a><a href="#servicios">Concierge</a><a href="#nosotros">Nosotros</a><a href="#propietarios">Propietarios</a><a href="#consulta">Contacto</a></nav>'+
+  '<div class="m-langs"><a href="#top">EN</a><a class="on" href="#top">ES</a><a href="#top">PT</a></div>'+
+  '<a class="btn solid m-wa" target="_blank" rel="noopener" href="'+waHref+'">Escribinos por WhatsApp</a>';
+ document.body.append(menu);
+ const open=()=>{menu.classList.add('open');menu.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';};
+ const close=()=>{menu.classList.remove('open');menu.setAttribute('aria-hidden','true');document.body.style.overflow='';};
+ menu.querySelector('.m-close').onclick=close;
+ menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));
+ document.querySelectorAll('.nav-right').forEach(n=>{const b=document.createElement('button');b.type='button';b.className='m-toggle';b.setAttribute('aria-label','Abrir menú');b.innerHTML=burger;b.onclick=open;n.append(b);});
+ addEventListener('keydown',e=>{if(e.key==='Escape')close();});
+})();
+(function(){
+ const g=id=>document.getElementById(id);
+ const LG=()=>window.__lang||'es';
+ const W={es:['huésped','huéspedes','Más de 20','Cualquier cantidad'],en:['guest','guests','More than 20','Any number'],pt:['hóspede','hóspedes','Mais de 20','Qualquer quantidade']};
+ const w=()=>W[LG()]||W.es;
+ const MORE=/m[aá]s|more|mais|\+/i;
+ window.guestNum=function(v){v=(v||'').trim();if(!v)return 0;const m=v.match(/\d+/);const d=m?parseInt(m[0]):NaN;if(MORE.test(v)&&(isNaN(d)||d>=20))return 21;return isNaN(d)?0:d;};
+ window.guestNorm=function(v){const n=guestNum(v);if(!n)return '';if(n>20&&MORE.test(v))return w()[2];return n+' '+(n===1?w()[0]:w()[1]);};
+ const strip=t=>(t||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
+ function combo(inp,getItems,opt){if(!inp)return;opt=opt||{};
+  const host=inp.parentNode;if(getComputedStyle(host).position==='static')host.style.position='relative';
+  const pop=document.createElement('ul');pop.className='cb-pop';pop.hidden=true;pop.setAttribute('role','listbox');host.appendChild(pop);
+  inp.setAttribute('autocomplete','off');inp.setAttribute('role','combobox');inp.setAttribute('aria-autocomplete','list');inp.setAttribute('aria-expanded','false');
+  let items=[],act=-1,typed=false;
+  function render(){const q=typed?strip(inp.value.trim()):'';const qd=q.replace(/[^\d]/g,'');
+   items=getItems().filter(it=>!q||strip(it.label).includes(q)||(qd&&(it.value||'').replace(/\D/g,'').startsWith(qd)));
+   if(q){const seen=new Set();items=items.filter(it=>!seen.has(it.label)&&seen.add(it.label));}
+   pop.innerHTML='';let lastG=null;
+   items.forEach((it,k)=>{if(it.group&&!q&&it.group!==lastG){const h=document.createElement('li');h.className='cb-g';h.textContent=it.group;pop.appendChild(h);lastG=it.group;}
+    const li=document.createElement('li');li.className='cb-o';li.setAttribute('role','option');li.textContent=it.label;
+    li.addEventListener('mousedown',e=>{e.preventDefault();e.stopPropagation();pick(k);});li.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();});pop.appendChild(li);});
+   act=-1;pop.hidden=!items.length;inp.setAttribute('aria-expanded',String(!pop.hidden));}
+  function fire(){inp.dispatchEvent(new Event('input',{bubbles:true}));inp.dispatchEvent(new Event('change',{bubbles:true}));}
+  function pick(k){const it=items[k];if(!it)return;inp.value=opt.show?opt.show(it):it.label;close();fire();}
+  function close(){pop.hidden=true;typed=false;inp.setAttribute('aria-expanded','false');}
+  function hl(){const os=[...pop.querySelectorAll('.cb-o')];os.forEach((li,k)=>li.classList.toggle('act',k===act));os[act]&&os[act].scrollIntoView({block:'nearest'});}
+  inp.addEventListener('focus',()=>{typed=false;render();});
+  inp.addEventListener('mousedown',()=>{if(pop.hidden&&document.activeElement===inp){typed=false;render();}});
+  inp.addEventListener('input',e=>{if(!e.isTrusted)return;typed=true;render();});
+  inp.addEventListener('keydown',e=>{
+   if(e.key==='ArrowDown'){e.preventDefault();if(pop.hidden)render();act=Math.min(act+1,items.length-1);hl();}
+   else if(e.key==='ArrowUp'){e.preventDefault();act=Math.max(act-1,0);hl();}
+   else if(e.key==='Enter'&&!pop.hidden){e.preventDefault();if(act>=0)pick(act);else{close();inp.blur();}}
+   else if(e.key==='Escape'||e.key==='Tab'){close();}});
+  inp.addEventListener('blur',()=>{close();if(opt.norm){const v=opt.norm(inp.value);if(v!==inp.value){inp.value=v;fire();}}});
+ }
+ const guests=withAny=>()=>{const a=[];if(withAny)a.push({label:w()[3],value:''});for(let n=1;n<=20;n++)a.push({label:n+' '+(n===1?w()[0]:w()[1]),value:String(n)});a.push({label:w()[2],value:'21'});return a;};
+ combo(g('q-huespedes'),guests(false),{norm:guestNorm});
+ combo(g('v-huespedes'),guests(false),{norm:guestNorm});
+ combo(g('c-huespedes'),guests(false),{norm:guestNorm});
+ combo(g('f-hues'),guests(true),{norm:guestNorm,show:it=>it.value===''?'':it.label});
+ const ccOpts=(window.__cbOpts||{})['c-cc']||[];
+ combo(g('c-cc'),()=>ccOpts,{show:it=>it.value,norm:v=>{v=(v||'').trim();if(!v)return '';const m=v.match(/\+?\s*(\d{1,4})/);return m?'+'+m[1]:v;}});
+ g('c-huespedes')&&g('c-huespedes').addEventListener('input',()=>window.updateStay&&updateStay());
+ g('f-hues')&&g('f-hues').addEventListener('input',()=>{});
+})();
+(function(){
+ const $=id=>document.getElementById(id),lb=$('lb'),img=$('lb-img');let cur=0,x0=null;
+ function show(i){const P=window.__gal||[];if(!P.length)return;cur=(i+P.length)%P.length;img.style.opacity=0;img.onload=()=>img.style.opacity=1;img.src='img/'+P[cur][0]+'.jpg';img.alt=P[cur][1]||'';
+  $('lb-cap').textContent=P[cur][1]||'';$('lb-c').textContent=(cur+1)+' / '+P.length;}
+ function open(i){show(i);lb.hidden=false;document.documentElement.style.overflow='hidden';}
+ function close(){lb.hidden=true;document.documentElement.style.overflow='';img.removeAttribute('src');}
+ document.addEventListener('click',e=>{const t=e.target.closest('#ficha [data-gi]');if(t){e.preventDefault();open(+t.dataset.gi||0);}});
+ $('lb-x').onclick=close;$('lb-p').onclick=e=>{e.stopPropagation();show(cur-1);};$('lb-n').onclick=e=>{e.stopPropagation();show(cur+1);};
+ lb.addEventListener('click',e=>{if(e.target===lb)close();});
+ document.addEventListener('keydown',e=>{if(lb.hidden)return;if(e.key==='Escape')close();if(e.key==='ArrowRight')show(cur+1);if(e.key==='ArrowLeft')show(cur-1);});
+ lb.addEventListener('touchstart',e=>{x0=e.touches[0].clientX;},{passive:true});
+ lb.addEventListener('touchend',e=>{if(x0==null)return;const dx=e.changedTouches[0].clientX-x0;x0=null;if(Math.abs(dx)>40)show(cur+(dx<0?1:-1));},{passive:true});
+ addEventListener('hashchange',()=>{if(!lb.hidden)close();});
+})();
+(function(){ /* Versión celular minimalista (prueba) */
+ const Q=window.__TRQ=window.__TRQ||[];
+ const T=(es,en,pt)=>{Q.push([es,en,pt]);return es;};
+ const el=(t,c,h)=>{const e=document.createElement(t);if(c)e.className=c;if(h!=null)e.innerHTML=h;return e;};
+ const ARW='<svg width="20" height="11" viewBox="0 0 22 12" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 6h20M15 1l5 5-5 5"/></svg>';
+ // Portada: un solo botón
+ const hc=document.querySelector('#home .hero-copy');
+ if(hc){const a=el('a','m2-only m2-cta',T('Descubrí “The Collection”','Discover “The Collection”','Descubra “The Collection”')+' '+ARW);a.href='#propiedades';hc.append(a);}
+ // The Collection: carrusel con todas las casas
+ const sec=document.getElementById('propiedades');
+ if(sec&&window.PROPS!==undefined||typeof PROPS!=='undefined'){
+  const rail=el('div','m2-only m2-rail');
+  Object.keys(PROPS).forEach(id=>{const d=PROPS[id];const a=el('a','m2-card');a.href='#'+id;
+   const ph=el('div','ph');ph.style.backgroundImage='url(img/'+(d.card||d.feat)+'.jpg)';ph.setAttribute('role','img');ph.setAttribute('aria-label',d.name);
+   a.append(ph);const z=el('span','zn');z.textContent=d.zone.split(' · ')[0];const n=el('span','nm');n.textContent=d.name;const m=el('span','mt');m.textContent=d.meta;a.append(z,n,m);rail.append(a);});
+  const more=el('div','m2-only m2-more');
+  const p=el('p',null,T('¿Buscás algo más? También tenemos propiedades que compartimos solo en privado.','Looking for something else? We also have homes we only share privately.','Procurando algo mais? Também temos imóveis que compartilhamos só em particular.'));
+  const all=el('a','m2-link',T('Ver todas las propiedades','View all properties','Ver todos os imóveis')+' '+ARW);all.href='#todas';
+  const wa=el('a','m2-link',T('Consultar por WhatsApp','Enquire on WhatsApp','Consultar pelo WhatsApp')+' '+ARW);wa.href='https://wa.me/14028160673?text='+encodeURIComponent('Hola MAIARC, quiero hacer una consulta.');wa.target='_blank';wa.rel='noopener';
+  more.append(p,all,wa);
+  const head=sec.querySelector('.head');head.after(rail,more);
+ }
+ // Concierge: tarjetas con foto
+ const IM=['','','','','','','','',''];
+ const sv=document.querySelector('#servicios .serv-l');
+ if(sv){const rail=el('div','m2-only m2-rail m2-grid');
+  document.querySelectorAll('#servicios .item-a').forEach((a,i)=>{const c=el('a','m2-svc'+(IM[i]?'':' noimg'));c.href=a.href;c.target='_blank';c.rel='noopener';if(IM[i])c.style.backgroundImage='url(img/'+IM[i]+'.jpg)';const s=el('span');s.textContent=(a.querySelector('b')||a).textContent.trim();c.append(s);rail.append(c);});
+  const mo=document.querySelector('#servicios .more');const l=el('a','m2-only m2-link',T('Y mucho más · Escribinos','And much more · Message us','E muito mais · Fale com a gente')+' '+ARW);if(mo){l.href=mo.href;l.target='_blank';l.rel='noopener';}
+  sv.append(rail,l);}
+ // Contacto: formulario plegado
+ const form=document.getElementById('ask');
+ if(form&&window.matchMedia('(max-width:899px)').matches){form.classList.add('m2-closed');
+  const b=el('button','m2-only m2-toggle',T('Prefiero dejar mis datos','I’d rather leave my details','Prefiro deixar meus dados')+' ↓');b.type='button';
+  b.onclick=()=>{form.classList.remove('m2-closed');b.remove();form.scrollIntoView({behavior:'smooth',block:'start'});};
+  form.before(b);}
+})();
+(function(){
+ const DICT={en:{"Propiedades": "Properties", "Nosotros": "About us", "Propietarios": "Homeowners", "Consultar por WhatsApp": "Enquire on WhatsApp", "Cerrar": "Close", "Anterior": "Previous", "Siguiente": "Next",  "Política de privacidad": "Privacy policy", "Al enviar, aceptás nuestra": "By sending, you accept our", "política de privacidad": "privacy policy",  "Solicitud recibida": "Request received", "Tu consulta ya nos llegó. Nuestro equipo la revisa y te contactamos a la brevedad.": "We’ve received your request. Our team will review it and be in touch shortly.", "Si preferís seguir la conversación por WhatsApp, podés escribirnos directo. Tu consulta ya va escrita.": "If you’d rather continue on WhatsApp, message us directly — your request is already written out.", "Continuar por WhatsApp": "Continue on WhatsApp",  "Contacto": "Contact", "¿Preferís escribirnos directo?": "Prefer to reach us directly?", "Más de 20": "More than 20", "Cualquier cantidad": "Any number", "Propiedades excepcionales.": "Exceptional properties.", "Estadías a tu medida.": "Tailor-made stays.", "Fechas": "Dates", "Huéspedes": "Guests", "Zona": "Area", "Sin preferencia": "Anywhere", "Comenzar mi búsqueda": "Start my search", "Una selección de nuestras residencias. Gran parte de nuestro portfolio se comparte de forma privada, según cada búsqueda.": "A selection from our portfolio. Much of what we represent is shared privately, tailored to each search.", "Todas": "All", "Dormitorios": "Bedrooms", "Baños": "Bathrooms", "Tarifa a consultar": "Rate on request", "Descubrir": "Discover", "5 dormitorios · 10 huéspedes · en la playa": "5 bedrooms · 10 guests · on the beach", "7 dormitorios · 14 huéspedes · campo y bosque": "7 bedrooms · 14 guests · countryside and forest", "10 dormitorios · 20 huéspedes · frente al mar": "10 bedrooms · 20 guests · oceanfront", "Colección off-market": "Off-market collection", "¿Buscás algo más?": "Looking for something else?", "Accedé a propiedades que compartimos únicamente de forma privada.": "Discover homes we only share in private.", "Contáctanos": "Contact us", "Contáctanos →": "Contact us →", "Ver todas las propiedades": "View all properties", "Todo lo que necesitás,": "Everything you need,", "en un solo lugar.": "in one place.", "Servicios y experiencias diseñados a medida para tu estadía.": "Services and experiences tailored to your stay.", "Itinerarios a medida": "Bespoke itineraries", "Diseñamos cada día alrededor de tus intereses, tiempos y preferencias.": "Every day planned around your interests, pace and preferences.", "Gastronomía y reservas": "Dining & reservations", "Recomendaciones y reservas seleccionadas para cada ocasión.": "Curated recommendations and reservations for every occasion.", "Yates y embarcaciones": "Yachts & boating", "Salidas privadas y experiencias en el mar.": "Private outings and experiences at sea.", "Chef privado": "Private chef", "Experiencias gastronómicas en la privacidad de tu residencia.": "Dining experiences in the privacy of your residence.", "Eventos y celebraciones": "Events & celebrations", "Producción y organización de experiencias privadas.": "Production and planning of private experiences.", "Mesas VIP & nightlife": "VIP tables & nightlife", "Reservas y acceso a los lugares más buscados de la temporada.": "Reservations and access to the most sought-after places of the season.", "Traslados y aviación privada": "Chauffeurs & private aviation", "Choferes, traslados, jets y helicópteros.": "Chauffeurs, transfers, jets and helicopters.", "Masajes, yoga, Pilates, entrenamiento y bienestar durante tu estadía.": "Massage, yoga, Pilates, training and wellbeing during your stay.", "Seguridad privada": "Private security", "Soluciones de seguridad adaptadas a cada necesidad.": "Security solutions adapted to every need.", "Y mucho más": "And much more", "Decinos qué necesitás. Nuestro equipo se ocupa del resto.": "Tell us what you need. We’ll take care of the rest.", "Quiénes somos": "Who we are", "Bienvenidos": "Welcome", "a MAIARC.": "to MAIARC.", "Combinamos conocimiento local, visión internacional y un servicio profundamente personalizado, cuidando la privacidad y confidencialidad de nuestros clientes en cada etapa de su experiencia.": "We combine local knowledge, an international outlook and a deeply personal service, protecting the privacy and confidentiality of our clients at every stage of their experience.", "Founders, MAIARC": "Founders, MAIARC", "Conocimiento local": "Local knowledge", "Visión internacional": "International outlook", "Experiencia trabajando en destinos como Ibiza, Tulum y Miami, con estándares de servicio internacionales.": "Experience in destinations such as Ibiza, Tulum and Miami, with international service standards.", "Discreción y confidencialidad": "Discretion and confidentiality", "Privacidad y absoluta reserva en cada interacción, para huéspedes y propietarios.": "Privacy and complete discretion in every interaction, for guests and owners.", "Atención personal": "Personal service", "Un servicio cercano y personalizado, desde la primera conversación hasta el final de cada estadía.": "A close, personal service, from the first conversation to the end of every stay.", "Tu propiedad, parte de": "Your home, part of", "Trabajamos junto a propietarios de la zona para conectar sus propiedades con nuestros clientes y búsquedas, de forma pública o privada.": "We work with local homeowners to connect their properties with our clients and searches, publicly or privately.", "Escribinos por WhatsApp": "Message us on WhatsApp", "Presentación a medida": "Bespoke presentation", "Fotos, video y una presentación cuidada de cada propiedad.": "Photos, video and a careful presentation of each property.", "Visibilidad a tu elección": "Your choice of visibility", "Podemos compartir tu propiedad públicamente o únicamente en búsquedas privadas.": "Listed publicly, or shared only with private clients.", "Gestión personal": "Hands-on management", "Coordinamos consultas, visitas y estadías directamente con vos.": "We coordinate inquiries, viewings and stays directly with you.", "En movimiento": "In motion", "en movimiento": "in motion", "Tu próxima estadía,": "Your next stay,", "completamente personalizada.": "designed around you.", "Compartinos tus preferencias y nuestro equipo se ocupará de encontrar la residencia y los servicios que mejor se adapten a tu viaje.": "Tell us what you’re looking for and our team will find the right home and services for your trip.", "Escribinos directamente": "Message us directly", "Tu búsqueda": "Your search", "Editar": "Edit", "Listo": "Done", "Fechas a definir": "Dates to be defined", "Cualquier zona": "Any area", "Nombre": "Name", "WhatsApp / Teléfono": "WhatsApp / Phone", "Prefijo": "Code", "Preferencias": "Preferences", "Servicios para tu estadía": "Services for your stay", "Yate": "Yacht", "Eventos": "Events", "Traslados": "Transfers", "Mesas VIP": "VIP tables", "Completá tu nombre y tu WhatsApp o teléfono con el prefijo del país.": "Please enter your name and your WhatsApp or phone number with the country code.", "Enviar mi solicitud": "Send request", "Solicitud enviada": "Request sent", "Gracias,": "Thank you,", "Recibimos tu solicitud. Nuestro equipo se va a comunicar con vos a la brevedad.": "We’ve received your request. We’ll be in touch shortly.", "Explorar": "Explore", "Contacto": "Contact", "Seguinos": "Follow us", "Otros destinos": "Other destinations", "Privacidad · Términos": "Privacy · Terms", "Escribinos": "Message us", "Vista previa · versión computadora · fotos pendientes": "Preview · desktop version", "La casa": "The house", "Amenities": "Amenities", "Consultar esta casa": "Inquire about this home", "Galería": "Gallery", "Completá la experiencia": "Make the most of your stay", "Todos los servicios": "All services", "Volver a “The Collection”": "Back to “The Collection”", "Área social": "Social area", "Arquitectura de piedra y madera entre palmeras, con amplios espacios sociales pensados para grupos grandes. Diez dormitorios, suites con vista al océano y áreas exteriores para pasar el día entero sin salir de la propiedad.": "Stone and timber architecture among palm trees, with generous social spaces designed for large groups. Ten bedrooms, ocean-view suites and outdoor areas to spend the whole day without leaving the property.", "Cancha de fútbol": "Football pitch", "Cancha de tenis": "Tennis court", "Cancha de vóley": "Volleyball court", "Helipuerto": "Helipad", "Piscina con vista al mar": "Pool with sea view", "Amplios espacios sociales": "Generous social spaces", "Tarifa": "Rate", "A consultar": "On request", "Disponibilidad y tarifa, en privado": "Availability and rates on request", "También disponible para la venta. Consultanos en privado.": "Also available for purchase. Inquire privately.", "Piscinas": "Pools", "Sobre la duna y frente al océano, con dos piscinas, decks de madera y el mar en cada ventana.": "On the dune and facing the ocean, with two pools, timber decks and the sea in every window.", "En la playa": "On the beach", "Dos piscinas": "Two pools", "Decks con camastros": "Decks with sun loungers", "Terrazas con vista al océano": "Ocean-view terraces", "Jardín sobre la duna": "Garden on the dune", "Hormigón, madera y campo abierto. Una casa baja alrededor de un patio con piscina, rodeada de bosque.": "Concrete, timber and open countryside. A low house around a pool courtyard, surrounded by forest.", "Arquitectura contemporánea en una sola planta, con grandes ventanales que se abren al jardín y galerías para las tardes largas. El patio central, con piscina y solárium, es el corazón de la casa.": "Contemporary single-storey architecture, with large windows opening onto the garden and verandas for long afternoons. The central courtyard, with pool and sun deck, is the heart of the house.", "Piscina en patio central": "Pool in the central courtyard", "Solárium con camastros": "Sun deck with loungers", "Galería exterior con estar": "Outdoor veranda with lounge", "Jardín y techos verdes": "Garden and green roofs", "Rodeada de campo y bosque": "Surrounded by countryside and forest", "Inicio": "Home", "Propiedades publicadas": "Our listings", "Operación": "Rent or buy", "Alquiler y venta": "Rent & buy", "Alquiler": "Rent", "Venta": "Buy", "Ubicación": "Location", "Todas las zonas": "All areas", "Tipo de propiedad": "Property type", "Todos": "All", "Casa": "House", "Chacra": "Country estate", "Departamento": "Apartment", "Cualquier cantidad": "Any", "Características": "Features", "Limpiar filtros": "Clear filters", "No hay propiedades publicadas con estos filtros.": "No listings match these filters.", "Muchas de nuestras residencias se comparten de forma privada. Contanos qué buscás y te enviamos opciones.": "Many of our homes are shared privately. Tell us what you’re looking for and we’ll send you options.", "Volver al inicio": "Back to home", "Frente al mar": "Oceanfront", "Piscina": "Pool", "Canchas deportivas": "Sports courts", "Entorno de campo": "Countryside setting", "Elegí la llegada": "Choose arrival", "Elegí la salida": "Choose departure", "Seleccioná tus fechas": "Select your dates", "Borrar": "Clear", "Principal": "Main", "Abrir menú": "Open menu", "Cerrar menú": "Close menu", "Menú": "Menu", "Consulta rápida": "Quick search", "Llegada — Salida": "Arrival — Departure", "8 personas": "8 people", "Mesa frente al mar con vino tinto y platos para compartir": "Seaside table with red wine and sharing plates", "Chef privado emplatando frente al mar": "Private chef plating by the sea", "Evento privado de noche junto a la piscina con música en vivo": "Private evening event by the pool with live music", "Mesa VIP en club nocturno con DJ y luces": "VIP table at a nightclub with DJ and lights", "Pareja llegando en jet privado con chofer esperando al atardecer": "Couple arriving by private jet with a chauffeur waiting at sunset", "Masaje en la residencia con vista al mar": "In-residence massage with sea view", "Custodia privada acompañando la llegada a un evento de noche": "Private security escorting an arrival at an evening event", "Iara Correa y Maximiliano Brener, fundadores de MAIARC": "Iara Correa and Maximiliano Brener, founders of MAIARC", "Activar sonido": "Turn sound on", "Silenciar": "Mute", "Elegir fechas": "Choose dates", "Prefijo de país": "Country code", "Número": "Number", "Dormitorios, ubicación, presupuesto y cualquier detalle que sea importante para vos.": "Bedrooms, location, budget and any detail that matters to you.", "Filtrar propiedades": "Filter properties", "Vista aérea con la cancha de fútbol y el mar": "Aerial view with the football pitch and the sea", "Suite principal con vista al mar": "Main suite with sea view", "Hasta 20": "Up to 20", "Vista aérea completa de la propiedad": "Full aerial view of the property", "Fachada de piedra con palmeras": "Stone façade with palm trees", "Cancha de tenis entre pinos": "Tennis court among pines", "Vista aérea de la casa frente a la duna": "Aerial view of the house on the dune", "Vista cenital de las piscinas y el deck": "Overhead view of the pools and deck", "¿Cuántos son?": "How many guests?", "Vista aérea de la propiedad y el jardín": "Aerial view of the property and garden", "Piscina del patio central con camastros": "Central courtyard pool with loungers", "Galería exterior al atardecer": "Outdoor veranda at sunset", "Vista cenital del patio y la piscina": "Overhead view of the courtyard and pool", "Mes anterior": "Previous month", "Mes siguiente": "Next month", "Piscina del patio central": "Central courtyard pool", "Galería exterior de una residencia al atardecer": "Outdoor veranda of a residence at sunset", "Hola, tengo una propiedad en la zona y me gustaría conversar con ustedes sobre The Collection.": "Hi, I own a property in the area and would like to talk with you about The Collection.", "Hola MAIARC, quiero hacer una consulta.": "Hi MAIARC, I have a question."},pt:{"Propiedades": "Imóveis", "Nosotros": "Sobre nós", "Propietarios": "Proprietários", "Consultar por WhatsApp": "Consultar pelo WhatsApp", "Cerrar": "Fechar", "Anterior": "Anterior", "Siguiente": "Próxima",  "Política de privacidad": "Política de privacidade", "Al enviar, aceptás nuestra": "Ao enviar, você aceita nossa", "política de privacidad": "política de privacidade",  "Solicitud recibida": "Solicitação recebida", "Tu consulta ya nos llegó. Nuestro equipo la revisa y te contactamos a la brevedad.": "Sua solicitação já chegou até nós. Nossa equipe vai analisá-la e entraremos em contato em breve.", "Si preferís seguir la conversación por WhatsApp, podés escribirnos directo. Tu consulta ya va escrita.": "Se preferir continuar a conversa pelo WhatsApp, fale direto com a gente — sua solicitação já vai escrita.", "Continuar por WhatsApp": "Continuar pelo WhatsApp",  "Contacto": "Contato", "¿Preferís escribirnos directo?": "Prefere falar direto com a gente?", "Más de 20": "Mais de 20", "Cualquier cantidad": "Qualquer quantidade", "Propiedades excepcionales.": "Imóveis excepcionais.", "Estadías a tu medida.": "Estadias sob medida.", "Fechas": "Datas", "Huéspedes": "Hóspedes", "Zona": "Região", "Sin preferencia": "Qualquer região", "Comenzar mi búsqueda": "Começar minha busca", "Una selección de nuestras residencias. Gran parte de nuestro portfolio se comparte de forma privada, según cada búsqueda.": "Uma seleção do nosso portfólio. Grande parte dos imóveis que representamos é apresentada em privado, de acordo com cada busca.", "Todas": "Todas", "Dormitorios": "Quartos", "Baños": "Banheiros", "Tarifa a consultar": "Tarifa sob consulta", "Descubrir": "Descobrir", "5 dormitorios · 10 huéspedes · en la playa": "5 quartos · 10 hóspedes · na praia", "7 dormitorios · 14 huéspedes · campo y bosque": "7 quartos · 14 hóspedes · campo e bosque", "10 dormitorios · 20 huéspedes · frente al mar": "10 quartos · 20 hóspedes · de frente para o mar", "Colección off-market": "Coleção off-market", "¿Buscás algo más?": "Não encontrou o que procura?", "Accedé a propiedades que compartimos únicamente de forma privada.": "Conheça imóveis que apresentamos apenas em privado.", "Contáctanos": "Fale conosco", "Contáctanos →": "Fale conosco →", "Ver todas las propiedades": "Ver todos os imóveis", "Todo lo que necesitás,": "Tudo o que você precisa,", "en un solo lugar.": "em um só lugar.", "Servicios y experiencias diseñados a medida para tu estadía.": "Serviços e experiências personalizados para a sua estadia.", "Itinerarios a medida": "Roteiros personalizados", "Diseñamos cada día alrededor de tus intereses, tiempos y preferencias.": "Cada dia planejado de acordo com seus interesses, seu ritmo e suas preferências.", "Gastronomía y reservas": "Gastronomia e reservas", "Recomendaciones y reservas seleccionadas para cada ocasión.": "Recomendações e reservas selecionadas para cada ocasião.", "Yates y embarcaciones": "Iates e passeios de barco", "Salidas privadas y experiencias en el mar.": "Passeios privados e experiências no mar.", "Chef privado": "Chef particular", "Experiencias gastronómicas en la privacidad de tu residencia.": "Experiências gastronômicas na privacidade da sua residência.", "Eventos y celebraciones": "Eventos e celebrações", "Producción y organización de experiencias privadas.": "Produção e organização de experiências privadas.", "Mesas VIP & nightlife": "Mesas VIP & nightlife", "Reservas y acceso a los lugares más buscados de la temporada.": "Reservas e acesso aos lugares mais disputados da temporada.", "Traslados y aviación privada": "Transfers e aviação executiva", "Choferes, traslados, jets y helicópteros.": "Motoristas, transfers, jatos e helicópteros.", "Masajes, yoga, Pilates, entrenamiento y bienestar durante tu estadía.": "Massagens, yoga, Pilates, treino e bem-estar durante a sua estadia.", "Seguridad privada": "Segurança privada", "Soluciones de seguridad adaptadas a cada necesidad.": "Soluções de segurança adaptadas a cada necessidade.", "Y mucho más": "E muito mais", "Decinos qué necesitás. Nuestro equipo se ocupa del resto.": "Diga o que você precisa. Nós cuidamos do resto.", "Quiénes somos": "Quem somos", "Bienvenidos": "Bem-vindos", "a MAIARC.": "à MAIARC.", "Combinamos conocimiento local, visión internacional y un servicio profundamente personalizado, cuidando la privacidad y confidencialidad de nuestros clientes en cada etapa de su experiencia.": "Combinamos conhecimento local, visão internacional e um serviço profundamente personalizado, cuidando da privacidade e da confidencialidade dos nossos clientes em cada etapa da experiência.", "Founders, MAIARC": "Fundadores, MAIARC", "Conocimiento local": "Conhecimento local", "Visión internacional": "Visão internacional", "Experiencia trabajando en destinos como Ibiza, Tulum y Miami, con estándares de servicio internacionales.": "Experiência em destinos como Ibiza, Tulum e Miami, com padrões de serviço internacionais.", "Discreción y confidencialidad": "Discrição e confidencialidade", "Privacidad y absoluta reserva en cada interacción, para huéspedes y propietarios.": "Privacidade e total discrição em cada interação, para hóspedes e proprietários.", "Atención personal": "Atendimento personalizado", "Un servicio cercano y personalizado, desde la primera conversación hasta el final de cada estadía.": "Um serviço próximo e personalizado, da primeira conversa até o fim de cada estadia.", "Tu propiedad, parte de": "Seu imóvel, parte de", "Trabajamos junto a propietarios de la zona para conectar sus propiedades con nuestros clientes y búsquedas, de forma pública o privada.": "Trabalhamos com proprietários da região para conectar seus imóveis aos nossos clientes e buscas, de forma pública ou privada.", "Escribinos por WhatsApp": "Fale com a gente pelo WhatsApp", "Presentación a medida": "Apresentação personalizada", "Fotos, video y una presentación cuidada de cada propiedad.": "Fotos, vídeo e uma apresentação cuidadosa de cada imóvel.", "Visibilidad a tu elección": "Visibilidade à sua escolha", "Podemos compartir tu propiedad públicamente o únicamente en búsquedas privadas.": "Divulgação pública ou apenas para clientes em privado.", "Gestión personal": "Gestão próxima", "Coordinamos consultas, visitas y estadías directamente con vos.": "Coordenamos consultas, visitas e estadias diretamente com você.", "En movimiento": "Em movimento", "en movimiento": "em movimento", "Tu próxima estadía,": "Sua próxima estadia,", "completamente personalizada.": "pensada para você.", "Compartinos tus preferencias y nuestro equipo se ocupará de encontrar la residencia y los servicios que mejor se adapten a tu viaje.": "Conte o que você procura e nossa equipe encontra a casa e os serviços ideais para a sua viagem.", "Escribinos directamente": "Fale com a gente", "Tu búsqueda": "Sua busca", "Editar": "Editar", "Listo": "Pronto", "Fechas a definir": "Datas a definir", "Cualquier zona": "Qualquer região", "Nombre": "Nome", "WhatsApp / Teléfono": "WhatsApp / Telefone", "Prefijo": "DDI", "Preferencias": "Preferências", "Servicios para tu estadía": "Serviços para a sua estadia", "Yate": "Iate", "Eventos": "Eventos", "Traslados": "Transfers", "Mesas VIP": "Mesas VIP", "Completá tu nombre y tu WhatsApp o teléfono con el prefijo del país.": "Informe seu nome e seu WhatsApp ou telefone com o código do país.", "Enviar mi solicitud": "Enviar solicitação", "Solicitud enviada": "Solicitação enviada", "Gracias,": "Obrigado,", "Recibimos tu solicitud. Nuestro equipo se va a comunicar con vos a la brevedad.": "Recebemos sua solicitação. Em breve entraremos em contato.", "Explorar": "Explorar", "Contacto": "Contato", "Seguinos": "Siga-nos", "Otros destinos": "Outros destinos", "Privacidad · Términos": "Privacidade · Termos", "Escribinos": "Fale conosco", "Vista previa · versión computadora · fotos pendientes": "Prévia · versão para computador", "La casa": "A casa", "Amenities": "Comodidades", "Consultar esta casa": "Consultar esta casa", "Galería": "Galeria", "Completá la experiencia": "Aproveite ao máximo sua estadia", "Todos los servicios": "Todos os serviços", "Volver a “The Collection”": "Voltar para “The Collection”", "Área social": "Área social", "Arquitectura de piedra y madera entre palmeras, con amplios espacios sociales pensados para grupos grandes. Diez dormitorios, suites con vista al océano y áreas exteriores para pasar el día entero sin salir de la propiedad.": "Arquitetura de pedra e madeira entre palmeiras, com amplos espaços sociais pensados para grupos grandes. Dez quartos, suítes com vista para o oceano e áreas externas para passar o dia inteiro sem sair da propriedade.", "Cancha de fútbol": "Campo de futebol", "Cancha de tenis": "Quadra de tênis", "Cancha de vóley": "Quadra de vôlei", "Helipuerto": "Heliponto", "Piscina con vista al mar": "Piscina com vista para o mar", "Amplios espacios sociales": "Amplos espaços sociais", "Tarifa": "Tarifa", "A consultar": "Sob consulta", "Disponibilidad y tarifa, en privado": "Disponibilidade e tarifas sob consulta", "También disponible para la venta. Consultanos en privado.": "Também à venda. Consulte-nos.", "Piscinas": "Piscinas", "Sobre la duna y frente al océano, con dos piscinas, decks de madera y el mar en cada ventana.": "Sobre a duna e de frente para o oceano, com duas piscinas, decks de madeira e o mar em cada janela.", "En la playa": "Na praia", "Dos piscinas": "Duas piscinas", "Decks con camastros": "Decks com espreguiçadeiras", "Terrazas con vista al océano": "Terraços com vista para o oceano", "Jardín sobre la duna": "Jardim sobre a duna", "Hormigón, madera y campo abierto. Una casa baja alrededor de un patio con piscina, rodeada de bosque.": "Concreto, madeira e campo aberto. Uma casa térrea em torno de um pátio com piscina, cercada de bosque.", "Arquitectura contemporánea en una sola planta, con grandes ventanales que se abren al jardín y galerías para las tardes largas. El patio central, con piscina y solárium, es el corazón de la casa.": "Arquitetura contemporânea em um só pavimento, com grandes janelas que se abrem para o jardim e varandas para as tardes longas. O pátio central, com piscina e solário, é o coração da casa.", "Piscina en patio central": "Piscina no pátio central", "Solárium con camastros": "Solário com espreguiçadeiras", "Galería exterior con estar": "Varanda externa com estar", "Jardín y techos verdes": "Jardim e telhados verdes", "Rodeada de campo y bosque": "Cercada de campo e bosque", "Inicio": "Início", "Propiedades publicadas": "Nossos imóveis", "Operación": "Aluguel ou venda", "Alquiler y venta": "Aluguel e venda", "Alquiler": "Aluguel", "Venta": "Venda", "Ubicación": "Localização", "Todas las zonas": "Todas as regiões", "Tipo de propiedad": "Tipo de imóvel", "Todos": "Todos", "Casa": "Casa", "Chacra": "Chácara", "Departamento": "Apartamento", "Cualquier cantidad": "Qualquer quantidade", "Características": "Características", "Limpiar filtros": "Limpar filtros", "No hay propiedades publicadas con estos filtros.": "Nenhum imóvel corresponde a esses filtros.", "Muchas de nuestras residencias se comparten de forma privada. Contanos qué buscás y te enviamos opciones.": "Muitos dos nossos imóveis são apresentados em privado. Conte o que você procura e enviamos opções.", "Volver al inicio": "Voltar ao início", "Frente al mar": "De frente para o mar", "Piscina": "Piscina", "Canchas deportivas": "Quadras esportivas", "Entorno de campo": "Ambiente de campo", "Elegí la llegada": "Escolha a chegada", "Elegí la salida": "Escolha a saída", "Seleccioná tus fechas": "Selecione suas datas", "Borrar": "Limpar", "Principal": "Principal", "Abrir menú": "Abrir menu", "Cerrar menú": "Fechar menu", "Menú": "Menu", "Consulta rápida": "Busca rápida", "Llegada — Salida": "Chegada — Saída", "8 personas": "8 pessoas", "Mesa frente al mar con vino tinto y platos para compartir": "Mesa à beira-mar com vinho tinto e pratos para compartilhar", "Chef privado emplatando frente al mar": "Chef particular empratando à beira-mar", "Evento privado de noche junto a la piscina con música en vivo": "Evento privado à noite na piscina com música ao vivo", "Mesa VIP en club nocturno con DJ y luces": "Mesa VIP em balada com DJ e luzes", "Pareja llegando en jet privado con chofer esperando al atardecer": "Casal chegando de jato privado com motorista aguardando ao pôr do sol", "Masaje en la residencia con vista al mar": "Massagem na residência com vista para o mar", "Custodia privada acompañando la llegada a un evento de noche": "Segurança privada acompanhando a chegada a um evento à noite", "Iara Correa y Maximiliano Brener, fundadores de MAIARC": "Iara Correa e Maximiliano Brener, fundadores da MAIARC", "Activar sonido": "Ativar som", "Silenciar": "Silenciar", "Elegir fechas": "Escolher datas", "Prefijo de país": "Código do país", "Número": "Número", "Dormitorios, ubicación, presupuesto y cualquier detalle que sea importante para vos.": "Quartos, localização, orçamento e qualquer detalhe importante para você.", "Filtrar propiedades": "Filtrar imóveis", "Vista aérea con la cancha de fútbol y el mar": "Vista aérea com o campo de futebol e o mar", "Suite principal con vista al mar": "Suíte principal com vista para o mar", "Hasta 20": "Até 20", "Vista aérea completa de la propiedad": "Vista aérea completa da propriedade", "Fachada de piedra con palmeras": "Fachada de pedra com palmeiras", "Cancha de tenis entre pinos": "Quadra de tênis entre pinheiros", "Vista aérea de la casa frente a la duna": "Vista aérea da casa em frente à duna", "Vista cenital de las piscinas y el deck": "Vista de cima das piscinas e do deck", "¿Cuántos son?": "Quantas pessoas?", "Vista aérea de la propiedad y el jardín": "Vista aérea da propriedade e do jardim", "Piscina del patio central con camastros": "Piscina do pátio central com espreguiçadeiras", "Galería exterior al atardecer": "Varanda externa ao pôr do sol", "Vista cenital del patio y la piscina": "Vista de cima do pátio e da piscina", "Mes anterior": "Mês anterior", "Mes siguiente": "Próximo mês", "Piscina del patio central": "Piscina do pátio central", "Galería exterior de una residencia al atardecer": "Varanda externa de uma residência ao pôr do sol", "Hola, tengo una propiedad en la zona y me gustaría conversar con ustedes sobre The Collection.": "Olá, tenho um imóvel na região e gostaria de conversar com vocês sobre The Collection.", "Hola MAIARC, quiero hacer una consulta.": "Olá MAIARC, gostaria de fazer uma consulta."}};
+ Object.assign(DICT.en,{"Último paso":"One last step","Tu solicitud ya está lista en WhatsApp. Solo tenés que tocar enviar y te respondemos a la brevedad.":"Your request is ready in WhatsApp. Just tap send and we’ll get back to you shortly.","Enviar por WhatsApp":"Send via WhatsApp","Modificar mi solicitud":"Edit my request"});
+ Object.assign(DICT.pt,{"Último paso":"Último passo","Tu solicitud ya está lista en WhatsApp. Solo tenés que tocar enviar y te respondemos a la brevedad.":"Sua solicitação já está pronta no WhatsApp. É só tocar em enviar e respondemos em breve.","Enviar por WhatsApp":"Enviar pelo WhatsApp","Modificar mi solicitud":"Editar minha solicitação"});
+ Object.assign(DICT.en,{"Conocemos Miami desde adentro: sus barrios, sus residencias, su gastronomía y los lugares que hacen a la ciudad. Nuestra experiencia en otros destinos internacionales nos permite entender los estándares de servicio y atención de un cliente global.": "We know Miami from the inside: its neighbourhoods, its residences, its dining and the places that make the city. Our experience in other international destinations gives us a clear sense of the service standards a global client expects.", "MAIARC es una empresa de Real Estate & Concierge especializada en crear estadías a medida, con presencia en Miami, Ibiza, Tulum y Punta del Este.": "MAIARC is a Real Estate & Concierge company specialising in tailor-made stays, with a presence in Miami, Ibiza, Tulum and Punta del Este.", "Conocemos Miami, sus barrios, sus residencias y todo lo que la ciudad tiene para ofrecer.": "We know Miami, its neighbourhoods, its residences and everything the city has to offer.", "Experiencia trabajando en destinos como Ibiza, Tulum y Punta del Este, con estándares de servicio internacionales.": "Experience in destinations such as Ibiza, Tulum and Punta del Este, with international service standards.", "¿Tenés una propiedad en Miami Beach, Brickell, Coral Gables, Key Biscayne o North Miami? Nos encantaría conocerla.": "Do you own a property in Miami Beach, Brickell, Coral Gables, Key Biscayne or North Miami? We’d love to see it.", "Trabajamos junto a propietarios de Miami para conectar sus propiedades con nuestros clientes y búsquedas, de forma pública o privada.": "We work with Miami homeowners to connect their properties with our clients and searches, publicly or privately.", "Reservas y acceso a los lugares más buscados de la ciudad.": "Reservations and access to the city’s most sought-after venues.", "Nuevas residencias en Miami, muy pronto.": "New Miami residences, coming soon.", "Mientras tanto, compartimos nuestro portfolio de forma privada. Contanos qué buscás y te enviamos opciones.": "In the meantime, we share our portfolio privately. Tell us what you’re looking for and we’ll send you options.", "Hola MAIARC, me gustaría consultar por sus servicios de concierge para mi estadía en Miami.": "Hi MAIARC, I’d like to know more about your concierge services for my stay in Miami.", "Hola MAIARC, quiero consultar por una estadía en Miami.": "Hi MAIARC, I’d like to enquire about a stay in Miami.", "Penthouse": "Penthouse", "Villa": "Villa", "Departamento": "Apartment", "Casa": "House", "Miami": "Miami"});
+ Object.assign(DICT.pt,{"Conocemos Miami desde adentro: sus barrios, sus residencias, su gastronomía y los lugares que hacen a la ciudad. Nuestra experiencia en otros destinos internacionales nos permite entender los estándares de servicio y atención de un cliente global.": "Conhecemos Miami por dentro: seus bairros, suas residências, sua gastronomia e os lugares que fazem a cidade. Nossa experiência em outros destinos internacionais nos permite entender os padrões de serviço e atendimento de um cliente global.", "MAIARC es una empresa de Real Estate & Concierge especializada en crear estadías a medida, con presencia en Miami, Ibiza, Tulum y Punta del Este.": "A MAIARC é uma empresa de Real Estate & Concierge especializada em criar estadias sob medida, com presença em Miami, Ibiza, Tulum e Punta del Este.", "Conocemos Miami, sus barrios, sus residencias y todo lo que la ciudad tiene para ofrecer.": "Conhecemos Miami, seus bairros, suas residências e tudo o que a cidade tem a oferecer.", "Experiencia trabajando en destinos como Ibiza, Tulum y Punta del Este, con estándares de servicio internacionales.": "Experiência em destinos como Ibiza, Tulum e Punta del Este, com padrões de serviço internacionais.", "¿Tenés una propiedad en Miami Beach, Brickell, Coral Gables, Key Biscayne o North Miami? Nos encantaría conocerla.": "Você tem um imóvel em Miami Beach, Brickell, Coral Gables, Key Biscayne ou North Miami? Adoraríamos conhecê-lo.", "Trabajamos junto a propietarios de Miami para conectar sus propiedades con nuestros clientes y búsquedas, de forma pública o privada.": "Trabalhamos com proprietários de Miami para conectar seus imóveis aos nossos clientes e buscas, de forma pública ou privada.", "Reservas y acceso a los lugares más buscados de la ciudad.": "Reservas e acesso aos lugares mais procurados da cidade.", "Nuevas residencias en Miami, muy pronto.": "Novas residências em Miami, em breve.", "Mientras tanto, compartimos nuestro portfolio de forma privada. Contanos qué buscás y te enviamos opciones.": "Enquanto isso, compartilhamos nosso portfólio de forma privada. Conte o que você procura e enviamos opções.", "Hola MAIARC, me gustaría consultar por sus servicios de concierge para mi estadía en Miami.": "Olá MAIARC, gostaria de saber mais sobre os serviços de concierge para minha estadia em Miami.", "Hola MAIARC, quiero consultar por una estadía en Miami.": "Olá MAIARC, gostaria de consultar sobre uma estadia em Miami.", "Penthouse": "Cobertura", "Villa": "Villa", "Departamento": "Apartamento", "Casa": "Casa"});
+ (window.__TRQ||[]).forEach(([es,en,pt])=>{if(!es)return;if(en&&en!==es)DICT.en[es]=en;if(pt&&pt!==es)DICT.pt[es]=pt;});
+ const MES=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+ const MON={en:['January','February','March','April','May','June','July','August','September','October','November','December'],pt:['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro']};
+ const W={
+  guests:{en:n=>n+(n==1?' guest':' guests'),pt:n=>n+(n==1?' hóspede':' hóspedes')},
+  props:{en:n=>n+(n==1?' property':' properties'),pt:n=>n+(n==1?' imóvel':' imóveis')},
+  more:{en:n=>n+' or more',pt:n=>n+' ou mais'},
+  photos:{en:n=>'View all '+n+' photos',pt:n=>'Ver as '+n+' fotos'},
+  nights:{en:n=>n+(n==1?' night':' nights'),pt:n=>n+(n==1?' noite':' noites')}};
+ const PAT=[
+  [/^(\d+) huésped(es)?$/,(m,l)=>W.guests[l](+m[1])],
+  [/^(\d+) propiedad(es)?$/,(m,l)=>W.props[l](+m[1])],
+  [/^(\d+) o más$/,(m,l)=>W.more[l](m[1])],
+  [/^Ver las (\d+) fotos$/,(m,l)=>W.photos[l](m[1])],
+  [/^(\d+) noches?$/,(m,l)=>W.nights[l](+m[1])],
+  [/^Llegada: (.+)$/,(m,l)=>(l=='en'?'Arrival: ':'Chegada: ')+m[1]],
+  [/^(\d+) de (.+)$/,(m,l)=>{const i=MES.indexOf(m[2]);const mo=i>=0?MON[l][i]:m[2];return l=='en'?mo+' '+m[1]:m[1]+' de '+mo;}],
+  [/^([a-záéíóú]+) (\d{4})$/,(m,l)=>{const i=MES.indexOf(m[1]);return i<0?null:MON[l][i]+' '+m[2];}],
+  [/^(.+) · Miami$/,(m,l)=>null],
+  [/^Ver (.+)$/,(m,l)=>(l=='en'?'View ':'Ver ')+m[1]],
+  [/^Hola MAIARC, me interesa el servicio de (.+) en Miami\.$/,(m,l)=>{const s=tr(m[1],l)||m[1];return l=='en'?'Hi MAIARC, I’d like to know more about '+s+' in Miami.':'Olá MAIARC, gostaria de saber mais sobre '+s+' em Miami.';}],
+  [/^Hola MAIARC, me interesa (.+) en Miami\. ¿Me pasan disponibilidad\?$/,(m,l)=>l=='en'?'Hi MAIARC, I’m interested in '+m[1]+' in Miami. Could you share availability?':'Olá MAIARC, tenho interesse em '+m[1]+' em Miami. Podem me passar a disponibilidade?']
+ ];
+ function tr(s,l){if(l=='es')return null;const d=DICT[l];if(Object.prototype.hasOwnProperty.call(d,s))return d[s];for(const [re,f] of PAT){const m=s.match(re);if(m){const r=f(m,l);if(r!=null)return r;}}return null;}
+ let LANG='en';try{const v=localStorage.getItem('maiarc_lang');if(v&&/^(es|en|pt)$/.test(v))LANG=v;}catch(e){}
+ const orig=new WeakMap(),setv=new WeakMap();
+ function doText(n){if(!n.parentNode||n.parentNode.closest&&n.parentNode.closest('script,style'))return;
+  let src=orig.get(n);if(src==null||n.nodeValue!==setv.get(n)){src=n.nodeValue;orig.set(n,src);}
+  let out=src;if(LANG!='es'){const t=src.replace(/\s+/g,' ').trim();if(t){const r=tr(t,LANG);if(r!=null){const a=src.match(/^\s*/)[0],b=src.match(/\s*$/)[0];out=a+r+b;}}}
+  if(n.nodeValue!==out)n.nodeValue=out;setv.set(n,out);}
+ const AT=['placeholder','aria-label','title'];const aorig=new WeakMap();
+ function doEl(e){let o=aorig.get(e);if(!o){o={};aorig.set(e,o);}
+  for(const k of AT){if(!e.hasAttribute(k))continue;const v=e.getAttribute(k);if(o[k]==null||v!==o['_'+k])o[k]=v;let out=o[k];if(LANG!='es'){const r=tr(o[k],LANG);if(r!=null)out=r;}if(v!==out)e.setAttribute(k,out);o['_'+k]=out;}
+  if(e.tagName=='A'&&/wa\.me/.test(e.getAttribute('href')||'')){const h=e.getAttribute('href');if(o.href==null||h!==o._href)o.href=h;let out=o.href;
+   if(LANG!='es'){try{const u=new URL(o.href);const t=u.searchParams.get('text');if(t){const r=tr(t,LANG);if(r!=null){out=o.href.split('?')[0]+'?text='+encodeURIComponent(r);}}}catch(x){}}
+   if(h!==out)e.setAttribute('href',out);o._href=out;}}
+ function walk(root){if(root.nodeType==3){doText(root);return;}if(root.nodeType!=1)return;doEl(root);
+  const tw=document.createTreeWalker(root,NodeFilter.SHOW_TEXT|NodeFilter.SHOW_ELEMENT);let n;while(n=tw.nextNode()){n.nodeType==3?doText(n):doEl(n);}}
+ let busy=false;
+ const mo=new MutationObserver(ms=>{if(busy)return;busy=true;try{for(const m of ms){if(m.type=='characterData')doText(m.target);else if(m.type=='attributes')doEl(m.target);else m.addedNodes.forEach(walk);}}finally{busy=false;}});
+ function apply(){busy=true;try{document.documentElement.lang=LANG=='pt'?'pt-BR':LANG;walk(document.body);
+  const tt=document.querySelector('title');if(tt)tt.textContent='MAIARC Miami';}finally{busy=false;}
+  document.querySelectorAll('.langs a,.m-langs a').forEach(a=>a.classList.toggle('on',a.textContent.trim().toLowerCase()==LANG));
+  window.__lang=LANG;if(window.updateStay)window.updateStay();}
+ window.setLang=function(l){LANG=l;try{localStorage.setItem('maiarc_lang',l);}catch(e){}apply();};
+ document.addEventListener('click',e=>{const a=e.target.closest('.langs a,.m-langs a');if(!a)return;e.preventDefault();const l=a.textContent.trim().toLowerCase();if(/^(es|en|pt)$/.test(l))setLang(l);});
+ window.__lang=LANG;apply();
+ mo.observe(document.body,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['placeholder','aria-label','title','href']});
+})();
+</script>
+<!-- Cloudflare Web Analytics: se activa desde Cloudflare (Web Analytics → miami.maiarconcierge.com) con inyección automática -->
