@@ -323,27 +323,27 @@ window.SITE_PROPS={
    "visible": true
   },
   {
-   "id": "villa-celeste",
-   "name": "VILLA CELESTE",
+   "id": "villa-alma",
+   "name": "VILLA ALMA",
    "type": "Villa",
-   "zone": "Coral Gables / Coconut Grove",
+   "zone": "Design District",
    "area": "Miami",
    "beds": 5,
-   "baths": 6,
-   "guests": 14,
+   "baths": 3,
+   "guests": 12,
    "extra": [
     {
-     "v": "10.500 ft²",
+     "v": "3000",
      "l": {
-      "es": "Terreno",
+      "es": "FT2 Interior",
       "en": "",
       "pt": ""
      }
     },
     {
-     "v": "5.000 ft²",
+     "v": "8500",
      "l": {
-      "es": "Interior",
+      "es": "FT2 Terreno",
       "en": "",
       "pt": ""
      }
@@ -357,45 +357,41 @@ window.SITE_PROPS={
      "es": "Piscina"
     },
     {
-     "es": "Jacuzzi"
-    },
-    {
-     "es": "Sala de juegos"
-    },
-    {
-     "es": "Cocina exterior"
+     "es": "Ubicación céntrica"
     }
    ],
    "short": {
-    "es": "Piscina resort y sala de juegos",
+    "es": "En el corazón del Design District",
     "en": "",
     "pt": ""
    },
    "lead": {
-    "es": "Arquitectura moderna con aire caribeño, cinco suites y un jardín tropical bajo grandes árboles.",
+    "es": "Arte, diseño y moda a la puerta de casa, con piscina estilo spa y jardín tropical.",
     "en": "",
     "pt": ""
    },
    "desc": {
-    "es": "Diseñada por un arquitecto premiado, Villa Céleste combina el estilo moderno de Miami con un toque caribeño. Sus cinco suites se rodean de un jardín tropical cubierto por árboles imponentes. Paredes de vidrio unen el interior con terrazas cubiertas para descansar o comer al aire libre. La cocina a medida, con una isla de cuarzo de casi 4 metros, cava de vinos y equipamiento de alta gama, es ideal para una cena con chef privado. Afuera hay una piscina estilo resort con jacuzzi, deck de piedra coralina y cocina de verano. Adentro, una sala de juegos con pool, ping-pong y arcades.",
+    "es": "En el barrio de compras más buscado de Miami, Villa Alma permite ir caminando a galerías, boutiques de grandes marcas y restaurantes. La casa está pensada para recibir: planta abierta que fluye del interior al exterior, cocina de chef con electrodomésticos Sub-Zero, Bosch y Wolf, y ventanales de impacto de piso a techo que llenan todo de luz. La terraza cubierta da a un jardín tropical y a una piscina estilo spa. En pocos minutos en auto llegás a la playa, Wynwood o Downtown.",
     "en": "",
     "pt": ""
    },
    "amen": {
     "es": [
-     "5 suites",
-     "Piscina estilo resort con jacuzzi",
-     "Cocina de verano",
-     "Sala de juegos: pool, ping-pong y arcades",
-     "Cava de vinos",
-     "Terrazas cubiertas"
+     "Piscina estilo spa",
+     "Terraza cubierta",
+     "Cocina de chef (Sub-Zero, Bosch, Wolf)",
+     "Ventanales de impacto de piso a techo",
+     "Jardín tropical",
+     "Camas: 2 king y 4 queen",
+     "Piscina",
+     "Ubicación céntrica"
     ],
     "en": [],
     "pt": []
    },
    "photos": [
     {
-     "id": "villa-celeste-muvsnb161xo",
+     "id": "villa-alma-muvskp9alnt",
      "alt": {
       "es": "",
       "en": "",
@@ -403,7 +399,7 @@ window.SITE_PROPS={
      }
     },
     {
-     "id": "villa-celeste-muvsnb7pet8",
+     "id": "villa-alma-muvskogs3r8",
      "alt": {
       "es": "",
       "en": "",
@@ -411,7 +407,7 @@ window.SITE_PROPS={
      }
     },
     {
-     "id": "villa-celeste-muvsnb8rp6u",
+     "id": "villa-alma-muvskoi9nwq",
      "alt": {
       "es": "",
       "en": "",
@@ -419,7 +415,7 @@ window.SITE_PROPS={
      }
     },
     {
-     "id": "villa-celeste-muvsnbdzx8z",
+     "id": "villa-alma-muvskojtfc6",
      "alt": {
       "es": "",
       "en": "",
@@ -427,7 +423,7 @@ window.SITE_PROPS={
      }
     },
     {
-     "id": "villa-celeste-muvsnbeskm0",
+     "id": "villa-alma-muvskol3zdn",
      "alt": {
       "es": "",
       "en": "",
@@ -435,7 +431,7 @@ window.SITE_PROPS={
      }
     },
     {
-     "id": "villa-celeste-muvsnbfkpgo",
+     "id": "villa-alma-muvskomfjrw",
      "alt": {
       "es": "",
       "en": "",
@@ -443,7 +439,7 @@ window.SITE_PROPS={
      }
     },
     {
-     "id": "villa-celeste-muvsnbgf0bi",
+     "id": "villa-alma-muvskonpy7n",
      "alt": {
       "es": "",
       "en": "",
@@ -451,7 +447,7 @@ window.SITE_PROPS={
      }
     },
     {
-     "id": "villa-celeste-muvsnbh94ey",
+     "id": "villa-alma-muvskooz8gs",
      "alt": {
       "es": "",
       "en": "",
@@ -459,7 +455,7 @@ window.SITE_PROPS={
      }
     },
     {
-     "id": "villa-celeste-muvsnbi4toq",
+     "id": "villa-alma-muvskoq5q3i",
      "alt": {
       "es": "",
       "en": "",
@@ -467,7 +463,7 @@ window.SITE_PROPS={
      }
     },
     {
-     "id": "villa-celeste-muvsnblyold",
+     "id": "villa-alma-muvskorarpi",
      "alt": {
       "es": "",
       "en": "",
@@ -475,7 +471,7 @@ window.SITE_PROPS={
      }
     },
     {
-     "id": "villa-celeste-muvsnbmwrf5",
+     "id": "villa-alma-muvskosgu8c",
      "alt": {
       "es": "",
       "en": "",
@@ -483,7 +479,7 @@ window.SITE_PROPS={
      }
     },
     {
-     "id": "villa-celeste-muvsnbntvp3",
+     "id": "villa-alma-muvskotj1rf",
      "alt": {
       "es": "",
       "en": "",
@@ -491,7 +487,7 @@ window.SITE_PROPS={
      }
     },
     {
-     "id": "villa-celeste-muvsnboncnm",
+     "id": "villa-alma-muvskoukbt3",
      "alt": {
       "es": "",
       "en": "",
@@ -499,7 +495,7 @@ window.SITE_PROPS={
      }
     },
     {
-     "id": "villa-celeste-muvsnbpfvkx",
+     "id": "villa-alma-muvskovno73",
      "alt": {
       "es": "",
       "en": "",
@@ -507,7 +503,7 @@ window.SITE_PROPS={
      }
     },
     {
-     "id": "villa-celeste-muvsnbq8xor",
+     "id": "villa-alma-muvskowtzw5",
      "alt": {
       "es": "",
       "en": "",
@@ -515,7 +511,7 @@ window.SITE_PROPS={
      }
     },
     {
-     "id": "villa-celeste-muvsnbr2c4f",
+     "id": "villa-alma-muvskoxyju4",
      "alt": {
       "es": "",
       "en": "",
@@ -523,7 +519,7 @@ window.SITE_PROPS={
      }
     },
     {
-     "id": "villa-celeste-muvsnbryc6u",
+     "id": "villa-alma-muvskoz2d1e",
      "alt": {
       "es": "",
       "en": "",
@@ -531,7 +527,7 @@ window.SITE_PROPS={
      }
     },
     {
-     "id": "villa-celeste-muvsnbsq208",
+     "id": "villa-alma-muvskp0dq9x",
      "alt": {
       "es": "",
       "en": "",
@@ -539,7 +535,7 @@ window.SITE_PROPS={
      }
     },
     {
-     "id": "villa-celeste-muvsnbtktd6",
+     "id": "villa-alma-muvskp1fitw",
      "alt": {
       "es": "",
       "en": "",
@@ -547,7 +543,7 @@ window.SITE_PROPS={
      }
     },
     {
-     "id": "villa-celeste-muvsnbugax4",
+     "id": "villa-alma-muvskp2iy9h",
      "alt": {
       "es": "",
       "en": "",
@@ -555,7 +551,7 @@ window.SITE_PROPS={
      }
     },
     {
-     "id": "villa-celeste-muvsnby2vhx",
+     "id": "villa-alma-muvskp3sb02",
      "alt": {
       "es": "",
       "en": "",
@@ -563,7 +559,7 @@ window.SITE_PROPS={
      }
     },
     {
-     "id": "villa-celeste-muvsnbz2a31",
+     "id": "villa-alma-muvskp4soo2",
      "alt": {
       "es": "",
       "en": "",
@@ -571,7 +567,7 @@ window.SITE_PROPS={
      }
     },
     {
-     "id": "villa-celeste-muvsnc09j3q",
+     "id": "villa-alma-muvskp61yzt",
      "alt": {
       "es": "",
       "en": "",
@@ -579,7 +575,7 @@ window.SITE_PROPS={
      }
     },
     {
-     "id": "villa-celeste-muvsnc2dfte",
+     "id": "villa-alma-muvskp7kc1q",
      "alt": {
       "es": "",
       "en": "",
@@ -587,7 +583,7 @@ window.SITE_PROPS={
      }
     },
     {
-     "id": "villa-celeste-muvsnc3ihti",
+     "id": "villa-alma-muvskpaj1ol",
      "alt": {
       "es": "",
       "en": "",
@@ -595,31 +591,7 @@ window.SITE_PROPS={
      }
     },
     {
-     "id": "villa-celeste-muvsnc8p35l",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-celeste-muvsncds9ie",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-celeste-muvsncey0s2",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-celeste-muvsncfxaoh",
+     "id": "villa-alma-muvskpbpe5f",
      "alt": {
       "es": "",
       "en": "",
@@ -627,8 +599,8 @@ window.SITE_PROPS={
      }
     }
    ],
-   "feat": "villa-celeste-muvsnc09j3q",
-   "card": "villa-celeste-muvsnc09j3q",
+   "feat": "villa-alma-muvskp9alnt",
+   "card": "villa-alma-muvskp9alnt",
    "home": true,
    "visible": true
   }
