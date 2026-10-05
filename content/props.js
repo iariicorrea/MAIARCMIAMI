@@ -1465,6 +1465,304 @@ window.SITE_PROPS={
    "card": "villa-orilla-muvtmt0bbt4",
    "home": true,
    "visible": true
+  },
+  {
+   "id": "villa-gala",
+   "name": "VILLA GALA",
+   "type": "Villa",
+   "zone": "West Miami",
+   "area": "Miami",
+   "beds": 5,
+   "baths": 5,
+   "guests": 14,
+   "extra": [
+    {
+     "v": "3.600",
+     "l": {
+      "es": "ft² · Interior",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "v": "11.400",
+     "l": {
+      "es": "ft² · Terreno",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "ops": [
+    "alquiler"
+   ],
+   "tags": [
+    {
+     "es": "Piscina"
+    },
+    {
+     "es": "Jacuzzi"
+    },
+    {
+     "es": "Cancha deportiva"
+    },
+    {
+     "es": "Cocina exterior"
+    },
+    {
+     "es": "Propiedad cerrada"
+    }
+   ],
+   "short": {
+    "es": "",
+    "en": "",
+    "pt": ""
+   },
+   "lead": {
+    "es": "Una casa moderna y cerrada, pensada para disfrutar en grupo, con piscina, jacuzzi y área de juegos.",
+    "en": "",
+    "pt": ""
+   },
+   "desc": {
+    "es": "Villa Gala combina estilo, comodidad y entretenimiento en una propiedad totalmente cerrada. Tiene piscina con camastros dentro del agua, jacuzzi, y una cocina y bar exterior con lounge cubierto y TV, para disfrutar de día y de noche. Hay cancha de básquet, ping-pong y espacios abiertos para reunirse. Adentro, los cinco dormitorios son cómodos y los livings se abren al exterior. Está a minutos de la autopista, con acceso rápido a restaurantes, compras y playas.Dormitorio principal: 1 cama king.\nDormitorio 2: 1 cama king.\nDormitorio 3: 1 cama queen.\nDormitorio 4: 2 camas queen.\nDormitorio 5: 2 camas queen.",
+    "en": "",
+    "pt": ""
+   },
+   "amen": {
+    "es": [
+     "Propiedad cerrada",
+     "Piscina con camastros en el agua",
+     "Jacuzzi",
+     "Cocina y bar exterior",
+     "Lounge cubierto con TV",
+     "Cancha de básquet",
+     "Ping-pong"
+    ],
+    "en": [],
+    "pt": []
+   },
+   "photos": [
+    {
+     "id": "villa-gala-muvtzuxcory",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-gala-muvtzuyvweg",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-gala-muvtzv0habn",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-gala-muvtzv29fas",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-gala-muvtzv3fts7",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-gala-muvtzv4mqfx",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-gala-muvtzv5tq22",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-gala-muvtzv6yes2",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-gala-muvtzv84xpb",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-gala-muvtzv99787",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-gala-muvtzvaeege",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-gala-muvtzvbiqdq",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-gala-muvtzvcjwc2",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-gala-muvtzvdn6mm",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-gala-muvtzvf3p8u",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-gala-muvtzvgmd9s",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-gala-muvtzvi8doj",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-gala-muvtzvk5whe",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-gala-muvtzvm64o4",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-gala-muvtzvnnqkr",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-gala-muvtzvp3uit",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-gala-muvtzvqc41b",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-gala-muvtzvrvq9n",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-gala-muvtzvtd12j",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-gala-muvtzvuq1mz",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-gala-muvtzvw4qo6",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-gala-muvtzvxm6al",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "feat": "villa-gala-muvtzv0habn",
+   "card": "villa-gala-muvtzv0habn",
+   "home": true,
+   "visible": true
   }
  ]
 };
