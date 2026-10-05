@@ -15,16 +15,16 @@ window.SITE_PROPS={
      "v": "12,000",
      "l": {
       "es": "Total Area",
-      "en": "",
-      "pt": ""
+      "en": "Total area",
+      "pt": "Área Total"
      }
     },
     {
      "v": "3,500",
      "l": {
       "es": "Interior Sq Ft",
-      "en": "",
-      "pt": ""
+      "en": "Interior Sq Ft",
+      "pt": "Interiores Sq Ft"
      }
     }
    ],
@@ -33,29 +33,35 @@ window.SITE_PROPS={
    ],
    "tags": [
     {
-     "es": "Spa"
+     "es": "Spa",
+     "en": "Spa",
+     "pt": "Spa"
     },
     {
-     "es": "frente al agua"
+     "es": "frente al agua",
+     "en": "In front of water",
+     "pt": "Diante da água"
     },
     {
-     "es": "piscina"
+     "es": "piscina",
+     "en": "Swimming Pool",
+     "pt": "Piscina"
     }
    ],
    "short": {
     "es": "Frente al agua",
-    "en": "",
-    "pt": ""
+    "en": "Waterfront",
+    "pt": "Diante da água"
    },
    "lead": {
     "es": "Residencia frente al agua, con piscina, spa y casa de huéspedes independiente.",
-    "en": "",
-    "pt": ""
+    "en": "Waterfront residence, with pool, spa and independent guest house.",
+    "pt": "Residência em frente à água, com piscina, spa e casa de hóspedes independente."
    },
    "desc": {
     "es": "Villa Sora es una residencia completamente remodelada sobre un amplio terreno frente al canal Intracoastal de Fort Lauderdale. El living y el comedor tienen vistas al agua y ventanales de piso a techo que aportan luz natural. La cocina abierta está equipada con electrodomésticos de alta gama.\nLa planta baja incluye una suite, un dormitorio de invitados y una sala multimedia. En el jardín se encuentra una casa de huéspedes independiente con baño completo. Los exteriores cuentan con piscina de diseño, spa y una terraza frente al agua.",
-    "en": "",
-    "pt": ""
+    "en": "Villa Sora is a fully refurbished residence on a large terrain in front of Fort Lauderdale's Intracoastal Channel. The living and dining rooms have water views and floor-to-top windows that provide natural light. The open kitchen is equipped with high-end appliances. The ground floor includes a suite, a guest bedroom and a multimedia room. In the garden there is an independent guest house with full bathroom. The exterior features a design pool, spa and a waterfront terrace.",
+    "pt": "Villa Sora é uma residência completamente remodelada em um amplo terreno em frente ao canal Intracoastal de Fort Lauderdale. O living e o jantar têm vista para a água e janelas de piso a teto que proporcionam luz natural. A cozinha aberta está equipada com eletrodomésticos de alta gama. O piso térreo inclui uma suíte, um quarto de hóspedes e uma sala multimídia. No jardim há uma casa de hóspedes independente com banheiro completo. Os exteriores incluem piscina de design, spa e um terraço em frente à água."
    },
    "amen": {
     "es": [
@@ -64,8 +70,18 @@ window.SITE_PROPS={
      "Piscina",
      "Casa de huéspedes"
     ],
-    "en": [],
-    "pt": []
+    "en": [
+     "Water front",
+     "Spa",
+     "Swimming Pool",
+     "Guest house"
+    ],
+    "pt": [
+     "Diante da água",
+     "Spa",
+     "Piscina",
+     "Casa de hóspedes"
+    ]
    },
    "photos": [
     {
