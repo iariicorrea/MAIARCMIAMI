@@ -1193,6 +1193,278 @@ window.SITE_PROPS={
    "card": "villa-nacar-muvtd4hh423",
    "home": true,
    "visible": true
+  },
+  {
+   "id": "villa-orilla",
+   "name": "VILLA ORILLA",
+   "type": "Villa",
+   "zone": "Hollywood",
+   "area": "Sur de Florida",
+   "beds": 5,
+   "baths": 5,
+   "guests": 10,
+   "extra": [
+    {
+     "v": "3.660",
+     "l": {
+      "es": "ft² · Interior",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "v": "12.000",
+     "l": {
+      "es": "ft² · Terreno",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "ops": [
+    "alquiler"
+   ],
+   "tags": [
+    {
+     "es": "Piscina"
+    },
+    {
+     "es": "Frente al agua"
+    }
+   ],
+   "short": {
+    "es": "Frente al agua",
+    "en": "",
+    "pt": ""
+   },
+   "lead": {
+    "es": "Una casa sobre el agua, con acceso directo al océano y vistas desde la entrada.",
+    "en": "",
+    "pt": ""
+   },
+   "desc": {
+    "es": "En una de las zonas más exclusivas de Hollywood Beach, Villa Orilla ocupa un lote con 30 metros de frente al agua y salida directa al océano. Pensada para la vida junto al agua, integra interior y exterior con terminaciones de diseño, cocina y baños de firma italiana y electrodomésticos Miele. La suite principal y una segunda suite tienen balcón propio, ideal para el café de la mañana o una copa al atardecer. Tardes en la piscina y, al caer el sol, una cena con chef privado en casa. A minutos de restaurantes y vida nocturna.",
+    "en": "",
+    "pt": ""
+   },
+   "amen": {
+    "es": [
+     "30 m de frente al agua",
+     "Acceso directo al océano",
+     "Piscina",
+     "Balcones privados en 2 suites",
+     "Electrodomésticos Miele",
+     "2 toilettes"
+    ],
+    "en": [],
+    "pt": []
+   },
+   "photos": [
+    {
+     "id": "villa-orilla-muvtmt0bbt4",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-orilla-muvtmt25cbi",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-orilla-muvtmt3zn3a",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-orilla-muvtmt5nnmg",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-orilla-muvtmt6lo96",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-orilla-muvtmt7fmct",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-orilla-muvtmt89er1",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-orilla-muvtmt918he",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-orilla-muvtmta3pff",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-orilla-muvtmtay8a4",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-orilla-muvtmtcyzhg",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-orilla-muvtmteo49i",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-orilla-muvtmtfu4fr",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-orilla-muvtmthgg7g",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-orilla-muvtmtj54vg",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-orilla-muvtmtk8g8q",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-orilla-muvtmtl7kav",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-orilla-muvtmtmffpn",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-orilla-muvtmtnvdwg",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-orilla-muvtmtpncyi",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-orilla-muvtmtrfejh",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-orilla-muvtmtt8nzz",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-orilla-muvtmtvnbu8",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-orilla-muvtmtx9fu1",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-orilla-muvtmtz06sg",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "feat": "villa-orilla-muvtmt0bbt4",
+   "card": "villa-orilla-muvtmt0bbt4",
+   "home": true,
+   "visible": true
   }
  ]
 };
