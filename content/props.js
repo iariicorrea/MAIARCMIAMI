@@ -321,6 +321,316 @@ window.SITE_PROPS={
    "card": "villa-sora-muvs4azr9n3",
    "home": true,
    "visible": true
+  },
+  {
+   "id": "villa-celeste",
+   "name": "VILLA CELESTE",
+   "type": "Villa",
+   "zone": "Coral Gables / Coconut Grove",
+   "area": "Miami",
+   "beds": 5,
+   "baths": 6,
+   "guests": 14,
+   "extra": [
+    {
+     "v": "10.500 ft²",
+     "l": {
+      "es": "Terreno",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "v": "5.000 ft²",
+     "l": {
+      "es": "Interior",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "ops": [
+    "alquiler"
+   ],
+   "tags": [
+    {
+     "es": "Piscina"
+    },
+    {
+     "es": "Jacuzzi"
+    },
+    {
+     "es": "Sala de juegos"
+    },
+    {
+     "es": "Cocina exterior"
+    }
+   ],
+   "short": {
+    "es": "Piscina resort y sala de juegos",
+    "en": "",
+    "pt": ""
+   },
+   "lead": {
+    "es": "Arquitectura moderna con aire caribeño, cinco suites y un jardín tropical bajo grandes árboles.",
+    "en": "",
+    "pt": ""
+   },
+   "desc": {
+    "es": "Diseñada por un arquitecto premiado, Villa Céleste combina el estilo moderno de Miami con un toque caribeño. Sus cinco suites se rodean de un jardín tropical cubierto por árboles imponentes. Paredes de vidrio unen el interior con terrazas cubiertas para descansar o comer al aire libre. La cocina a medida, con una isla de cuarzo de casi 4 metros, cava de vinos y equipamiento de alta gama, es ideal para una cena con chef privado. Afuera hay una piscina estilo resort con jacuzzi, deck de piedra coralina y cocina de verano. Adentro, una sala de juegos con pool, ping-pong y arcades.",
+    "en": "",
+    "pt": ""
+   },
+   "amen": {
+    "es": [
+     "5 suites",
+     "Piscina estilo resort con jacuzzi",
+     "Cocina de verano",
+     "Sala de juegos: pool, ping-pong y arcades",
+     "Cava de vinos",
+     "Terrazas cubiertas"
+    ],
+    "en": [],
+    "pt": []
+   },
+   "photos": [
+    {
+     "id": "villa-celeste-muvsnb161xo",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-celeste-muvsnb7pet8",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-celeste-muvsnb8rp6u",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-celeste-muvsnbdzx8z",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-celeste-muvsnbeskm0",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-celeste-muvsnbfkpgo",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-celeste-muvsnbgf0bi",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-celeste-muvsnbh94ey",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-celeste-muvsnbi4toq",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-celeste-muvsnblyold",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-celeste-muvsnbmwrf5",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-celeste-muvsnbntvp3",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-celeste-muvsnboncnm",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-celeste-muvsnbpfvkx",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-celeste-muvsnbq8xor",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-celeste-muvsnbr2c4f",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-celeste-muvsnbryc6u",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-celeste-muvsnbsq208",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-celeste-muvsnbtktd6",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-celeste-muvsnbugax4",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-celeste-muvsnby2vhx",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-celeste-muvsnbz2a31",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-celeste-muvsnc09j3q",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-celeste-muvsnc2dfte",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-celeste-muvsnc3ihti",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-celeste-muvsnc8p35l",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-celeste-muvsncds9ie",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-celeste-muvsncey0s2",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-celeste-muvsncfxaoh",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "feat": "villa-celeste-muvsnc09j3q",
+   "card": "villa-celeste-muvsnc09j3q",
+   "home": true,
+   "visible": true
   }
  ]
 };
