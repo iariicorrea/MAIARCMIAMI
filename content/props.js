@@ -913,6 +913,286 @@ window.SITE_PROPS={
    "card": "villa-alma-muvskp9alnt",
    "home": true,
    "visible": true
+  },
+  {
+   "id": "villa-nacar",
+   "name": "VILLA NACAR",
+   "type": "Villa",
+   "zone": "Little Gables",
+   "area": "Miami",
+   "beds": 5,
+   "baths": 3,
+   "guests": 14,
+   "extra": [
+    {
+     "v": "2.954",
+     "l": {
+      "es": "ft² · Interior",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "v": "7.500",
+     "l": {
+      "es": "ft² · Terreno",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "ops": [
+    "alquiler"
+   ],
+   "tags": [
+    {
+     "es": "Piscina"
+    },
+    {
+     "es": "Juegos al aire libre"
+    }
+   ],
+   "short": {
+    "es": "A minutos de Coral Gables",
+    "en": "",
+    "pt": ""
+   },
+   "lead": {
+    "es": "Estilo mediterráneo con un giro moderno, piscina de agua salada y jardín para vivir al aire libre.",
+    "en": "",
+    "pt": ""
+   },
+   "desc": {
+    "es": "De construcción reciente, Villa Nácar reinterpreta el estilo mediterráneo con líneas modernas, a minutos de Coral Gables. Sus cinco dormitorios amplios reciben cómodamente a 14 huéspedes. El recibidor lleva al family room con cocina comedor, y los ventanales de doble altura dan a la piscina de agua salada con solárium. Un sector sombreado del jardín está pensado para comer y jugar. Cerca de los cafés y restaurantes de Miracle Mile, y con acceso rápido a la autopista para llegar a Downtown, Wynwood o la playa.",
+    "en": "",
+    "pt": ""
+   },
+   "amen": {
+    "es": [
+     "Piscina de agua salada",
+     "Solárium con hidromasaje",
+     "Comedor exterior a la sombra",
+     "Ping-pong",
+     "Cornhole",
+     "Ventanales de doble altura"
+    ],
+    "en": [],
+    "pt": []
+   },
+   "photos": [
+    {
+     "id": "villa-nacar-muvtd4hh423",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nacar-muvtd4jazw5",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nacar-muvtd4l2rc1",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nacar-muvtd4moiog",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nacar-muvtd5id2yo",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nacar-muvtd5a39hh",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nacar-muvtd585ktv",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nacar-muvtd5cdt7v",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nacar-muvtd5eiqc3",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nacar-muvtd5gdmtz",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nacar-muvtd4nx7d6",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nacar-muvtd4p4260",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nacar-muvtd4qb5cw",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nacar-muvtd4rkc9i",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nacar-muvtd4stp7r",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nacar-muvtd4u7az5",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nacar-muvtd4vha1o",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nacar-muvtd4wq8li",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nacar-muvtd4xzr2k",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nacar-muvtd4z79yi",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nacar-muvtd50bmpx",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nacar-muvtd51nmzp",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nacar-muvtd52y842",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nacar-muvtd56d11i",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nacar-muvtd54saq5",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nacar-muvtd5knfh8",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "feat": "villa-nacar-muvtd4hh423",
+   "card": "villa-nacar-muvtd4hh423",
+   "home": true,
+   "visible": true
   }
  ]
 };
