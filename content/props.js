@@ -1763,6 +1763,334 @@ window.SITE_PROPS={
    "card": "villa-gala-muvtzv0habn",
    "home": true,
    "visible": true
+  },
+  {
+   "id": "villa-laurel",
+   "name": "VILLA LAUREL",
+   "type": "Villa",
+   "zone": "South Miami",
+   "area": "Miami",
+   "beds": 5,
+   "baths": 5,
+   "guests": 12,
+   "extra": [
+    {
+     "v": "4.534",
+     "l": {
+      "es": "ft² · Interior",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "v": "24.600",
+     "l": {
+      "es": "ft² · Terreno",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "ops": [
+    "alquiler"
+   ],
+   "tags": [
+    {
+     "es": "Piscina"
+    },
+    {
+     "es": "Frente al agua"
+    }
+   ],
+   "short": {
+    "es": "Frente al lago, con atardeceres sobre el agua",
+    "en": "",
+    "pt": ""
+   },
+   "lead": {
+    "es": "Una residencia contemporánea frente al lago, con techos altos, piscina infinita y vistas al atardecer.",
+    "en": "",
+    "pt": ""
+   },
+   "desc": {
+    "es": "Villa Laurel es una casa contemporánea de construcción reciente, frente a un lago y sobre un terreno de más de 2.000 m². Los techos altos y los ventanales de impacto de piso a techo llenan de luz su planta abierta. En planta baja hay dos suites, living, comedor, family room y toilette. Arriba están la suite principal, con vestidor y balcón con vista al lago, otras dos suites y un loft amplio. La cocina tiene equipamiento de primera línea, y la piscina infinita mira al agua. Cuatro de los dormitorios tienen vista al lago.\n",
+    "en": "",
+    "pt": ""
+   },
+   "amen": {
+    "es": [
+     "Frente al lago",
+     "Piscina infinita",
+     "5 suites",
+     "Suite principal con vestidor y balcón",
+     "Loft",
+     "Toilette"
+    ],
+    "en": [],
+    "pt": []
+   },
+   "photos": [
+    {
+     "id": "villa-laurel-muvuifv48f0",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuify2yb2",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuig0irx7",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuj0ww89d",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuig3f9sv",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuig6rrca",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuigbbmrj",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuj0jf6g4",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuigg9skr",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuigkk5lc",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuign4j22",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuigqlgxu",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuigu2czv",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuigxzq10",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuih26bnh",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuih4m7dx",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuih8d9jv",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuihc1czm",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuihehx8g",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuihkcgmt",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuizoh79z",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuiztp1rn",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuizyrpc6",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuj03mh16",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuj07puy2",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuj0b3blp",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuj0eq4vd",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuj0nscpf",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuj0s3naw",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuj11dm97",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuj16eg7h",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuj1bwezt",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "feat": "villa-laurel-muvuifv48f0",
+   "card": "villa-laurel-muvuifv48f0",
+   "home": true,
+   "visible": true
   }
  ]
 };
