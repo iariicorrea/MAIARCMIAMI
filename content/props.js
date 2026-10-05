@@ -391,7 +391,7 @@ window.SITE_PROPS={
    },
    "photos": [
     {
-     "id": "villa-alma-muvskoi9nwq",
+     "id": "villa-alma-muvskp9alnt",
      "alt": {
       "es": "",
       "en": "",
@@ -399,7 +399,7 @@ window.SITE_PROPS={
      }
     },
     {
-     "id": "villa-alma-muvskp9alnt",
+     "id": "villa-alma-muvskoi9nwq",
      "alt": {
       "es": "",
       "en": "",
