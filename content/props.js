@@ -3260,6 +3260,307 @@ window.SITE_PROPS={
    "card": "villa-cadiz-mux26nfzx7h",
    "home": true,
    "visible": true
+  },
+  {
+   "id": "villa-julieta",
+   "name": "VILLA JULIETA",
+   "type": "Villa",
+   "zone": "Miami Shores",
+   "area": "Miami",
+   "beds": 7,
+   "baths": 5,
+   "guests": 20,
+   "extra": [
+    {
+     "v": "6.679",
+     "l": {
+      "es": "ft² · Interior",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "v": "17.570",
+     "l": {
+      "es": "ft² · Terreno",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "ops": [
+    "alquiler"
+   ],
+   "tags": [
+    {
+     "es": "Piscina"
+    },
+    {
+     "es": "Sala de cine"
+    },
+    {
+     "es": "Sala de juegos"
+    }
+   ],
+   "short": {
+    "es": "Paraíso privado",
+    "en": "",
+    "pt": ""
+   },
+   "lead": {
+    "es": "Un resort privado, con cine, bar y una piscina con tobogán y cascadas.",
+    "en": "",
+    "pt": ""
+   },
+   "desc": {
+    "es": "Villa Julieta reúne todo lo de un paraíso privado bajo un mismo techo. Su arquitectura mezcla un interior moderno con fachadas de estilo Tudor y mediterráneo. Tiene siete dormitorios, cocina comedor de chef, family room con TV y juegos, comedor de techos altos y un salón. Suma una sala de cine con sonido Dolby y cortinas blackout, y un bar con mesa de pool que mira a la piscina con tobogán y cascadas, todo dentro de una propiedad cerrada. La suite principal tiene escritorio y dos baños, uno con jacuzzi y otro con ducha de vapor. Afuera hay parrilla a gas.",
+    "en": "",
+    "pt": ""
+   },
+   "amen": {
+    "es": [
+     "Sala de cine con sonido Dolby",
+     "Piscina con tobogán y cascadas",
+     "Bar con mesa de pool",
+     "Propiedad cerrada",
+     "Suite principal con jacuzzi y ducha de vapor",
+     "Parrilla a gas",
+     "2 toilettes",
+     "Camas: 1 king, 6 queen, 2 individuales y 1 sofá cama"
+    ],
+    "en": [],
+    "pt": []
+   },
+   "photos": [
+    {
+     "id": "villa-julieta-mux2cxr4fkt",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-julieta-mux2cxsjuaz",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-julieta-mux2cxu0v2n",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-julieta-mux2cxvkjfo",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-julieta-mux2cxwte1z",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-julieta-mux2cxy2u08",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-julieta-mux2cxz56y5",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-julieta-mux2cy0amni",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-julieta-mux2cy1jgcj",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-julieta-mux2cy2q316",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-julieta-mux2cy45dcx",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-julieta-mux2cy59gyx",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-julieta-mux2cy6i9ce",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-julieta-mux2cy7ti5j",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-julieta-mux2cy8yuyi",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-julieta-mux2cya2pxp",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-julieta-mux2cyb3xnm",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-julieta-mux2cyca78n",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-julieta-mux2cydfbg2",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-julieta-mux2cyeozo0",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-julieta-mux2cyfsrta",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-julieta-mux2cygym5k",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-julieta-mux2cyi5xnw",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-julieta-mux2cyjcp12",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-julieta-mux2cykh1nu",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-julieta-mux2cym25pj",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-julieta-mux2cynh5r6",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-julieta-mux2cyp67w0",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "feat": "villa-julieta-mux2cxr4fkt",
+   "card": "villa-julieta-mux2cxr4fkt",
+   "home": true,
+   "visible": true
   }
  ]
 };
