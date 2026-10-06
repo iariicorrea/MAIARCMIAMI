@@ -3561,6 +3561,300 @@ window.SITE_PROPS={
    "card": "villa-julieta-mux2cxr4fkt",
    "home": true,
    "visible": true
+  },
+  {
+   "id": "villa-ceiba",
+   "name": "VILLA CEIBA",
+   "type": "Villa",
+   "zone": "North Miami",
+   "area": "Miami",
+   "beds": 7,
+   "baths": 5,
+   "guests": 16,
+   "extra": [
+    {
+     "v": "5.500",
+     "l": {
+      "es": "ft² · Interior",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "v": "1 Acre",
+     "l": {
+      "es": "Terreno",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "ops": [
+    "alquiler"
+   ],
+   "tags": [
+    {
+     "es": "Piscina"
+    },
+    {
+     "es": "Jacuzzi"
+    },
+    {
+     "es": "Cancha deportiva"
+    },
+    {
+     "es": "Sala de juegos"
+    },
+    {
+     "es": "Cocina exterior"
+    },
+    {
+     "es": "Propiedad cerrada"
+    }
+   ],
+   "short": {
+    "es": "Resort privado con mini golf y cancha",
+    "en": "",
+    "pt": ""
+   },
+   "lead": {
+    "es": "Una propiedad cerrada de casi media hectárea, con piscina estilo resort, cancha y mini golf iluminado.",
+    "en": "",
+    "pt": ""
+   },
+   "desc": {
+    "es": "Villa Ceiba es un refugio privado sobre un terreno cerrado de casi media hectárea, con jardines tropicales y diseño moderno. Sus siete dormitorios se completan con una casa de huéspedes independiente, ideal para grupos. Afuera hay piscina estilo resort con jacuzzi, cocina exterior, lounge y comedor cubierto. Para jugar: cancha de básquet y pickleball, ping-pong, mesa de pool y un green de mini golf con luces LED para la noche. Perfecta para familias o grupos, a minutos de playas, vida nocturna y atracciones.",
+    "en": "",
+    "pt": ""
+   },
+   "amen": {
+    "es": [
+     "ropiedad cerrada",
+     "Piscina estilo resort con jacuzzi",
+     "Cancha de básquet y pickleball",
+     "Mini golf con luces LED",
+     "Mesa de pool y ping-pong",
+     "Cocina exterior y comedor cubierto",
+     "Casa de huéspedes",
+     "Camas: 1 king y 7 queen"
+    ],
+    "en": [],
+    "pt": []
+   },
+   "photos": [
+    {
+     "id": "villa-ceiba-mux2jrc8hqe",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-ceiba-mux2jrecn79",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-ceiba-mux2jrg0qp1",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-ceiba-mux2jrhzxbq",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-ceiba-mux2jrjhom2",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-ceiba-mux2jrkzcge",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-ceiba-mux2jrmtilr",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-ceiba-mux2jroop5e",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-ceiba-mux2jrqt6q0",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-ceiba-mux2jrt288t",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-ceiba-mux2jrupkli",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-ceiba-mux2jrw3jl1",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-ceiba-mux2jrxitpy",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-ceiba-mux2jryulm6",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-ceiba-mux2js08u1h",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-ceiba-mux2js1medz",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-ceiba-mux2js323rt",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-ceiba-mux2js4n2za",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-ceiba-mux2js60ocf",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-ceiba-mux2js7w2vd",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-ceiba-mux2js9rteu",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-ceiba-mux2jsbmcrm",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-ceiba-mux2jsdbhfx",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-ceiba-mux2jsep9jz",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-ceiba-mux2jsgfv29",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-ceiba-mux2jsicpac",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "feat": "villa-ceiba-mux2jrc8hqe",
+   "card": "villa-ceiba-mux2jrc8hqe",
+   "home": true,
+   "visible": true
   }
  ]
 };
