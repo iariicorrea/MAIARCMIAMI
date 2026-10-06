@@ -1761,7 +1761,7 @@ window.SITE_PROPS={
    ],
    "feat": "villa-gala-muvtzv0habn",
    "card": "villa-gala-muvtzv0habn",
-   "home": true,
+   "home": false,
    "visible": true
   },
   {
