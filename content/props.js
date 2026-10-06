@@ -4138,6 +4138,302 @@ window.SITE_PROPS={
    "card": "villa-sabina-mux2qrrh4uy",
    "home": true,
    "visible": true
+  },
+  {
+   "id": "villa-murano",
+   "name": "VILLA MURANO",
+   "type": "Villa",
+   "zone": "Venetian Islands",
+   "area": "Miami",
+   "beds": 5,
+   "baths": 6,
+   "guests": 12,
+   "extra": [
+    {
+     "v": "3.700",
+     "l": {
+      "es": "ft² · Interior",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "v": "13.500",
+     "l": {
+      "es": "ft² · Terreno",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "ops": [
+    "alquiler"
+   ],
+   "tags": [
+    {
+     "es": "Piscina"
+    },
+    {
+     "es": "Jacuzzi"
+    },
+    {
+     "es": "Frente al agua"
+    },
+    {
+     "es": "Muelle privado"
+    }
+   ],
+   "short": {
+    "es": "Frente a la bahía, con muelle propio",
+    "en": "",
+    "pt": ""
+   },
+   "lead": {
+    "es": "Una casa renovada frente a la bahía, con vistas abiertas al skyline y atardeceres sobre el agua.",
+    "en": "",
+    "pt": ""
+   },
+   "desc": {
+    "es": " Totalmente renovada, Villa Murano está frente a la bahía, con vistas abiertas al agua, al skyline de Miami y a los atardeceres. Ocupa un lote amplio con 27 metros de frente al agua. Sus interiores son luminosos y modernos, y se integran con el exterior. Tiene piscina, jacuzzi frente al agua, comedor exterior y muelle privado para ver caer el sol. Está a minutos de Miami Beach, Downtown, Brickell y los mejores restaurantes, compras y vida nocturna.\n",
+    "en": "",
+    "pt": ""
+   },
+   "amen": {
+    "es": [
+     "27 m de frente a la bahía",
+     "Muelle privado",
+     "Piscina",
+     "Jacuzzi frente al agua",
+     "Parrilla",
+     "Comedor exterior",
+     "Toilette",
+     "Camas: 2 king y 4 queen"
+    ],
+    "en": [],
+    "pt": []
+   },
+   "photos": [
+    {
+     "id": "villa-murano-mux2ymf007w",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ymh0gju",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ymirdgz",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ymkfb8i",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ymm7h9i",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ymnr64j",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ympewqt",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ymrbtyt",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ymskcgo",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ymts7l0",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ymv0xhq",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ymwayfm",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ymxcqcs",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ymyiffa",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ymzph5u",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2yn0yaax",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2yn2500j",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2yn3h3jy",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2yn4yhbe",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2yn6l6ll",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2yn8g90b",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ynah4c8",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ynccobd",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ynec1x3",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2yng09j3",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ynhlk1c",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ynjdft5",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "feat": "villa-murano-mux2ymf007w",
+   "card": "villa-murano-mux2ymf007w",
+   "home": true,
+   "visible": true
   }
  ]
 };
