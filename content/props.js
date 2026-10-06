@@ -3855,6 +3855,289 @@ window.SITE_PROPS={
    "card": "villa-ceiba-mux2jrc8hqe",
    "home": true,
    "visible": true
+  },
+  {
+   "id": "villa-sabina",
+   "name": "VILLA SABINA",
+   "type": "Villa",
+   "zone": "Venetian Islands",
+   "area": "Miami",
+   "beds": 8,
+   "baths": 8,
+   "guests": 14,
+   "extra": [
+    {
+     "v": "7.400",
+     "l": {
+      "es": "ft² · Interior",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "ops": [
+    "alquiler"
+   ],
+   "tags": [
+    {
+     "es": "Piscina"
+    },
+    {
+     "es": "Jacuzzi"
+    },
+    {
+     "es": "Sauna"
+    },
+    {
+     "es": "Sala de cine"
+    },
+    {
+     "es": "Frente al agua"
+    }
+   ],
+   "short": {
+    "es": "Piscina infinita en la azotea",
+    "en": "",
+    "pt": ""
+   },
+   "lead": {
+    "es": "Un santuario sobre la bahía de Biscayne, con piscina infinita en la azotea y vistas a la ciudad y al mar.",
+    "en": "",
+    "pt": ""
+   },
+   "desc": {
+    "es": "Sobre las aguas de la bahía de Biscayne, Villa Sabina tiene una piscina infinita en la azotea con vistas a Downtown, South Beach y los atardeceres. Arriba también hay jacuzzi, bar y varias terrazas al aire libre para cócteles y cenas bajo las estrellas. Adentro, una sala de cine privada y un spa con sauna y vapor, todo con integración entre interior y exterior. Está entre la ciudad y la playa, a minutos de Lincoln Road, Sunset Harbour y los lugares más icónicos de Miami.",
+    "en": "",
+    "pt": ""
+   },
+   "amen": {
+    "es": [
+     "Piscina infinita en la azotea",
+     "Jacuzzi en la azotea",
+     "Bar",
+     "Terrazas al aire libre",
+     "Sala de cine",
+     "Sauna y vapor",
+     "Toilette",
+     "Camas: 6 king y 3 queen"
+    ],
+    "en": [],
+    "pt": []
+   },
+   "photos": [
+    {
+     "id": "villa-sabina-mux2qrrh4uy",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-sabina-mux2qs9njbc",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-sabina-mux2qs230q8",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-sabina-mux2qqs9htc",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-sabina-mux2qrza056",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-sabina-mux2qrski03",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-sabina-mux2qs04g2c",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-sabina-mux2qs11uz8",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-sabina-mux2qqztuam",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-sabina-mux2qr5f8qu",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-sabina-mux2qr6dxov",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-sabina-mux2qr77v01",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-sabina-mux2qr80fs8",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-sabina-mux2qr8vmou",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-sabina-mux2qr9pzj2",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-sabina-mux2qrc6jsn",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-sabina-mux2qrd2y8d",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-sabina-mux2qre1fdy",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-sabina-mux2qrftzui",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-sabina-mux2qrgs30c",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-sabina-mux2qrnt20q",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-sabina-mux2qrtfzxk",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-sabina-mux2qs2uqrf",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-sabina-mux2qsagjie",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-sabina-mux2qsb8s8c",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-sabina-mux2qsc2jfe",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "feat": "villa-sabina-mux2qrrh4uy",
+   "card": "villa-sabina-mux2qrrh4uy",
+   "home": true,
+   "visible": true
   }
  ]
 };
