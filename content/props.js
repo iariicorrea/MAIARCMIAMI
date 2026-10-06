@@ -319,7 +319,7 @@ window.SITE_PROPS={
    ],
    "feat": "villa-sora-muvs4azr9n3",
    "card": "villa-sora-muvs4azr9n3",
-   "home": true,
+   "home": false,
    "visible": true
   },
   {
