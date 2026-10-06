@@ -911,7 +911,7 @@ window.SITE_PROPS={
    ],
    "feat": "villa-alma-muvskp9alnt",
    "card": "villa-alma-muvskp9alnt",
-   "home": true,
+   "home": false,
    "visible": true
   },
   {
