@@ -2980,7 +2980,7 @@ window.SITE_PROPS={
    ],
    "feat": "villa-atlas-mux1wp5qicg",
    "card": "villa-atlas-mux1wp5qicg",
-   "home": true,
+   "home": false,
    "visible": true
   },
   {
