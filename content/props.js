@@ -2366,6 +2366,333 @@ window.SITE_PROPS={
    "card": "villa-cima-mux1lcr18y3",
    "home": true,
    "visible": true
+  },
+  {
+   "id": "villa-nebula",
+   "name": "VILLA NEBULA",
+   "type": "Villa",
+   "zone": "Design District",
+   "area": "Miami",
+   "beds": 6,
+   "baths": 7,
+   "guests": 12,
+   "extra": [
+    {
+     "v": "4.300",
+     "l": {
+      "es": "Interior",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "v": "7.150",
+     "l": {
+      "es": "Terreno",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "ops": [
+    "alquiler"
+   ],
+   "tags": [
+    {
+     "es": "Piscina"
+    },
+    {
+     "es": "Jacuzzi"
+    },
+    {
+     "es": "Sauna"
+    },
+    {
+     "es": "Cocina exterior"
+    }
+   ],
+   "short": {
+    "es": "A minutos de Wynwood y la playa",
+    "en": "",
+    "pt": ""
+   },
+   "lead": {
+    "es": "Lujo moderno a estrenar, con seis suites, piscina, jacuzzi y sauna",
+    "en": "",
+    "pt": ""
+   },
+   "desc": {
+    "es": "Villa Nébula es una casa nueva de seis suites, pensada para la comodidad y para recibir. Tiene livings amplios, terminaciones de diseño, piscina privada y varios espacios para reunirse adentro y afuera. Suma jacuzzi, sauna y cocina de verano. Está a minutos del Design District, Wynwood, Midtown y Miami Beach, cerca de los mejores restaurantes, compras y vida nocturna, con toda la privacidad de una casa propia.",
+    "en": "",
+    "pt": ""
+   },
+   "amen": {
+    "es": [
+     "6 suites",
+     "Piscina",
+     "Jacuzzi",
+     "Sauna",
+     "Cocina de verano",
+     "Toilette",
+     "Camas: 1 king y 5 queen"
+    ],
+    "en": [],
+    "pt": []
+   },
+   "photos": [
+    {
+     "id": "villa-nebula-mux0vqj5xnk",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nebula-mux0vqn0f73",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nebula-mux0vqp6ydw",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nebula-mux0vqfp3f9",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nebula-mux0vpe0gml",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nebula-mux0vpfsyjc",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nebula-mux0vphp1p3",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nebula-mux0vpj30et",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nebula-mux0vpkk2lr",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nebula-mux0vpm94dl",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nebula-mux0vpnpm6u",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nebula-mux0vppajwx",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nebula-mux0vpqmuxf",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nebula-mux0vps4c4a",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nebula-mux0vptkamr",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nebula-mux0vpux7a9",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nebula-mux0vpwj8yo",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nebula-mux0vq1ref1",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nebula-mux0vq34uwf",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nebula-mux0vq4e492",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nebula-mux0vq5wwle",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nebula-mux0vq7fa7g",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nebula-mux0vq8snww",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nebula-mux0vqa37lk",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nebula-mux0vqbuyqn",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nebula-mux0vqd0pwq",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nebula-mux0vqe8dea",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nebula-mux0vqhbwfi",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nebula-mux0vqqulsg",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nebula-mux0vqswkma",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-nebula-mux0vqu5m5f",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "feat": "villa-nebula-mux0vqn0f73",
+   "card": "villa-nebula-mux0vqn0f73",
+   "home": true,
+   "visible": true
   }
  ]
 };
