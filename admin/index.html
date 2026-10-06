@@ -114,7 +114,33 @@ body.noselect{user-select:none;-webkit-user-select:none;cursor:grabbing}
 .spin{display:inline-block;width:14px;height:14px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:sp .8s linear infinite;vertical-align:-2px}
 @keyframes sp{to{transform:rotate(360deg)}}
 .pad-b{height:110px}
+/* textos ES | EN */
+.tx-field{display:flex;flex-direction:column;gap:6px}
+.tx-field>.lab{font-size:11.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+.tx-field .pdfonly{font-size:10px;letter-spacing:.12em;color:#8A6A35;border:1px solid #E2D3B8;padding:1px 6px;margin-left:6px;vertical-align:1px}
+.pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.pair>div{position:relative}
+.pair .lg{position:absolute;right:8px;top:8px;font-size:10px;letter-spacing:.14em;color:var(--muted);pointer-events:none;background:rgba(255,255,255,.85);padding:1px 4px}
+.pair textarea,.pair input{width:100%}
+.pair .miss{border-color:#D9A79D;background:#FFF8F6}
+.ph .img .tag span.pdf{background:#8A6A35}
+/* PDF */
+.checklist{list-style:none;margin:0 0 18px;padding:0;display:flex;flex-direction:column;gap:6px;font-size:14.5px}
+.checklist li{display:flex;gap:10px;align-items:flex-start}
+.checklist li b{font-weight:500;width:18px;flex:none;text-align:center}
+.checklist li.ok b{color:var(--ok)}.checklist li.bad b{color:var(--danger)}.checklist li.warn b{color:#8A6A35}
+.pdf-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.stale{font-size:14px;padding:10px 14px;margin-bottom:16px;border:1px solid #E2D3B8;background:#FBF6EE;color:#6E5326}
+.modal{position:fixed;inset:0;z-index:60;background:#0E1A2E;overflow:auto;padding:20px}
+.modal .in{max-width:1080px;margin:0 auto}
+.modal .mh{display:flex;justify-content:space-between;align-items:center;color:#fff;margin-bottom:14px;gap:12px;flex-wrap:wrap}
+.modal .mh .tabs button{background:transparent;color:#fff;border-color:#fff}
+.modal .mh .tabs button.on{background:#fff;color:var(--ink)}
+.slides{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.slides figure{margin:0}.slides canvas{width:100%;height:auto;display:block;background:#222}
+.slides figcaption{color:#cbd2dc;font-size:12px;letter-spacing:.1em;text-transform:uppercase;margin-top:5px}
 @media (max-width:720px){
+ .pair{grid-template-columns:1fr}.slides{grid-template-columns:1fr}
  h1{font-size:34px}.g2,.g3,.g4{grid-template-columns:1fr}
  .row{grid-template-columns:72px minmax(0,1fr)}.row .th{width:72px;height:56px}.row .act{grid-column:1/-1;justify-content:space-between}
  .top nav{gap:12px;font-size:11px}.card{padding:18px}
@@ -168,6 +194,7 @@ body.noselect{user-select:none;-webkit-user-select:none;cursor:grabbing}
           <label class="f">Zona o barrio *<input id="e-zone" list="zones" placeholder="Ej.: Mar Chiquita"><span class="hint">Aparece en los filtros. Si es una zona nueva, se agrega sola.</span></label>
           <label class="f">Referencia<input id="e-area" placeholder="Miami"></label>
         </div>
+        <label class="f" style="margin-top:16px">Nombre real (interno, opcional)<input id="e-real" placeholder="Ej.: el nombre original de la casa o del complejo"><span class="hint">Nunca se publica: no aparece en la web ni en el PDF. Si lo escribís por error en algún texto, el panel te avisa.</span></label>
         <datalist id="zones"></datalist>
         <div class="grid g3" style="margin-top:16px">
           <label class="f">Dormitorios<input id="e-beds" type="number" min="0" inputmode="numeric"></label>
@@ -183,7 +210,7 @@ body.noselect{user-select:none;-webkit-user-select:none;cursor:grabbing}
       <div class="card">
         <div class="card-h">
           <h2>Textos</h2>
-          <div class="tabs" id="tabs"><button type="button" data-l="es" class="on">ES</button><button type="button" data-l="en">EN</button><button type="button" data-l="pt">PT</button></div>
+          <div class="tabs" id="tabs"><button type="button" data-m="esen" class="on">ES + EN</button><button type="button" data-m="pt">PT</button></div>
         </div>
         <div class="ai-box" id="ai-box">
           <div class="ai-h"><b>✦ Escribir con IA</b><span class="hint">Subí una o varias capturas de la descripción (o pegá el texto) y la IA arma la frase de la tarjeta, la frase principal, la descripción y las comodidades, y lo traduce a EN y PT.</span></div>
@@ -193,17 +220,11 @@ body.noselect{user-select:none;-webkit-user-select:none;cursor:grabbing}
           <div class="tr-row"><button class="btn sea small" type="button" id="ai-go">Generar textos con IA</button><span class="hint" id="ai-status"></span></div>
         </div>
         <div class="tr-row" style="margin-bottom:18px">
-          <button class="btn line small" type="button" id="translate">Traducir automáticamente a EN y PT</button>
-          <span class="hint" id="tr-hint">Escribí en español y tocá traducir. Después podés corregir a mano cada idioma.</span>
+          <button class="btn line small" type="button" id="translate">Completar traducciones vacías</button>
+          <span class="hint" id="tr-hint">Escribí español e inglés vos. Lo que dejes vacío (y todo el portugués) se completa solo; el portugués se completa también al publicar.</span>
         </div>
         <div class="grid">
-          <label class="f">Frase para la tarjeta<input class="ml" data-k="short" placeholder="Ej.: frente al mar"><span class="hint">Se ve como “5 dormitorios · 10 huéspedes · <i>frente al mar</i>”.</span></label>
-          <label class="f">Frase principal<textarea class="ml" data-k="lead" rows="2" placeholder="Una o dos líneas que presenten la casa."></textarea></label>
-          <label class="f">Descripción<textarea class="ml" data-k="desc" rows="4"></textarea></label>
-          <div class="grid g2">
-            <label class="f">Comodidades<textarea class="ml" data-k="amen" data-list="1" rows="6" placeholder="Una por línea"></textarea><span class="hint">Una por línea.</span></label>
-            <label class="f">Características (filtros)<textarea class="ml" data-k="tags" data-list="1" rows="6" placeholder="Ej.:&#10;Frente al mar&#10;Piscina"></textarea><span class="hint">Una por línea. Se usan como filtros en “Ver todas”. Usá los mismos nombres que en las otras casas.</span></label>
-          </div>
+          <div class="grid" id="tx"></div>
           <div>
             <div class="hint" style="margin-bottom:8px">Datos destacados extra (opcional) — ej.: “1 ha” · “Área social”</div>
             <div class="grid g2" id="extras"></div>
@@ -212,9 +233,26 @@ body.noselect{user-select:none;-webkit-user-select:none;cursor:grabbing}
       </div>
 
       <div class="card">
-        <div class="card-h"><h2>Fotos</h2><span class="hint">Arrastrá las fotos para ordenarlas (en el celular: arrastrá desde el ícono ⠿), o escribí el número de posición. La primera es la que abre la ficha. <b>Portada</b>: la foto grande de la página principal. <b>Tarjeta</b>: la de las tarjetas.</span></div>
-        <label class="drop" id="drop"><input type="file" id="files" accept="image/*" multiple hidden>Tocá para subir fotos o arrastralas acá<br><span class="hint">JPG, PNG o HEIC. Se optimizan solas.</span></label>
+        <div class="card-h"><h2>Fotos</h2><span class="hint">Arrastrá las fotos para ordenarlas (en el celular: arrastrá desde el ícono ⠿), o escribí el número de posición. La primera es la que abre la ficha. <b>Portada</b>: la foto grande de la página principal. <b>Tarjeta</b>: la de las tarjetas. <b>PDF</b>: la foto 1 es la portada, la 3 va en “Bienvenidos” y la 5 en “Servicios y amenidades”; están marcadas en dorado.</span></div>
+        <label class="drop" id="drop"><input type="file" id="files" accept="image/*" multiple hidden>Tocá para subir fotos o arrastralas acá<br><span class="hint">JPG, PNG o HEIC. Subilas en la mejor calidad que tengas: la web usa una versión optimizada y el PDF una en alta.</span></label>
         <div class="photos" id="photos"></div>
+      </div>
+
+      <div class="card" id="pdf-card">
+        <div class="card-h"><h2>PDF para clientes</h2><span class="hint">Usa la descripción, servicios y amenidades en ES y EN, y todas las fotos en el orden de arriba.</span></div>
+        <div class="stale" id="pdf-stale" hidden></div>
+        <ul class="checklist" id="pdf-check"></ul>
+        <div class="checks" style="margin-bottom:16px" id="pdf-q">
+          <label><input type="radio" name="pdfq" value="alta" checked>Alta calidad <span class="hint">(WhatsApp)</span></label>
+          <label><input type="radio" name="pdfq" value="liviano">Liviano <span class="hint">(mail, menos de 25 MB)</span></label>
+        </div>
+        <div class="pdf-row">
+          <button class="btn line" type="button" id="pdf-prev">Vista previa</button>
+          <button class="btn sea" type="button" id="pdf-dl">Descargar PDF ES + EN</button>
+          <button class="linkbtn" type="button" data-l="es" id="pdf-es">solo ES</button>
+          <button class="linkbtn" type="button" data-l="en" id="pdf-en">solo EN</button>
+        </div>
+        <p class="hint" id="pdf-status" style="margin:12px 0 0"></p>
       </div>
 
       <div class="card">
@@ -236,11 +274,18 @@ body.noselect{user-select:none;-webkit-user-select:none;cursor:grabbing}
   </div></div>
 </div>
 
+<div class="modal" id="pdf-modal" hidden><div class="in">
+  <div class="mh"><span id="pdf-mt">Vista previa</span><span style="display:flex;gap:12px;align-items:center"><span class="tabs" id="pdf-ml"><button type="button" data-l="es" class="on">ES</button><button type="button" data-l="en">EN</button></span><button class="btn small" type="button" id="pdf-close" style="background:#fff;color:var(--ink);border-color:#fff">Cerrar</button></span></div>
+  <div class="slides" id="pdf-slides"></div>
+</div></div>
+<script src="pdf-assets.js"></script>
+<script src="pdf.js"></script>
 <script>
 (function(){
 const $=id=>document.getElementById(id);
 const KNOWN_ZONES=['Miami Beach','South Beach','Mid-Beach','North Beach','Brickell','Downtown','Edgewater','Coral Gables','Coconut Grove','Key Biscayne','North Miami','Bal Harbour','Sunny Isles','Fisher Island','Star Island','Fort Lauderdale'];
 let token=null,data=null,orig='',editing=null,lang='es',baseSha=null;
+let priv={},origPriv='{}'; // datos internos (nombre real): nunca se publican
 let uploads={};   // path -> {b64, url}
 let deletes=new Set();
 const previews={}; // vistas previas de fotos recién subidas (hasta recargar)
@@ -267,7 +312,7 @@ function logout(){token=null;try{localStorage.removeItem('maiarc_admin');}catch(
 $('logout').onclick=()=>{if(dirty()&&!confirm('Tenés cambios sin publicar. ¿Salir igual?'))return;logout();};
 
 async function start(){
-  const j=await api('content');data=j.data;if(!data.props)data.props=[];baseSha=j.sha||null;
+  const j=await api('content');data=j.data;if(!data.props)data.props=[];baseSha=j.sha||null;priv=j.priv||{};origPriv=JSON.stringify(priv);
   orig=JSON.stringify(data);uploads={};deletes=new Set();
   $('v-login').hidden=true;$('v-app').hidden=false;showList();updateBar();
 }
@@ -276,8 +321,8 @@ document.addEventListener('visibilitychange',async()=>{if(document.visibilitySta
   try{const j=await api('content');if(j.sha&&j.sha!==baseSha){data=j.data;if(!data.props)data.props=[];baseSha=j.sha;orig=JSON.stringify(data);if(editing&&data.props.some(p=>p.id===editing))fillEdit();else showList();toast('Actualicé el panel con los últimos cambios publicados.',true);}}catch(_){}});
 
 // ---------- Estado ----------
-function dirty(){return JSON.stringify(data)!==orig||Object.keys(uploads).length>0;}
-function updateBar(){$('bar').classList.toggle('show',!!data&&dirty());}
+function dirty(){return JSON.stringify(data)!==orig||Object.keys(uploads).length>0||JSON.stringify(priv)!==origPriv;}
+function updateBar(){$('bar').classList.toggle('show',!!data&&dirty());if(editing)refreshPdfSoon();}
 window.addEventListener('beforeunload',e=>{if(data&&dirty()){e.preventDefault();e.returnValue='';}});
 function imgUrl(id){const p='img/'+id+'.jpg';return uploads[p]?uploads[p].url:(previews[p]||'../'+p);}
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -306,13 +351,13 @@ function move(i,d){const a=data.props;const j=i+d;if(j<0||j>=a.length)return;[a[
 $('add').onclick=()=>{
   const name=(prompt('Nombre de la nueva propiedad:')||'').trim();if(!name)return;
   let id=slug(name),n=2;while(data.props.some(p=>p.id===id))id=slug(name)+'-'+n++;
-  data.props.push({id,name,type:'Casa',zone:'',area:'Miami',beds:null,baths:null,guests:null,extra:[],ops:['alquiler'],tags:[],short:{es:'',en:'',pt:''},lead:{es:'',en:'',pt:''},desc:{es:'',en:'',pt:''},amen:{es:[],en:[],pt:[]},photos:[],feat:'',card:'',home:true,visible:true});
+  data.props.push({id,name,type:'Casa',zone:'',area:'Miami',beds:null,baths:null,guests:null,extra:[],ops:['alquiler'],tags:[],short:{es:'',en:'',pt:''},lead:{es:'',en:'',pt:''},desc:{es:'',en:'',pt:''},amen:{es:[],en:[],pt:[]},svc:{es:[],en:[],pt:[]},photos:[],feat:'',card:'',home:true,visible:true});
   updateBar();edit(id);
 };
 
 // ---------- Edición ----------
 function cur(){return data.props.find(p=>p.id===editing);}
-function edit(id){editing=id;lang='es';$('v-list').hidden=true;$('v-edit').hidden=false;window.scrollTo(0,0);
+function edit(id){editing=id;lang='es';tmode='esen';[...$('tabs').children].forEach(x=>x.classList.toggle('on',x.dataset.m==='esen'));buildTx();$('v-list').hidden=true;$('v-edit').hidden=false;window.scrollTo(0,0);
   const zs=new Set([...KNOWN_ZONES,...data.props.map(p=>p.zone).filter(Boolean)]);$('zones').innerHTML=[...zs].map(z=>'<option value="'+esc(z)+'">').join('');
   fillEdit();}
 function fillEdit(){const p=cur();if(!p)return showList();
@@ -321,7 +366,8 @@ function fillEdit(){const p=cur();if(!p)return showList();
   $('e-beds').value=p.beds??'';$('e-baths').value=p.baths??'';$('e-guests').value=p.guests??'';
   $('e-rent').checked=(p.ops||[]).includes('alquiler');$('e-sale').checked=(p.ops||[]).includes('venta');
   $('e-visible').checked=p.visible!==false;$('e-home').checked=p.home!==false;
-  fillLang();renderExtras();renderPhotos();}
+  $('e-real').value=(priv[p.id]&&priv[p.id].real)||'';
+  fillLang();renderExtras();renderPhotos();refreshPdf();}
 function num(v){const n=parseInt(v,10);return isNaN(n)?null:n;}
 function bind(id,fn){$(id).addEventListener('input',()=>{const p=cur();if(p){fn(p,$(id));updateBar();}});$(id).addEventListener('change',()=>{const p=cur();if(p){fn(p,$(id));updateBar();}});}
 bind('e-name',(p,e)=>{p.name=e.value;$('e-title').textContent=e.value||'Propiedad';});
@@ -335,23 +381,50 @@ const setOps=p=>{p.ops=[];if($('e-rent').checked)p.ops.push('alquiler');if($('e-
 bind('e-rent',setOps);bind('e-sale',setOps);
 bind('e-visible',(p,e)=>p.visible=e.checked);
 bind('e-home',(p,e)=>p.home=e.checked);
+bind('e-real',(p,e)=>{const v=e.value.trim();if(v)priv[p.id]={real:v};else delete priv[p.id];});
 
-// Textos por idioma
-$('tabs').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;lang=b.dataset.l;[...$('tabs').children].forEach(x=>x.classList.toggle('on',x===b));fillLang();});
-function getML(p,k){if(k==='tags'){return (p.tags||[]).map(t=>t[lang]||'').join('\n');}
-  if(k==='amen'){return ((p.amen||{})[lang]||[]).join('\n');}
-  return ((p[k]||{})[lang])||'';}
-function fillLang(){const p=cur();if(!p)return;const es={...p};
-  document.querySelectorAll('.ml').forEach(el=>{el.value=getML(p,el.dataset.k);
-    if(lang==='es')el.placeholder=el.dataset.ph||'';
-    else{const L=lang;lang='es';const src=getML(p,el.dataset.k);lang=L;el.placeholder=src?('Español: '+src.replace(/\n/g,' · ')).slice(0,160):'';}});
-  renderExtras();renderPhotos();}
-document.querySelectorAll('.ml').forEach(el=>{el.dataset.ph=el.getAttribute('placeholder')||'';el.addEventListener('input',()=>{const p=cur();const k=el.dataset.k;
-  if(k==='tags'){const lines=el.value.split('\n');if(lang==='es'){p.tags=lines.map((l,i)=>({...(p.tags[i]||{}),es:l.trim()})).filter(t=>t.es||t.en||t.pt);}
-    else{lines.forEach((l,i)=>{if(p.tags[i])p.tags[i][lang]=l.trim();});}}
-  else if(k==='amen'){p.amen=p.amen||{es:[],en:[],pt:[]};p.amen[lang]=el.value.split('\n').map(s=>s.trim()).filter(Boolean);}
-  else{p[k]=p[k]||{es:'',en:'',pt:''};p[k][lang]=el.value;}
-  updateBar();});});
+// Textos: español e inglés lado a lado; el portugués aparte (se completa solo)
+const FIELDS=[
+  {k:'short',lab:'Frase para la tarjeta',input:1,ph:'Ej.: frente al mar',hint:'Se ve como “5 dormitorios · 10 huéspedes · <i>frente al mar</i>”. Solo web.'},
+  {k:'lead',lab:'Frase principal',rows:2,ph:'Una o dos líneas que presenten la casa.'},
+  {k:'desc',lab:'Descripción',rows:8,pdf:1,hint:'La misma para la web y el PDF (slide Bienvenidos).'},
+  {k:'svc',lab:'Servicios incluidos',list:1,rows:6,pdfOnly:1,ph:'Uno por línea',hint:'Uno por línea. Se puede pegar una lista: cada renglón es un ítem.'},
+  {k:'amen',lab:'Amenidades / comodidades',list:1,rows:6,pdf:1,ph:'Una por línea',hint:'Una por línea. Se ven en la web y en el PDF.'},
+  {k:'tags',lab:'Características (filtros)',list:1,rows:5,ph:'Ej.:\nFrente al mar\nPiscina',hint:'Una por línea. Se usan como filtros en “Ver todas”. Usá los mismos nombres que en las otras casas. Solo web.'},
+];
+let tmode='esen';
+$('tabs').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;tmode=b.dataset.m;lang=tmode==='pt'?'pt':'es';[...$('tabs').children].forEach(x=>x.classList.toggle('on',x===b));buildTx();fillLang();});
+function getML(p,k,l){if(k==='tags')return (p.tags||[]).map(t=>t[l]||'').join('\n');
+  if(k==='amen'||k==='svc')return ((p[k]||{})[l]||[]).join('\n');
+  return ((p[k]||{})[l])||'';}
+const cleanList=v=>v.split('\n').map(s=>s.replace(/^[-•*·\s]+/,'').trim()).filter(Boolean);
+function setML(p,k,l,v){
+  if(k==='tags'){const lines=v.split('\n');p.tags=p.tags||[];
+    if(l==='es'){p.tags=lines.map((x,i)=>({...(p.tags[i]||{}),es:x.trim()})).filter(t=>t.es||t.en||t.pt);}
+    else{lines.forEach((x,i)=>{if(p.tags[i])p.tags[i][l]=x.trim();});}}
+  else if(k==='amen'||k==='svc'){p[k]=p[k]||{es:[],en:[],pt:[]};p[k][l]=cleanList(v);}
+  else{p[k]=p[k]||{es:'',en:'',pt:''};p[k][l]=v;}}
+function buildTx(){const T=$('tx');T.innerHTML='';
+  const langs=tmode==='pt'?['pt']:['es','en'];
+  FIELDS.forEach(f=>{const w=document.createElement('div');w.className='tx-field';
+    w.innerHTML='<div class="lab">'+f.lab+(f.pdfOnly?'<span class="pdfonly">SOLO PDF</span>':f.pdf?'<span class="pdfonly">WEB + PDF</span>':'')+'</div>';
+    const pair=document.createElement('div');pair.className=langs.length>1?'pair':'';
+    langs.forEach(l=>{const box=document.createElement('div');
+      const el=document.createElement(f.input?'input':'textarea');el.className='inp ml';el.dataset.k=f.k;el.dataset.l=l;
+      if(!f.input)el.rows=f.rows||3;el.placeholder=l==='es'?(f.ph||''):'';
+      el.addEventListener('input',()=>{const p=cur();if(!p)return;setML(p,f.k,l,el.value);markMissing();updateBar();});
+      box.append(el);if(langs.length>1){const g=document.createElement('span');g.className='lg';g.textContent=l.toUpperCase();box.append(g);}
+      pair.append(box);});
+    w.append(pair);
+    if(f.hint){const h=document.createElement('span');h.className='hint';h.innerHTML=f.hint+(tmode==='pt'?' Portugués: lo completa la traducción y lo revisa Claude.':'');w.append(h);}
+    T.append(w);});}
+function markMissing(){const p=cur();if(!p)return;document.querySelectorAll('#tx .ml').forEach(el=>{const k=el.dataset.k,l=el.dataset.l;
+  const need=l==='en'&&['desc','svc','amen'].includes(k)&&getML(p,k,'es').trim()&&!getML(p,k,'en').trim();el.classList.toggle('miss',!!need);});}
+function fillLang(){const p=cur();if(!p)return;
+  document.querySelectorAll('#tx .ml').forEach(el=>{el.value=getML(p,el.dataset.k,el.dataset.l);
+    if(el.dataset.l!=='es'){const src=getML(p,el.dataset.k,'es');el.placeholder=src?('Español: '+src.replace(/\n/g,' · ')).slice(0,160):'';}});
+  markMissing();renderExtras();renderPhotos();}
+buildTx();
 
 // Datos extra
 function renderExtras(){const p=cur();if(!p)return;p.extra=p.extra||[];const E=$('extras');E.innerHTML='';
@@ -362,25 +435,28 @@ function renderExtras(){const p=cur();if(!p)return;p.extra=p.extra||[];const E=$
     const upd=()=>{const e=p.extra[i]||{v:'',l:{es:'',en:'',pt:''}};e.v=v.value.trim();e.l=e.l||{};e.l[lang]=l.value.trim();p.extra[i]=e;p.extra=p.extra.filter(z=>z&&(z.v||(z.l&&z.l.es)));updateBar();};
     v.addEventListener('input',upd);l.addEventListener('input',upd);E.append(w);}}
 
-// Traducción automática
+// Traducción automática: solo completa lo que está vacío (nunca pisa lo que escribiste)
 $('translate').onclick=()=>translateCur(false);
+async function fillTranslations(p,langs){
+  const jobs={};let count=0;
+  langs.forEach(l=>{const J=jobs[l]=[];const add=(t,set)=>{if((t||'').trim()){J.push({t,set});count++;}};
+    ['short','lead','desc'].forEach(k=>{const v=p[k]=p[k]||{es:'',en:'',pt:''};if(!(v[l]||'').trim())add(v.es,x=>v[l]=x);});
+    ['amen','svc'].forEach(k=>{const v=p[k];if(v&&(v.es||[]).length&&!(v[l]||[]).length){v[l]=[];v.es.forEach((a,i)=>add(a,x=>v[l][i]=x));}});
+    (p.tags||[]).forEach(t=>{if(!(t[l]||'').trim())add(t.es,x=>t[l]=x);});
+    (p.extra||[]).forEach(x=>{x.l=x.l||{};if(!(x.l[l]||'').trim())add(x.l.es,y=>x.l[l]=y);});
+    (p.photos||[]).forEach(f=>{f.alt=f.alt||{es:'',en:'',pt:''};if(!(f.alt[l]||'').trim())add(f.alt.es,y=>f.alt[l]=y);});});
+  if(!count)return 0;
+  await Promise.all(langs.filter(l=>jobs[l].length).map(async l=>{const r=await api('translate',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({texts:jobs[l].map(j=>j.t),to:l})});
+    jobs[l].forEach((j,i)=>j.set(r.texts[i]||''));}));
+  ['amen','svc'].forEach(k=>{if(p[k])['en','pt'].forEach(l=>p[k][l]=(p[k][l]||[]).filter(Boolean));});
+  return count;}
 async function translateCur(silent){const p=cur();if(!p)return;const b=$('translate');
-  const src=[];const put=[];
-  const add=(text,setter)=>{src.push(text||'');put.push(setter);};
-  ['short','lead','desc'].forEach(k=>{p[k]=p[k]||{es:'',en:'',pt:''};add(p[k].es,(l,t)=>p[k][l]=t);});
-  (p.amen&&p.amen.es||[]).forEach((a,i)=>add(a,(l,t)=>{p.amen[l]=p.amen[l]||[];p.amen[l][i]=t;}));
-  (p.tags||[]).forEach((t,i)=>add(t.es,(l,x)=>p.tags[i][l]=x));
-  (p.extra||[]).forEach((x,i)=>add(x.l&&x.l.es,(l,t)=>{p.extra[i].l=p.extra[i].l||{};p.extra[i].l[l]=t;}));
-  (p.photos||[]).forEach((f,i)=>add(f.alt&&f.alt.es,(l,t)=>{p.photos[i].alt=p.photos[i].alt||{};p.photos[i].alt[l]=t;}));
-  if(!src.some(s=>s.trim())){toast('Primero escribí los textos en español.');return;}
-  if(!silent&&['en','pt'].some(l=>['lead','desc'].some(k=>(p[k][l]||'').trim()))&&!confirm('Esto reemplaza los textos en inglés y portugués por la traducción automática. ¿Seguir?'))return;
+  if(!['short','lead','desc'].some(k=>((p[k]||{}).es||'').trim())&&!((p.amen||{}).es||[]).length){if(!silent)toast('Primero escribí los textos en español.');return;}
   b.disabled=true;b.innerHTML='<span class="spin"></span> Traduciendo…';
-  try{const [en,pt]=await Promise.all(['en','pt'].map(to=>api('translate',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({texts:src,to})})));
-    put.forEach((fn,i)=>{fn('en',en.texts[i]||'');fn('pt',pt.texts[i]||'');});
-    if(p.amen){p.amen.en=(p.amen.en||[]).slice(0,p.amen.es.length);p.amen.pt=(p.amen.pt||[]).slice(0,p.amen.es.length);}
-    fillLang();updateBar();if(!silent)toast('Listo: traducido al inglés y al portugués. Revisalo en las pestañas EN y PT.',true);return true;}
+  try{const n=await fillTranslations(p,['en','pt']);fillLang();updateBar();
+    if(!silent)toast(n?'Listo: completé lo que faltaba en inglés y portugués. Revisalo antes de publicar.':'No había nada vacío para traducir.',true);return true;}
   catch(err){toast('No se pudo traducir: '+err.message);return false;}
-  finally{b.disabled=false;b.textContent='Traducir automáticamente a EN y PT';}}
+  finally{b.disabled=false;b.textContent='Completar traducciones vacías';}}
 
 
 // ---------- Escribir con IA desde capturas ----------
@@ -409,7 +485,7 @@ $('ai-go').onclick=async()=>{const p=cur();if(!p)return;const text=$('ai-text').
     p.amen={es:r.amen||[],en:[],pt:[]};
     const old=new Map((p.tags||[]).map(t=>[t.es,t]));p.tags=(r.tags||[]).map(t=>old.get(t)||{es:t,en:'',pt:''});
     const filled=[];if(r.beds&&!p.beds){p.beds=r.beds;filled.push('dormitorios');}if(r.baths&&!p.baths){p.baths=r.baths;filled.push('baños');}if(r.guests&&!p.guests){p.guests=r.guests;filled.push('huéspedes');}
-    lang='es';[...$('tabs').children].forEach(x=>x.classList.toggle('on',x.dataset.l==='es'));fillEdit();updateBar();
+    fillEdit();updateBar();
     st.textContent='Traduciendo a EN y PT…';await translateCur(true);fillEdit();
     toast('Listo: textos generados'+(filled.length?' y completé '+filled.join(', '):'')+'. Revisalos y corregí lo que quieras antes de publicar.',true);
     aiImgs.forEach(x=>URL.revokeObjectURL(x.url));aiImgs=[];renderAiThumbs();$('ai-text').value='';}
@@ -421,7 +497,8 @@ function movePhoto(from,to){const p=cur();if(!p)return;const A=p.photos;to=Math.
 function renderPhotos(){const p=cur();if(!p)return;const G=$('photos');G.innerHTML='';const N=(p.photos||[]).length;
   (p.photos||[]).forEach((f,i)=>{const d=document.createElement('div');d.className='ph';d.dataset.i=i;
     const tags=[];if(i===0)tags.push('Abre la ficha');if(p.feat===f.id)tags.push('Portada');if(p.card===f.id)tags.push('Tarjeta');
-    d.innerHTML='<div class="img" style="background-image:url('+imgUrl(f.id)+')"><span class="grip" title="Arrastrá para ordenar" aria-hidden="true">⠿</span><div class="tag">'+tags.map(t=>'<span>'+t+'</span>').join('')+'</div>'+(uploads['img/'+f.id+'.jpg']?'<span class="new">Nueva</span>':'')+'</div>'+
+    const pdfTag=i===0?'PDF · Portada':i===2?'PDF · Bienvenidos':(i===4&&hasAmen(p))?'PDF · Servicios':'';
+    d.innerHTML='<div class="img" style="background-image:url('+imgUrl(f.id)+')"><span class="grip" title="Arrastrá para ordenar" aria-hidden="true">⠿</span><div class="tag">'+tags.map(t=>'<span>'+t+'</span>').join('')+(pdfTag?'<span class="pdf">'+pdfTag+'</span>':'')+'</div>'+(uploads['img/'+f.id+'.jpg']?'<span class="new">Nueva</span>':'')+'</div>'+
       '<div class="tools"><label class="pos" title="Posición">N.º <input type="number" min="1" max="'+N+'" value="'+(i+1)+'" inputmode="numeric" aria-label="Posición de la foto"></label>'+
       '<button type="button" data-a="feat" class="'+(p.feat===f.id?'on':'')+'">Portada</button><button type="button" data-a="card" class="'+(p.card===f.id?'on':'')+'">Tarjeta</button><button type="button" data-a="del" class="danger">Quitar</button></div>'+
       '<input class="alt" placeholder="'+(lang==='es'?'Descripción (opcional)':'Descripción '+lang.toUpperCase())+'" value="'+esc((f.alt||{})[lang]||'')+'">';
@@ -429,7 +506,7 @@ function renderPhotos(){const p=cur();if(!p)return;const G=$('photos');G.innerHT
       if(a==='feat')p.feat=f.id;
       if(a==='card')p.card=f.id;
       if(a==='del'){if(!confirm('¿Quitar esta foto?'))return;p.photos.splice(i,1);const path='img/'+f.id+'.jpg';
-        if(uploads[path]){URL.revokeObjectURL(uploads[path].url);delete uploads[path];}
+        if(uploads[path]){URL.revokeObjectURL(uploads[path].url);delete uploads[path];idbDel(f.id);}
         else if(!data.props.some(q=>(q.photos||[]).some(x=>x.id===f.id)))deletes.add(path);
         if(p.feat===f.id)p.feat=(p.photos[0]||{}).id||'';if(p.card===f.id)p.card=(p.photos[0]||{}).id||'';}
       renderPhotos();updateBar();};
@@ -468,15 +545,16 @@ async function addFiles(list){const p=cur();if(!p)return;const files=[...list].f
   let ok=0;
   for(const file of files){try{const blob=await shrink(file);const b64=await toB64(blob);
       const fid=p.id+'-'+Date.now().toString(36)+Math.random().toString(36).slice(2,5);const path='img/'+fid+'.jpg';
+      try{await idbPut(fid,await shrink(file,3200,0.93));}catch(_){} // copia en alta para el PDF (queda en este dispositivo)
       uploads[path]={b64,url:URL.createObjectURL(blob)};p.photos.push({id:fid,alt:{es:'',en:'',pt:''}});
       if(!p.feat)p.feat=fid;if(!p.card)p.card=fid;ok++;}
     catch(err){toast('No se pudo leer '+file.name+'. Probá exportarla como JPG.');}}
-  drop.innerHTML='<input type="file" id="files" accept="image/*" multiple hidden>Tocá para subir fotos o arrastralas acá<br><span class="hint">JPG, PNG o HEIC. Se optimizan solas.</span>';
+  drop.innerHTML='<input type="file" id="files" accept="image/*" multiple hidden>Tocá para subir fotos o arrastralas acá<br><span class="hint">JPG, PNG o HEIC. Subilas en la mejor calidad que tengas: la web usa una versión optimizada y el PDF una en alta.</span>';
   $('files').addEventListener('change',e=>{addFiles(e.target.files);e.target.value='';});
   renderPhotos();updateBar();if(ok)toast(ok+' foto'+(ok>1?'s agregadas':' agregada')+'. Se suben al publicar.',true);}
-async function shrink(file){const bmp=await createImageBitmap(file);const max=2000;const r=Math.min(1,max/Math.max(bmp.width,bmp.height));
+async function shrink(file,max=2000,q=0.82){const bmp=await createImageBitmap(file);const r=Math.min(1,max/Math.max(bmp.width,bmp.height));
   const c=document.createElement('canvas');c.width=Math.round(bmp.width*r);c.height=Math.round(bmp.height*r);c.getContext('2d').drawImage(bmp,0,0,c.width,c.height);
-  return await new Promise((res,rej)=>c.toBlob(b=>b?res(b):rej(new Error('jpg')),'image/jpeg',0.82));}
+  return await new Promise((res,rej)=>c.toBlob(b=>b?res(b):rej(new Error('jpg')),'image/jpeg',q));}
 function toB64(blob){return new Promise((res,rej)=>{const fr=new FileReader();fr.onload=()=>res(String(fr.result).split(',')[1]);fr.onerror=rej;fr.readAsDataURL(blob);});}
 
 // Eliminar propiedad
@@ -487,27 +565,106 @@ $('del').onclick=()=>{const p=cur();if(!p||!confirm('¿Eliminar “'+p.name+'”
   showList();updateBar();};
 $('back').onclick=showList;
 
+// ---------- Fotos en alta para el PDF (quedan guardadas en este dispositivo) ----------
+let IDB=null;
+function idb(){if(IDB)return IDB;IDB=new Promise(res=>{try{const r=indexedDB.open('maiarc_pdf_originales',1);r.onupgradeneeded=()=>r.result.createObjectStore('f');r.onsuccess=()=>res(r.result);r.onerror=()=>res(null);}catch(_){res(null);}});return IDB;}
+async function idbTx(mode,fn){const db=await idb();if(!db)return null;return new Promise(res=>{const tx=db.transaction('f',mode);const r=fn(tx.objectStore('f'));tx.oncomplete=()=>res(r&&r.result);tx.onerror=()=>res(null);});}
+const idbPut=(k,v)=>idbTx('readwrite',s=>s.put(v,k));
+const idbGet=k=>idbTx('readonly',s=>s.get(k));
+const idbDel=k=>idbTx('readwrite',s=>s.delete(k));
+const hqUrls={};
+async function photoForPdf(id){if(hqUrls[id])return hqUrls[id];const b=await idbGet(id);if(b){hqUrls[id]=URL.createObjectURL(b);return hqUrls[id];}return imgUrl(id);}
+
+// ---------- Confidencialidad ----------
+const norm=s=>String(s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
+function leaks(p){const real=(priv[p.id]&&priv[p.id].real)||'';if(!real.trim())return [];
+  const all=norm([p.name,...['short','lead','desc'].flatMap(k=>Object.values(p[k]||{})),...['amen','svc'].flatMap(k=>Object.values(p[k]||{}).flat()),...(p.tags||[]).flatMap(t=>Object.values(t)),...(p.photos||[]).flatMap(f=>Object.values(f.alt||{}))].join(' \n '));
+  return real.split(/[,;/]|\s+y\s+/).map(x=>x.trim()).filter(x=>x.length>=3&&new RegExp('(^|[^a-z0-9])'+norm(x).replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'([^a-z0-9]|$)').test(all));}
+
+// ---------- PDF ----------
+function hasAmen(p){return ['svc','amen'].some(k=>((p[k]||{}).es||[]).length||((p[k]||{}).en||[]).length);}
+function pdfProp(p){return {name:p.name,location:[p.zone,p.area||'Miami'].filter(Boolean).join(', '),beds:p.beds,baths:p.baths,guests:p.guests,
+  desc:{es:(p.desc||{}).es||'',en:(p.desc||{}).en||''},svc:{es:(p.svc||{}).es||[],en:(p.svc||{}).en||[]},amen:{es:(p.amen||{}).es||[],en:(p.amen||{}).en||[]},
+  photos:(p.photos||[]).map(f=>()=>photoForPdf(f.id))};}
+function pdfHash(p){const x=pdfProp(p);delete x.photos;return JSON.stringify([x,(p.photos||[]).map(f=>f.id)]);}
+function pdfLog(p,v){const k='maiarc_pdf_'+p.id;try{if(v)localStorage.setItem(k,JSON.stringify(v));else return JSON.parse(localStorage.getItem(k)||'null');}catch(_){return null;}}
+async function pdfCheck(p){const out=[];const add=(st,t)=>out.push({st,t});
+  const d=k=>(((p.desc||{})[k])||'').trim();
+  add(d('es')?'ok':'bad','Descripción en español'+(d('es')?'':' — falta'));
+  add(d('en')?'ok':'bad','Descripción en inglés'+(d('en')?'':' — falta'));
+  ['svc','amen'].forEach(k=>{const es=((p[k]||{}).es||[]).length,en=((p[k]||{}).en||[]).length,nm=k==='svc'?'Servicios incluidos':'Amenidades';
+    if(!es&&!en)return;if(!es||!en)add('bad',nm+': '+(es?'falta el inglés':'falta el español'));
+    else if(es!==en)add('warn',nm+': '+es+' ítems en español y '+en+' en inglés. Revisá que coincidan.');else add('ok',nm+' en español e inglés ('+es+')');});
+  if(!hasAmen(p))add('warn','Sin servicios ni amenidades: la foto 5 sale a pantalla completa.');
+  const n=(p.photos||[]).length;
+  if(n<3)add('bad','Fotos: '+n+'. Necesitás al menos 3 (la 3 es “Bienvenidos”).');
+  else if(n<5&&hasAmen(p))add('bad','Fotos: '+n+'. Necesitás al menos 5 (la 5 es “Servicios y amenidades”).');
+  else add('ok','Fotos: '+n+' (portada, Bienvenidos'+(hasAmen(p)?', Servicios':'')+' y el resto a pantalla completa)');
+  if(n){let hq=0;for(const f of p.photos){if(hqUrls[f.id]||await idbGet(f.id))hq++;}
+    if(hq<n)add('warn',hq+' de '+n+' fotos en alta calidad en este dispositivo. Las otras usan la versión de la web (buena, pero más liviana).');
+    else add('ok','Todas las fotos en alta calidad');}
+  const lk=leaks(p);if(lk.length)add('bad','Aparece el nombre real en los textos: “'+lk.join('”, “')+'”. Sacalo antes de descargar.');
+  return out;}
+let pdfT=null;function refreshPdfSoon(){clearTimeout(pdfT);pdfT=setTimeout(refreshPdf,350);}
+let pdfBusy=false;
+async function refreshPdf(){const p=cur();if(!p||$('v-edit').hidden)return;
+  const ck=await pdfCheck(p);
+  $('pdf-check').innerHTML=ck.map(c=>'<li class="'+c.st+'"><b>'+(c.st==='ok'?'✓':c.st==='bad'?'✕':'!')+'</b><span>'+esc(c.t)+'</span></li>').join('');
+  const blocked=ck.some(c=>c.st==='bad');['pdf-dl','pdf-es','pdf-en'].forEach(id=>$(id).disabled=blocked||pdfBusy);$('pdf-prev').disabled=pdfBusy||!(p.photos||[]).length;
+  const log=pdfLog(p),st=$('pdf-stale');
+  if(log&&log.h!==pdfHash(p)){st.hidden=false;st.textContent='Cambiaste algo desde la última vez que descargaste el PDF ('+new Date(log.t).toLocaleString('es')+'). Volvé a descargarlo para que esté al día.';}
+  else if(log){st.hidden=false;st.textContent='El PDF que descargaste el '+new Date(log.t).toLocaleString('es')+' está al día.';}
+  else st.hidden=true;}
+function fileName(p,l){return 'MAIARC_'+MaiarcPDF.plain(p.name||'Propiedad').trim().replace(/\s+/g,'-')+'_'+l.toUpperCase()+'.pdf';}
+async function downloadPdf(langs){const p=cur();if(!p)return;const q=(document.querySelector('input[name=pdfq]:checked')||{}).value||'alta';
+  pdfBusy=true;refreshPdf();const st=$('pdf-status');
+  try{for(const l of langs){const blob=await MaiarcPDF.make(pdfProp(p),l,{quality:q,onStatus:t=>st.innerHTML='<span class="spin"></span> Armando el PDF · '+t+'…'});
+      const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=fileName(p,l);document.body.append(a);a.click();
+      setTimeout(()=>{URL.revokeObjectURL(url);a.remove();},4000);await new Promise(r=>setTimeout(r,700));
+      st.textContent=fileName(p,l)+' · '+(blob.size/1048576).toFixed(1)+' MB';}
+    if(langs.length===2)st.textContent='Listo: se descargaron '+fileName(p,'es')+' y '+fileName(p,'en')+'.';
+    pdfLog(p,{h:pdfHash(p),t:Date.now()});}
+  catch(err){st.textContent='No se pudo armar el PDF: '+err.message;}
+  finally{pdfBusy=false;refreshPdf();}}
+$('pdf-dl').onclick=()=>downloadPdf(['es','en']);
+$('pdf-es').onclick=()=>downloadPdf(['es']);$('pdf-en').onclick=()=>downloadPdf(['en']);
+let prevLang='es',prevRun=0;
+const SLIDE_NAMES={cover:'Portada',welcome:'Bienvenidos',amenities:'Servicios y amenidades',photo:'Foto'};
+async function openPreview(){const p=cur();if(!p)return;$('pdf-modal').hidden=false;document.body.style.overflow='hidden';
+  [...$('pdf-ml').children].forEach(x=>x.classList.toggle('on',x.dataset.l===prevLang));
+  const run=++prevRun;const G=$('pdf-slides');G.innerHTML='';$('pdf-mt').innerHTML='<span class="spin"></span> Armando la vista previa…';
+  await MaiarcPDF.preview(pdfProp(p),prevLang,(c,s,k,n)=>{if(run!==prevRun)return;const f=document.createElement('figure');f.append(c);
+    const cap=document.createElement('figcaption');cap.textContent=(k+1)+' · '+SLIDE_NAMES[s.type];f.append(cap);G.append(f);$('pdf-mt').textContent='Vista previa · '+(k+1)+' de '+n+' páginas';});}
+$('pdf-prev').onclick=openPreview;
+$('pdf-ml').onclick=e=>{const b=e.target.closest('button');if(!b)return;prevLang=b.dataset.l;openPreview();};
+$('pdf-close').onclick=()=>{prevRun++;$('pdf-modal').hidden=true;document.body.style.overflow='';};
+
 // ---------- Publicar ----------
 function problems(){const out=[];data.props.forEach(p=>{if(!p.name)out.push('Una propiedad no tiene nombre.');if(!p.zone)out.push('“'+p.name+'” no tiene zona.');
-  if(p.visible!==false&&!(p.photos||[]).length)out.push('“'+p.name+'” no tiene fotos.');});return out;}
+  if(p.visible!==false&&!(p.photos||[]).length)out.push('“'+p.name+'” no tiene fotos.');
+  const lk=leaks(p);if(lk.length)out.push('En “'+p.name+'” aparece el nombre real (“'+lk[0]+'”) en un texto. Sacalo antes de publicar.');});return out;}
 $('publish').onclick=async()=>{const pr=problems();if(pr.length){toast(pr[0]+' Completalo o marcala como oculta antes de publicar.');return;}
   const b=$('publish');b.disabled=true;$('discard').disabled=true;
-  try{const paths=Object.keys(uploads);const blobs=[];
+  try{// El portugués que esté vacío se completa solo (después lo revisa Claude)
+    const changed=data.props.filter(p=>!orig.includes(JSON.stringify(p)));
+    if(changed.length){$('bar-msg').innerHTML='<span class="spin"></span> Completando el portugués…';
+      for(const p of changed){try{await fillTranslations(p,['pt']);}catch(_){}}}
+    const paths=Object.keys(uploads);const blobs=[];
     for(let i=0;i<paths.length;i++){$('bar-msg').innerHTML='<span class="spin"></span> Subiendo fotos '+(i+1)+' de '+paths.length+'…';
       const r=await api('blob',{method:'POST',headers:{'Content-Type':'text/plain'},body:uploads[paths[i]].b64});blobs.push({path:paths[i],sha:r.sha});}
     $('bar-msg').innerHTML='<span class="spin"></span> Publicando…';
     // limpiar valores vacíos
     data.props.forEach(p=>{if(p.amen){['en','pt'].forEach(l=>p.amen[l]=(p.amen[l]||[]).filter(Boolean));}p.tags=(p.tags||[]).filter(t=>t.es);});
     const still=new Set(data.props.flatMap(p=>(p.photos||[]).map(f=>'img/'+f.id+'.jpg')));
-    const res=await api('publish',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({data,baseSha,blobs,deletes:[...deletes].filter(x=>!still.has(x)),message:'Panel: '+(editing?('edita '+(cur()||{}).name):'actualización')})});
+    const res=await api('publish',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({data,priv,baseSha,blobs,deletes:[...deletes].filter(x=>!still.has(x)),message:'Panel: '+(editing?('edita '+(cur()||{}).name):'actualización')})});
     Object.entries(uploads).forEach(([k,u])=>previews[k]=u.url);
     if(res&&res.data){data=res.data;if(!data.props)data.props=[];}if(res&&res.sha)baseSha=res.sha;
-    orig=JSON.stringify(data);uploads={};deletes=new Set();
+    orig=JSON.stringify(data);origPriv=JSON.stringify(priv);uploads={};deletes=new Set();
     toast(res&&res.conflicts&&res.conflicts.length?('¡Publicado! Ojo: otra persona también cambió '+res.conflicts.slice(0,3).join(', ')+' y quedó tu versión. Revisalo.'):res&&res.merged?'¡Publicado! Había cambios publicados desde otro lado y los combiné con los tuyos. En 1–2 minutos se ve en la web.':'¡Publicado! En 1–2 minutos se ve en la web.',!(res&&res.conflicts&&res.conflicts.length));
     if(editing)fillEdit();else renderList();}
   catch(err){toast('No se pudo publicar: '+err.message);}
   finally{b.disabled=false;$('discard').disabled=false;$('bar-msg').textContent='Tenés cambios sin publicar.';updateBar();}};
-$('discard').onclick=()=>{if(!confirm('¿Descartar todos los cambios sin publicar?'))return;data=JSON.parse(orig);Object.values(uploads).forEach(u=>URL.revokeObjectURL(u.url));uploads={};deletes=new Set();showList();updateBar();};
+$('discard').onclick=()=>{if(!confirm('¿Descartar todos los cambios sin publicar?'))return;data=JSON.parse(orig);priv=JSON.parse(origPriv);Object.values(uploads).forEach(u=>URL.revokeObjectURL(u.url));uploads={};deletes=new Set();showList();updateBar();};
 })();
 </script>
 </body>

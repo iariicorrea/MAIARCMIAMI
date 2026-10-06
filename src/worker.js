@@ -8,6 +8,9 @@
 const REPO = 'iariicorrea/MAIARCMIAMI';
 const BRANCH = 'main';
 const CONTENT_PATH = 'content/props.js';
+// Datos internos (ej.: nombre real de la propiedad). Nunca se publican: el archivo está en .assetsignore
+// y solo se lee con la contraseña del panel.
+const PRIVATE_PATH = 'content/interno.json';
 const SESSION_HOURS = 12;
 const SITE = 'https://miami.maiarconcierge.com';
 import { ZONAS } from '../content/zonas.js';
@@ -43,7 +46,7 @@ async function api(req, env, url) {
   if (route === 'content' && req.method === 'GET') {
     const file = await gh(env, `contents/${CONTENT_PATH}?ref=${BRANCH}`);
     const text = b64decodeUtf8(file.content);
-    return json({ data: parseContent(text), sha: file.sha });
+    return json({ data: parseContent(text), sha: file.sha, priv: await readPrivate(env) });
   }
 
   if (route === 'blob' && req.method === 'POST') {
@@ -90,6 +93,12 @@ async function api(req, env, url) {
       const used = new Set(out.props.flatMap((p) => (p.photos || []).map((f) => 'img/' + f.id + '.jpg')));
       const safeDeletes = deletes.filter((d) => !used.has(d));
       const files = [{ path: CONTENT_PATH, content: 'window.SITE_PROPS=' + JSON.stringify(out, null, 1) + ';\n', encoding: 'utf-8' }];
+      if (body.priv && typeof body.priv === 'object') {
+        const ids = new Set(out.props.map((p) => p.id));
+        const priv = { ...(await readPrivate(env)), ...cleanPrivate(body.priv) };
+        Object.keys(priv).forEach((id) => { if (!ids.has(id) || !priv[id].real) delete priv[id]; });
+        files.push({ path: PRIVATE_PATH, content: JSON.stringify(priv, null, 1) + '\n', encoding: 'utf-8' });
+      }
       try {
         const r = await commit(env, files, blobs, safeDeletes, body.message || 'Actualización desde el panel', parent);
         return json({ ok: true, commit: r.commit, sha: r.fileSha, data: out, merged, conflicts });
@@ -165,6 +174,23 @@ function mergeProps(base, mine, theirs, conflicts = []) {
 function parseContent(text) {
   const s = text.trim().replace(/^window\.SITE_PROPS\s*=\s*/, '').replace(/;\s*$/, '');
   return JSON.parse(s);
+}
+
+async function readPrivate(env) {
+  try {
+    const f = await gh(env, `contents/${PRIVATE_PATH}?ref=${BRANCH}`);
+    return JSON.parse(b64decodeUtf8(f.content)) || {};
+  } catch (e) {
+    return {}; // todavía no existe
+  }
+}
+function cleanPrivate(obj) {
+  const out = {};
+  for (const [id, v] of Object.entries(obj || {})) {
+    if (!/^[a-z0-9-]+$/.test(id) || !v || typeof v !== 'object') continue;
+    out[id] = { real: String(v.real || '').slice(0, 300) };
+  }
+  return out;
 }
 
 function validate(data) {
