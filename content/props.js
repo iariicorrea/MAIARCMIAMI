@@ -2091,6 +2091,281 @@ window.SITE_PROPS={
    "card": "villa-laurel-muvuifv48f0",
    "home": true,
    "visible": true
+  },
+  {
+   "id": "villa-cima",
+   "name": "VILLA CIMA",
+   "type": "Villa",
+   "zone": "Pinecrest",
+   "area": "Miami",
+   "beds": 6,
+   "baths": 8,
+   "guests": 16,
+   "extra": [
+    {
+     "v": "8.143",
+     "l": {
+      "es": "ft² · Interior",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "v": "48.350",
+     "l": {
+      "es": "ft² · Terreno",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "ops": [
+    "alquiler"
+   ],
+   "tags": [
+    {
+     "es": "Piscina"
+    },
+    {
+     "es": "Jacuzzi"
+    },
+    {
+     "es": "Gimnasio"
+    },
+    {
+     "es": "Sala de cine"
+    },
+    {
+     "es": "Cocina exterior"
+    }
+   ],
+   "short": {
+    "es": "casi media hectárea y piscina infinita",
+    "en": "",
+    "pt": ""
+   },
+   "lead": {
+    "es": "Una obra moderna que une elegancia y naturaleza, con piscina infinita de 23 metros",
+    "en": "",
+    "pt": ""
+   },
+   "desc": {
+    "es": "Villa Cima es una residencia moderna sobre un terreno de casi media hectárea. Se entra por un bosque zen bordeado de piedra caliza, y adentro los techos de doble altura y las paredes de vidrio miran a espejos de agua y vegetación. A estrenar, tiene casa inteligente, sala de cine, gimnasio, estudio y cocina italiana con Wolf y Sub-Zero. Sus seis suites tienen baño propio, y la principal ocupa 120 m², con ventanales envolventes, sala de estar, baño tipo spa y vestidor. Puertas corredizas de 15 metros se abren a la piscina infinita de 23 metros con jacuzzi, livings exteriores, cocina de verano y un living hundido con fogón.",
+    "en": "",
+    "pt": ""
+   },
+   "amen": {
+    "es": [
+     "Piscina infinita de 23 m con jacuzzi",
+     "Sala de cine",
+     "Gimnasio",
+     "Cocina de verano",
+     "Living exterior con fogón",
+     "Casa inteligente",
+     "Cocina italiana con Wolf y Sub-Zero",
+     "6 suites"
+    ],
+    "en": [],
+    "pt": []
+   },
+   "photos": [
+    {
+     "id": "villa-cima-mux1lcr18y3",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cima-mux1lcsgcub",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cima-mux1ldirou0",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cima-mux1ldlilcb",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cima-mux1lcv5lkf",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cima-mux1lcwiql6",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cima-mux1lcxuvws",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cima-mux1lcz8kgy",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cima-mux1ld0ftii",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cima-mux1ld1yb69",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cima-mux1ld3flz5",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cima-mux1ld4wo3s",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cima-mux1ld64rg0",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cima-mux1ld7czh7",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cima-mux1ld8k5v5",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cima-mux1ld9x7yq",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cima-mux1ldb4xpb",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cima-mux1ldcahxj",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cima-mux1lddjj4q",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cima-mux1ldeqd8w",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cima-mux1ldfxn4i",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cima-mux1ldh9zoy",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cima-mux1ldmvyi4",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cima-mux1ldodwbk",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "feat": "villa-cima-mux1lcr18y3",
+   "card": "villa-cima-mux1lcr18y3",
+   "home": true,
+   "visible": true
   }
  ]
 };
