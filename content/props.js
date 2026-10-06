@@ -323,6 +323,908 @@ window.SITE_PROPS={
    "visible": true
   },
   {
+   "id": "villa-laurel",
+   "name": "VILLA LAUREL",
+   "type": "Villa",
+   "zone": "South Miami",
+   "area": "Miami",
+   "beds": 5,
+   "baths": 5,
+   "guests": 12,
+   "extra": [
+    {
+     "v": "4.534",
+     "l": {
+      "es": "ft² · Interior",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "v": "24.600",
+     "l": {
+      "es": "ft² · Terreno",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "ops": [
+    "alquiler"
+   ],
+   "tags": [
+    {
+     "es": "Piscina"
+    },
+    {
+     "es": "Frente al agua"
+    }
+   ],
+   "short": {
+    "es": "Frente al lago, con atardeceres sobre el agua",
+    "en": "",
+    "pt": ""
+   },
+   "lead": {
+    "es": "Una residencia contemporánea frente al lago, con techos altos, piscina infinita y vistas al atardecer.",
+    "en": "",
+    "pt": ""
+   },
+   "desc": {
+    "es": "Villa Laurel es una casa contemporánea de construcción reciente, frente a un lago y sobre un terreno de más de 2.000 m². Los techos altos y los ventanales de impacto de piso a techo llenan de luz su planta abierta. En planta baja hay dos suites, living, comedor, family room y toilette. Arriba están la suite principal, con vestidor y balcón con vista al lago, otras dos suites y un loft amplio. La cocina tiene equipamiento de primera línea, y la piscina infinita mira al agua. Cuatro de los dormitorios tienen vista al lago.\n",
+    "en": "",
+    "pt": ""
+   },
+   "amen": {
+    "es": [
+     "Frente al lago",
+     "Piscina infinita",
+     "5 suites",
+     "Suite principal con vestidor y balcón",
+     "Loft",
+     "Toilette"
+    ],
+    "en": [],
+    "pt": []
+   },
+   "photos": [
+    {
+     "id": "villa-laurel-muvuifv48f0",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuify2yb2",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuig0irx7",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuj0ww89d",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuig3f9sv",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuig6rrca",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuigbbmrj",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuj0jf6g4",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuigg9skr",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuigkk5lc",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuign4j22",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuigqlgxu",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuigu2czv",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuigxzq10",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuih26bnh",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuih4m7dx",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuih8d9jv",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuihc1czm",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuihehx8g",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuihkcgmt",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuizoh79z",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuiztp1rn",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuizyrpc6",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuj03mh16",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuj07puy2",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuj0b3blp",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuj0eq4vd",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuj0nscpf",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuj0s3naw",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuj11dm97",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuj16eg7h",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-laurel-muvuj1bwezt",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "feat": "villa-laurel-muvuifv48f0",
+   "card": "villa-laurel-muvuifv48f0",
+   "home": true,
+   "visible": true
+  },
+  {
+   "id": "villa-murano",
+   "name": "VILLA MURANO",
+   "type": "Villa",
+   "zone": "Venetian Islands",
+   "area": "Miami",
+   "beds": 5,
+   "baths": 6,
+   "guests": 12,
+   "extra": [
+    {
+     "v": "3.700",
+     "l": {
+      "es": "ft² · Interior",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "v": "13.500",
+     "l": {
+      "es": "ft² · Terreno",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "ops": [
+    "alquiler"
+   ],
+   "tags": [
+    {
+     "es": "Piscina"
+    },
+    {
+     "es": "Jacuzzi"
+    },
+    {
+     "es": "Frente al agua"
+    },
+    {
+     "es": "Muelle privado"
+    }
+   ],
+   "short": {
+    "es": "Frente a la bahía, con muelle propio",
+    "en": "",
+    "pt": ""
+   },
+   "lead": {
+    "es": "Una casa renovada frente a la bahía, con vistas abiertas al skyline y atardeceres sobre el agua.",
+    "en": "",
+    "pt": ""
+   },
+   "desc": {
+    "es": " Totalmente renovada, Villa Murano está frente a la bahía, con vistas abiertas al agua, al skyline de Miami y a los atardeceres. Ocupa un lote amplio con 27 metros de frente al agua. Sus interiores son luminosos y modernos, y se integran con el exterior. Tiene piscina, jacuzzi frente al agua, comedor exterior y muelle privado para ver caer el sol. Está a minutos de Miami Beach, Downtown, Brickell y los mejores restaurantes, compras y vida nocturna.\n",
+    "en": "",
+    "pt": ""
+   },
+   "amen": {
+    "es": [
+     "27 m de frente a la bahía",
+     "Muelle privado",
+     "Piscina",
+     "Jacuzzi frente al agua",
+     "Parrilla",
+     "Comedor exterior",
+     "Toilette",
+     "Camas: 2 king y 4 queen"
+    ],
+    "en": [],
+    "pt": []
+   },
+   "photos": [
+    {
+     "id": "villa-murano-mux2ymf007w",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ymh0gju",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ymirdgz",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ymkfb8i",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ymm7h9i",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ymnr64j",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ympewqt",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ymrbtyt",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ymskcgo",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ymts7l0",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ymv0xhq",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ymwayfm",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ymxcqcs",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ymyiffa",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ymzph5u",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2yn0yaax",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2yn2500j",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2yn3h3jy",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2yn4yhbe",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2yn6l6ll",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2yn8g90b",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ynah4c8",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ynccobd",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ynec1x3",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2yng09j3",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ynhlk1c",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-murano-mux2ynjdft5",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "feat": "villa-murano-mux2ymf007w",
+   "card": "villa-murano-mux2ymf007w",
+   "home": true,
+   "visible": true
+  },
+  {
+   "id": "villa-cadiz",
+   "name": "VILLA CADIZ",
+   "type": "Villa",
+   "zone": "South Miami",
+   "area": "Miami",
+   "beds": 7,
+   "baths": 4,
+   "guests": 16,
+   "extra": [
+    {
+     "v": "6.000",
+     "l": {
+      "es": "ft² · Interior",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "v": "65.340",
+     "l": {
+      "es": "ft² · Terreno",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "ops": [
+    "alquiler"
+   ],
+   "tags": [
+    {
+     "es": "Piscina"
+    },
+    {
+     "es": "Cancha deportiva"
+    },
+    {
+     "es": "Sala de juegos"
+    },
+    {
+     "es": "Cocina exterior"
+    }
+   ],
+   "short": {
+    "es": "Estilo español con cancha y piscina resort",
+    "en": "",
+    "pt": ""
+   },
+   "lead": {
+    "es": "Una gran casa de estilo español sobre más de media hectárea, pensada para descansar y para divertirse.",
+    "en": "",
+    "pt": ""
+   },
+   "desc": {
+    "es": "Villa Cádiz es una casa de estilo español con más de 550 m² cubiertos, sobre un terreno de más de media hectárea. Tiene siete dormitorios amplios, varios livings y comedores, cocina de chef y sala de juegos. Los ambientes son abiertos, luminosos y con terminaciones elegantes, ideales para familias, grupos o estadías largas. Afuera, la experiencia es de resort: piscina, cabañas con sombra, livings exteriores, comedor cubierto, barbacoa y bar. Suma una cancha privada de básquet y pickleball. Está cerca de los mejores restaurantes, compras, vida nocturna y playas de Miami.",
+    "en": "",
+    "pt": ""
+   },
+   "amen": {
+    "es": [
+     "Piscina estilo resort",
+     "Cabañas con sombra",
+     "Barbacoa y bar exterior",
+     "Cancha de básquet y pickleball",
+     "Sala de juegos",
+     "Cocina de chef"
+    ],
+    "en": [],
+    "pt": []
+   },
+   "photos": [
+    {
+     "id": "villa-cadiz-mux26nfzx7h",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26nhzzal",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26njuf1d",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26nlmehw",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26nnbnr4",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26np0tz1",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26nqp4uz",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26ns9kem",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26nx3hmq",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26ntngv2",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26nv8ry1",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26nyjqrt",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26o0d9nc",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26o1wosc",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26o3r2zw",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26o59a1z",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26o6q6y3",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26o87pdb",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26o9njl6",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26ob1rp6",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26ochp80",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26oeclfb",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26oft122",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26oh7u9s",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26oilv1s",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "feat": "villa-cadiz-mux26nfzx7h",
+   "card": "villa-cadiz-mux26nfzx7h",
+   "home": true,
+   "visible": true
+  },
+  {
    "id": "villa-celeste",
    "name": "VILLA CELESTE",
    "type": "Villa",
@@ -629,7 +1531,7 @@ window.SITE_PROPS={
    ],
    "feat": "villa-celeste-muvsnc09j3q",
    "card": "villa-celeste-muvsnc09j3q",
-   "home": true,
+   "home": false,
    "visible": true
   },
   {
@@ -1765,334 +2667,6 @@ window.SITE_PROPS={
    "visible": true
   },
   {
-   "id": "villa-laurel",
-   "name": "VILLA LAUREL",
-   "type": "Villa",
-   "zone": "South Miami",
-   "area": "Miami",
-   "beds": 5,
-   "baths": 5,
-   "guests": 12,
-   "extra": [
-    {
-     "v": "4.534",
-     "l": {
-      "es": "ft² · Interior",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "v": "24.600",
-     "l": {
-      "es": "ft² · Terreno",
-      "en": "",
-      "pt": ""
-     }
-    }
-   ],
-   "ops": [
-    "alquiler"
-   ],
-   "tags": [
-    {
-     "es": "Piscina"
-    },
-    {
-     "es": "Frente al agua"
-    }
-   ],
-   "short": {
-    "es": "Frente al lago, con atardeceres sobre el agua",
-    "en": "",
-    "pt": ""
-   },
-   "lead": {
-    "es": "Una residencia contemporánea frente al lago, con techos altos, piscina infinita y vistas al atardecer.",
-    "en": "",
-    "pt": ""
-   },
-   "desc": {
-    "es": "Villa Laurel es una casa contemporánea de construcción reciente, frente a un lago y sobre un terreno de más de 2.000 m². Los techos altos y los ventanales de impacto de piso a techo llenan de luz su planta abierta. En planta baja hay dos suites, living, comedor, family room y toilette. Arriba están la suite principal, con vestidor y balcón con vista al lago, otras dos suites y un loft amplio. La cocina tiene equipamiento de primera línea, y la piscina infinita mira al agua. Cuatro de los dormitorios tienen vista al lago.\n",
-    "en": "",
-    "pt": ""
-   },
-   "amen": {
-    "es": [
-     "Frente al lago",
-     "Piscina infinita",
-     "5 suites",
-     "Suite principal con vestidor y balcón",
-     "Loft",
-     "Toilette"
-    ],
-    "en": [],
-    "pt": []
-   },
-   "photos": [
-    {
-     "id": "villa-laurel-muvuifv48f0",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuify2yb2",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuig0irx7",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuj0ww89d",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuig3f9sv",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuig6rrca",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuigbbmrj",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuj0jf6g4",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuigg9skr",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuigkk5lc",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuign4j22",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuigqlgxu",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuigu2czv",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuigxzq10",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuih26bnh",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuih4m7dx",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuih8d9jv",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuihc1czm",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuihehx8g",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuihkcgmt",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuizoh79z",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuiztp1rn",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuizyrpc6",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuj03mh16",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuj07puy2",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuj0b3blp",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuj0eq4vd",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuj0nscpf",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuj0s3naw",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuj11dm97",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuj16eg7h",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-laurel-muvuj1bwezt",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    }
-   ],
-   "feat": "villa-laurel-muvuifv48f0",
-   "card": "villa-laurel-muvuifv48f0",
-   "home": true,
-   "visible": true
-  },
-  {
    "id": "villa-cima",
    "name": "VILLA CIMA",
    "type": "Villa",
@@ -2984,284 +3558,6 @@ window.SITE_PROPS={
    "visible": true
   },
   {
-   "id": "villa-cadiz",
-   "name": "VILLA CADIZ",
-   "type": "Villa",
-   "zone": "South Miami",
-   "area": "Miami",
-   "beds": 7,
-   "baths": 4,
-   "guests": 16,
-   "extra": [
-    {
-     "v": "6.000",
-     "l": {
-      "es": "ft² · Interior",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "v": "65.340",
-     "l": {
-      "es": "ft² · Terreno",
-      "en": "",
-      "pt": ""
-     }
-    }
-   ],
-   "ops": [
-    "alquiler"
-   ],
-   "tags": [
-    {
-     "es": "Piscina"
-    },
-    {
-     "es": "Cancha deportiva"
-    },
-    {
-     "es": "Sala de juegos"
-    },
-    {
-     "es": "Cocina exterior"
-    }
-   ],
-   "short": {
-    "es": "Estilo español con cancha y piscina resort",
-    "en": "",
-    "pt": ""
-   },
-   "lead": {
-    "es": "Una gran casa de estilo español sobre más de media hectárea, pensada para descansar y para divertirse.",
-    "en": "",
-    "pt": ""
-   },
-   "desc": {
-    "es": "Villa Cádiz es una casa de estilo español con más de 550 m² cubiertos, sobre un terreno de más de media hectárea. Tiene siete dormitorios amplios, varios livings y comedores, cocina de chef y sala de juegos. Los ambientes son abiertos, luminosos y con terminaciones elegantes, ideales para familias, grupos o estadías largas. Afuera, la experiencia es de resort: piscina, cabañas con sombra, livings exteriores, comedor cubierto, barbacoa y bar. Suma una cancha privada de básquet y pickleball. Está cerca de los mejores restaurantes, compras, vida nocturna y playas de Miami.",
-    "en": "",
-    "pt": ""
-   },
-   "amen": {
-    "es": [
-     "Piscina estilo resort",
-     "Cabañas con sombra",
-     "Barbacoa y bar exterior",
-     "Cancha de básquet y pickleball",
-     "Sala de juegos",
-     "Cocina de chef"
-    ],
-    "en": [],
-    "pt": []
-   },
-   "photos": [
-    {
-     "id": "villa-cadiz-mux26nfzx7h",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-cadiz-mux26nhzzal",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-cadiz-mux26njuf1d",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-cadiz-mux26nlmehw",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-cadiz-mux26nnbnr4",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-cadiz-mux26np0tz1",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-cadiz-mux26nqp4uz",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-cadiz-mux26ns9kem",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-cadiz-mux26nx3hmq",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-cadiz-mux26ntngv2",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-cadiz-mux26nv8ry1",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-cadiz-mux26nyjqrt",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-cadiz-mux26o0d9nc",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-cadiz-mux26o1wosc",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-cadiz-mux26o3r2zw",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-cadiz-mux26o59a1z",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-cadiz-mux26o6q6y3",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-cadiz-mux26o87pdb",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-cadiz-mux26o9njl6",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-cadiz-mux26ob1rp6",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-cadiz-mux26ochp80",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-cadiz-mux26oeclfb",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-cadiz-mux26oft122",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-cadiz-mux26oh7u9s",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-cadiz-mux26oilv1s",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    }
-   ],
-   "feat": "villa-cadiz-mux26nfzx7h",
-   "card": "villa-cadiz-mux26nfzx7h",
-   "home": true,
-   "visible": true
-  },
-  {
    "id": "villa-julieta",
    "name": "VILLA JULIETA",
    "type": "Villa",
@@ -4136,302 +4432,6 @@ window.SITE_PROPS={
    ],
    "feat": "villa-sabina-mux2qrrh4uy",
    "card": "villa-sabina-mux2qrrh4uy",
-   "home": true,
-   "visible": true
-  },
-  {
-   "id": "villa-murano",
-   "name": "VILLA MURANO",
-   "type": "Villa",
-   "zone": "Venetian Islands",
-   "area": "Miami",
-   "beds": 5,
-   "baths": 6,
-   "guests": 12,
-   "extra": [
-    {
-     "v": "3.700",
-     "l": {
-      "es": "ft² · Interior",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "v": "13.500",
-     "l": {
-      "es": "ft² · Terreno",
-      "en": "",
-      "pt": ""
-     }
-    }
-   ],
-   "ops": [
-    "alquiler"
-   ],
-   "tags": [
-    {
-     "es": "Piscina"
-    },
-    {
-     "es": "Jacuzzi"
-    },
-    {
-     "es": "Frente al agua"
-    },
-    {
-     "es": "Muelle privado"
-    }
-   ],
-   "short": {
-    "es": "Frente a la bahía, con muelle propio",
-    "en": "",
-    "pt": ""
-   },
-   "lead": {
-    "es": "Una casa renovada frente a la bahía, con vistas abiertas al skyline y atardeceres sobre el agua.",
-    "en": "",
-    "pt": ""
-   },
-   "desc": {
-    "es": " Totalmente renovada, Villa Murano está frente a la bahía, con vistas abiertas al agua, al skyline de Miami y a los atardeceres. Ocupa un lote amplio con 27 metros de frente al agua. Sus interiores son luminosos y modernos, y se integran con el exterior. Tiene piscina, jacuzzi frente al agua, comedor exterior y muelle privado para ver caer el sol. Está a minutos de Miami Beach, Downtown, Brickell y los mejores restaurantes, compras y vida nocturna.\n",
-    "en": "",
-    "pt": ""
-   },
-   "amen": {
-    "es": [
-     "27 m de frente a la bahía",
-     "Muelle privado",
-     "Piscina",
-     "Jacuzzi frente al agua",
-     "Parrilla",
-     "Comedor exterior",
-     "Toilette",
-     "Camas: 2 king y 4 queen"
-    ],
-    "en": [],
-    "pt": []
-   },
-   "photos": [
-    {
-     "id": "villa-murano-mux2ymf007w",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-murano-mux2ymh0gju",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-murano-mux2ymirdgz",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-murano-mux2ymkfb8i",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-murano-mux2ymm7h9i",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-murano-mux2ymnr64j",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-murano-mux2ympewqt",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-murano-mux2ymrbtyt",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-murano-mux2ymskcgo",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-murano-mux2ymts7l0",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-murano-mux2ymv0xhq",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-murano-mux2ymwayfm",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-murano-mux2ymxcqcs",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-murano-mux2ymyiffa",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-murano-mux2ymzph5u",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-murano-mux2yn0yaax",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-murano-mux2yn2500j",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-murano-mux2yn3h3jy",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-murano-mux2yn4yhbe",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-murano-mux2yn6l6ll",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-murano-mux2yn8g90b",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-murano-mux2ynah4c8",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-murano-mux2ynccobd",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-murano-mux2ynec1x3",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-murano-mux2yng09j3",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-murano-mux2ynhlk1c",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    },
-    {
-     "id": "villa-murano-mux2ynjdft5",
-     "alt": {
-      "es": "",
-      "en": "",
-      "pt": ""
-     }
-    }
-   ],
-   "feat": "villa-murano-mux2ymf007w",
-   "card": "villa-murano-mux2ymf007w",
    "home": true,
    "visible": true
   }
