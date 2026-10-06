@@ -2693,6 +2693,295 @@ window.SITE_PROPS={
    "card": "villa-nebula-mux0vqn0f73",
    "home": true,
    "visible": true
+  },
+  {
+   "id": "villa-atlas",
+   "name": "VILLA ATLAS",
+   "type": "Casa",
+   "zone": "Miami Shores",
+   "area": "Miami",
+   "beds": 6,
+   "baths": 6,
+   "guests": 12,
+   "extra": [
+    {
+     "v": "23.400",
+     "l": {
+      "es": "FT TERRENO",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "v": "6150",
+     "l": {
+      "es": "INTERIOR",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "ops": [
+    "alquiler"
+   ],
+   "tags": [
+    {
+     "es": "Piscina"
+    },
+    {
+     "es": "Una planta"
+    }
+   ],
+   "short": {
+    "es": "Un oasis de inspiración marroquí",
+    "en": "",
+    "pt": ""
+   },
+   "lead": {
+    "es": "Líneas contemporáneas y espíritu marroquí en una casa de una planta con piscina climatizada",
+    "en": "",
+    "pt": ""
+   },
+   "desc": {
+    "es": "Villa Atlas recibe con una entrada de inspiración marroquí. Por dentro, su planta abierta es luminosa y fluida, entre vegetación exuberante. La terraza y el interior se integran, con espacios al sol y a la sombra, piscina climatizada iluminada y parrilla para comer en la galería. Pisos de cemento pulido, detalles de madera y piezas de arte africano y contemporáneo completan el interior, junto a un lounge con TV. Los seis dormitorios están en una sola planta y se abren a patios o terrazas. La suite principal tiene cama king y mira a la piscina. Está a minutos de Wynwood, Downtown y Miami Beach.\n\n\n",
+    "en": "",
+    "pt": ""
+   },
+   "amen": {
+    "es": [
+     "Piscina climatizada",
+     "Parrilla",
+     "Galería",
+     "Lounge con TV",
+     "Todo en una planta",
+     "Dormitorios con salida a patio o terraza",
+     "Toilette"
+    ],
+    "en": [],
+    "pt": []
+   },
+   "photos": [
+    {
+     "id": "villa-atlas-mux1wp5qicg",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-atlas-mux1wp0hs1i",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-atlas-mux1wp25kr9",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-atlas-mux1wp3ve3a",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-atlas-mux1wp7nut0",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-atlas-mux1wp98ori",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-atlas-mux1wpaodzd",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-atlas-mux1wpc1lxi",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-atlas-mux1wpdejup",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-atlas-mux1wpeohep",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-atlas-mux1wpg0lti",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-atlas-mux1wpha7ob",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-atlas-mux1wpikj4x",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-atlas-mux1wpjske4",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-atlas-mux1wpla1xl",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-atlas-mux1wpmo5o7",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-atlas-mux1wpnw1lh",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-atlas-mux1wppjmmm",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-atlas-mux1wpqzh80",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-atlas-mux1wpsbew2",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-atlas-mux1wptp07m",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-atlas-mux1wpv0n4n",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-atlas-mux1wpwd273",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-atlas-mux1wpxlrwf",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-atlas-mux1wpyugsi",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-atlas-mux1wq05c9t",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-atlas-mux1wq1rpak",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "feat": "villa-atlas-mux1wp5qicg",
+   "card": "villa-atlas-mux1wp5qicg",
+   "home": true,
+   "visible": true
   }
  ]
 };
