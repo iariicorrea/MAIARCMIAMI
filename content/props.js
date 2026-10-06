@@ -2982,6 +2982,284 @@ window.SITE_PROPS={
    "card": "villa-atlas-mux1wp5qicg",
    "home": true,
    "visible": true
+  },
+  {
+   "id": "villa-cadiz",
+   "name": "VILLA CADIZ",
+   "type": "Villa",
+   "zone": "South Miami",
+   "area": "Miami",
+   "beds": 7,
+   "baths": 4,
+   "guests": 16,
+   "extra": [
+    {
+     "v": "6.000",
+     "l": {
+      "es": "ft² · Interior",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "v": "65.340",
+     "l": {
+      "es": "ft² · Terreno",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "ops": [
+    "alquiler"
+   ],
+   "tags": [
+    {
+     "es": "Piscina"
+    },
+    {
+     "es": "Cancha deportiva"
+    },
+    {
+     "es": "Sala de juegos"
+    },
+    {
+     "es": "Cocina exterior"
+    }
+   ],
+   "short": {
+    "es": "Estilo español con cancha y piscina resort",
+    "en": "",
+    "pt": ""
+   },
+   "lead": {
+    "es": "Una gran casa de estilo español sobre más de media hectárea, pensada para descansar y para divertirse.",
+    "en": "",
+    "pt": ""
+   },
+   "desc": {
+    "es": "Villa Cádiz es una casa de estilo español con más de 550 m² cubiertos, sobre un terreno de más de media hectárea. Tiene siete dormitorios amplios, varios livings y comedores, cocina de chef y sala de juegos. Los ambientes son abiertos, luminosos y con terminaciones elegantes, ideales para familias, grupos o estadías largas. Afuera, la experiencia es de resort: piscina, cabañas con sombra, livings exteriores, comedor cubierto, barbacoa y bar. Suma una cancha privada de básquet y pickleball. Está cerca de los mejores restaurantes, compras, vida nocturna y playas de Miami.",
+    "en": "",
+    "pt": ""
+   },
+   "amen": {
+    "es": [
+     "Piscina estilo resort",
+     "Cabañas con sombra",
+     "Barbacoa y bar exterior",
+     "Cancha de básquet y pickleball",
+     "Sala de juegos",
+     "Cocina de chef"
+    ],
+    "en": [],
+    "pt": []
+   },
+   "photos": [
+    {
+     "id": "villa-cadiz-mux26nfzx7h",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26nhzzal",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26njuf1d",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26nlmehw",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26nnbnr4",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26np0tz1",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26nqp4uz",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26ns9kem",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26nx3hmq",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26ntngv2",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26nv8ry1",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26nyjqrt",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26o0d9nc",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26o1wosc",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26o3r2zw",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26o59a1z",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26o6q6y3",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26o87pdb",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26o9njl6",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26ob1rp6",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26ochp80",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26oeclfb",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26oft122",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26oh7u9s",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-cadiz-mux26oilv1s",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "feat": "villa-cadiz-mux26nfzx7h",
+   "card": "villa-cadiz-mux26nfzx7h",
+   "home": true,
+   "visible": true
   }
  ]
 };
