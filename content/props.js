@@ -4434,6 +4434,153 @@ window.SITE_PROPS={
    "card": "villa-sabina-mux2qrrh4uy",
    "home": true,
    "visible": true
+  },
+  {
+   "id": "villa-prueba",
+   "name": "VILLA PRUEBA",
+   "type": "Villa",
+   "zone": "BRICKELL, MIAMI",
+   "area": "Miami",
+   "beds": 5,
+   "baths": 5,
+   "guests": 10,
+   "extra": [],
+   "ops": [
+    "alquiler"
+   ],
+   "tags": [
+    {
+     "es": "a ddjs",
+     "en": "afs",
+     "pt": "vivenciar o luxo em Key Biscayne"
+    },
+    {
+     "es": "sm dal",
+     "en": "serene ocean views",
+     "pt": "sua segunda casa em Fort Lauderdale"
+    }
+   ],
+   "short": {
+    "es": "Frente al mar ",
+    "en": "infrotn",
+    "pt": "Em frente ao mar"
+   },
+   "lead": {
+    "es": "con pileta y sauna",
+    "en": "sknjsk",
+    "pt": "com piscina e sauna"
+   },
+   "desc": {
+    "es": "hola ciminejhbdja mmc s\ncn vs;mdn fckj d\nasdd",
+    "en": "as",
+    "pt": "olá, estamos aqui para ajudá-lo a encontrar o seu lar dos sonhos em Miami Beach"
+   },
+   "amen": {
+    "es": [
+     "kan la",
+     "a ma"
+    ],
+    "en": [
+     "sf"
+    ],
+    "pt": [
+     "casa na",
+     "à medida"
+    ]
+   },
+   "svc": {
+    "es": [
+     "kc a;s",
+     "ad a",
+     "s a dlda"
+    ],
+    "en": [
+     "sfs"
+    ],
+    "pt": [
+     "com tudo o que você precisa",
+     "à sua disposição",
+     "serviços de luxo em Coral Gables"
+    ]
+   },
+   "photos": [
+    {
+     "id": "villa-prueba-muxnj0ikncn",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-prueba-muxnj0mptv1",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-prueba-muxnj0qizad",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-prueba-muxnj0u3yux",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-prueba-muxnj18tcox",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-prueba-muxnj0xqf4s",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-prueba-muxnj11ho7h",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-prueba-muxnj157fk8",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    },
+    {
+     "id": "villa-prueba-muxnj1d4tdt",
+     "alt": {
+      "es": "",
+      "en": "",
+      "pt": ""
+     }
+    }
+   ],
+   "feat": "villa-prueba-muxnj0ikncn",
+   "card": "villa-prueba-muxnj0ikncn",
+   "home": true,
+   "visible": true
   }
  ]
 };
