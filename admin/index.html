@@ -583,7 +583,9 @@ function leaks(p){const real=(priv[p.id]&&priv[p.id].real)||'';if(!real.trim())r
 
 // ---------- PDF ----------
 function hasAmen(p){return ['svc','amen'].some(k=>((p[k]||{}).es||[]).length||((p[k]||{}).en||[]).length);}
-function pdfProp(p){return {name:p.name,location:[p.zone,p.area||'Miami'].filter(Boolean).join(', '),beds:p.beds,baths:p.baths,guests:p.guests,
+function pdfLocation(p){const z=(p.zone||'').trim(),a=(p.area||PDF_AREA).trim();return !z?a:(!a||norm(z).includes(norm(a)))?z:z+', '+a;}
+const PDF_AREA='Miami';
+function pdfProp(p){return {name:p.name,location:pdfLocation(p),beds:p.beds,baths:p.baths,guests:p.guests,
   desc:{es:(p.desc||{}).es||'',en:(p.desc||{}).en||''},svc:{es:(p.svc||{}).es||[],en:(p.svc||{}).en||[]},amen:{es:(p.amen||{}).es||[],en:(p.amen||{}).en||[]},
   photos:(p.photos||[]).map(f=>()=>photoForPdf(f.id))};}
 function pdfHash(p){const x=pdfProp(p);delete x.photos;return JSON.stringify([x,(p.photos||[]).map(f=>f.id)]);}
