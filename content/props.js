@@ -337,7 +337,7 @@ window.SITE_PROPS={
      "l": {
       "es": "ft² · Interior",
       "en": "",
-      "pt": ""
+      "pt": "F2 Interiores"
      }
     },
     {
@@ -345,7 +345,7 @@ window.SITE_PROPS={
      "l": {
       "es": "ft² · Terreno",
       "en": "",
-      "pt": ""
+      "pt": "FT2 Terreno"
      }
     }
    ],
@@ -354,26 +354,30 @@ window.SITE_PROPS={
    ],
    "tags": [
     {
-     "es": "Piscina"
+     "es": "Piscina",
+     "en": "Pool",
+     "pt": "Piscina"
     },
     {
-     "es": "Frente al agua"
+     "es": "Frente al agua",
+     "en": "Waterfront",
+     "pt": "Diante da água"
     }
    ],
    "short": {
     "es": "Frente al lago, con atardeceres sobre el agua",
-    "en": "",
-    "pt": ""
+    "en": "Lakefront, with sunsets over the water.",
+    "pt": "Em frente ao lago, com pôr do sol sobre a água"
    },
    "lead": {
     "es": "Una residencia contemporánea frente al lago, con techos altos, piscina infinita y vistas al atardecer.",
-    "en": "",
-    "pt": ""
+    "en": "A contemporary lakefront residence with soaring ceilings, an infinity pool, and sunset views.",
+    "pt": "Uma residência contemporânea em frente ao lago, com tectos altos, piscina infinita e vista para o pôr do sol."
    },
    "desc": {
     "es": "Villa Laurel es una casa contemporánea de construcción reciente, frente a un lago y sobre un terreno de más de 2.000 m². Los techos altos y los ventanales de impacto de piso a techo llenan de luz su planta abierta. En planta baja hay dos suites, living, comedor, family room y toilette. Arriba están la suite principal, con vestidor y balcón con vista al lago, otras dos suites y un loft amplio. La cocina tiene equipamiento de primera línea, y la piscina infinita mira al agua. Cuatro de los dormitorios tienen vista al lago.\n",
-    "en": "",
-    "pt": ""
+    "en": "Villa Laurel is a newly built contemporary home set on over 2,000 m² of lakefront grounds. Soaring ceilings and floor-to-ceiling impact-resistant windows fill the open-plan interior with natural light. The ground floor features two bedroom suites, living and dining areas, a family room, and a powder room. Upstairs, the primary suite includes a walk-in closet and a private balcony overlooking the lake, alongside two additional bedroom suites and a spacious loft. The kitchen features top-of-the-line appliances, while the infinity pool overlooks the water. Four of the bedrooms enjoy lake views.",
+    "pt": "Villa Laurel é uma casa contemporânea de construção recente, em frente a um lago e sobre um terreno de mais de 2.000 m2. Os tectos altos e as janelas de impacto de piso a teto enchem de luz a sua planta aberta. No piso térreo há duas suites, living, sala de jantar, family room e toilette. No topo estão a suite principal, com vestiário e varanda com vista para o lago, outras duas suites e um loft amplo. A cozinha tem equipamento de primeira linha, e a piscina infinita olha para a água. Quatro dos quartos têm vista para o lago."
    },
    "amen": {
     "es": [
@@ -384,8 +388,22 @@ window.SITE_PROPS={
      "Loft",
      "Toilette"
     ],
-    "en": [],
-    "pt": []
+    "en": [
+     "Lakefront",
+     "Infinity pool",
+     "5 bedroom suites",
+     "Primary suite with walk-in closet and balcony",
+     "Loft",
+     "Powder room"
+    ],
+    "pt": [
+     "Diante do Lago",
+     "Piscina Infinita",
+     "5 Suítes",
+     "Suite principal com vestiário e varanda",
+     "Loft",
+     "Toalete"
+    ]
    },
    "photos": [
     {
