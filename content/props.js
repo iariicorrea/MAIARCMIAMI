@@ -5,26 +5,26 @@ window.SITE_PROPS={
    "id": "villa-sora",
    "name": "VILLA SORA",
    "type": "Villa",
-   "zone": "FORT LAUDARDALE",
-   "area": "Miami",
+   "zone": "Fort Lauderdale",
+   "area": "Florida",
    "beds": 4,
    "baths": 5,
    "guests": 11,
    "extra": [
     {
-     "v": "12,000",
+     "v": "3,500",
      "l": {
-      "es": "Total Area",
-      "en": "Total area",
-      "pt": "Área Total"
+      "es": "ft² interiores",
+      "en": "Interior sq ft",
+      "pt": "ft² internos"
      }
     },
     {
-     "v": "3,500",
+     "v": "12,000",
      "l": {
-      "es": "Interior Sq Ft",
-      "en": "Interior Sq Ft",
-      "pt": "Interiores Sq Ft"
+      "es": "ft² de terreno",
+      "en": "Lot sq ft",
+      "pt": "ft² de terreno"
      }
     }
    ],
@@ -33,54 +33,60 @@ window.SITE_PROPS={
    ],
    "tags": [
     {
+     "es": "Piscina",
+     "en": "Pool",
+     "pt": "Piscina"
+    },
+    {
      "es": "Spa",
      "en": "Spa",
      "pt": "Spa"
     },
     {
-     "es": "frente al agua",
-     "en": "In front of water",
-     "pt": "Diante da água"
-    },
-    {
-     "es": "piscina",
-     "en": "Swimming Pool",
-     "pt": "Piscina"
+     "es": "Frente al agua",
+     "en": "Waterfront",
+     "pt": "Frente para a água"
     }
    ],
    "short": {
-    "es": "Frente al agua",
-    "en": "Waterfront",
-    "pt": "Diante da água"
+    "es": "frente al agua",
+    "en": "waterfront",
+    "pt": "frente para a água"
    },
    "lead": {
-    "es": "Residencia frente al agua, con piscina, spa y casa de huéspedes independiente.",
-    "en": "Waterfront residence, with pool, spa and independent guest house.",
-    "pt": "Residência em frente à água, com piscina, spa e casa de hóspedes independente."
+    "es": "Una residencia sobre el Intracoastal, con piscina, spa y casa de huéspedes propia.",
+    "en": "A waterfront residence on the Intracoastal, with a pool, spa and private guest house.",
+    "pt": "Uma residência às margens do Intracoastal, com piscina, spa e casa de hóspedes independente."
    },
    "desc": {
-    "es": "Villa Sora es una residencia completamente remodelada sobre un amplio terreno frente al canal Intracoastal de Fort Lauderdale. El living y el comedor tienen vistas al agua y ventanales de piso a techo que aportan luz natural. La cocina abierta está equipada con electrodomésticos de alta gama.\nLa planta baja incluye una suite, un dormitorio de invitados y una sala multimedia. En el jardín se encuentra una casa de huéspedes independiente con baño completo. Los exteriores cuentan con piscina de diseño, spa y una terraza frente al agua.",
-    "en": "Villa Sora is a fully refurbished residence on a large terrain in front of Fort Lauderdale's Intracoastal Channel. The living and dining rooms have water views and floor-to-top windows that provide natural light. The open kitchen is equipped with high-end appliances. The ground floor includes a suite, a guest bedroom and a multimedia room. In the garden there is an independent guest house with full bathroom. The exterior features a design pool, spa and a waterfront terrace.",
-    "pt": "Villa Sora é uma residência completamente remodelada em um amplo terreno em frente ao canal Intracoastal de Fort Lauderdale. O living e o jantar têm vista para a água e janelas de piso a teto que proporcionam luz natural. A cozinha aberta está equipada com eletrodomésticos de alta gama. O piso térreo inclui uma suíte, um quarto de hóspedes e uma sala multimídia. No jardim há uma casa de hóspedes independente com banheiro completo. Os exteriores incluem piscina de design, spa e um terraço em frente à água."
+    "es": "Completamente renovada, Villa Sora ocupa un amplio terreno sobre el Intracoastal de Fort Lauderdale. El living y el comedor miran al agua a través de ventanales de piso a techo que llenan todo de luz, y la cocina abierta está equipada con electrodomésticos de alta gama. En planta baja hay una suite, un dormitorio de huéspedes y una sala multimedia. En el jardín, una casa de huéspedes independiente con baño completo. Afuera, piscina de diseño, spa y una terraza sobre el agua.",
+    "en": "Fully renovated, Villa Sora sits on a generous lot right on Fort Lauderdale’s Intracoastal Waterway. The living and dining rooms look out over the water through floor-to-ceiling windows that flood the space with light, and the open kitchen is fitted with top-of-the-line appliances. The ground floor holds a suite, a guest bedroom and a media room, while a separate guest house with its own full bath sits in the garden. Outside: a designer pool, a spa and a terrace right on the water.",
+    "pt": "Totalmente reformada, Villa Sora ocupa um amplo terreno às margens do Intracoastal, em Fort Lauderdale. As salas de estar e de jantar se abrem para a água por janelas do piso ao teto que deixam tudo iluminado, e a cozinha aberta tem eletrodomésticos de alto padrão. No térreo ficam uma suíte, um quarto de hóspedes e uma sala de mídia. No jardim, uma casa de hóspedes independente com banheiro completo. Do lado de fora, piscina de design, spa e um terraço à beira d’água."
    },
    "amen": {
     "es": [
-     "Frente al agua",
+     "Frente al Intracoastal",
+     "Piscina de diseño",
      "Spa",
-     "Piscina",
-     "Casa de huéspedes"
+     "Casa de huéspedes independiente",
+     "Sala multimedia",
+     "Terraza sobre el agua"
     ],
     "en": [
-     "Water front",
+     "On the Intracoastal",
+     "Designer pool",
      "Spa",
-     "Swimming Pool",
-     "Guest house"
+     "Private guest house",
+     "Media room",
+     "Waterfront terrace"
     ],
     "pt": [
-     "Diante da água",
+     "Às margens do Intracoastal",
+     "Piscina de design",
      "Spa",
-     "Piscina",
-     "Casa de hóspedes"
+     "Casa de hóspedes independente",
+     "Sala de mídia",
+     "Terraço à beira d’água"
     ]
    },
    "photos": [
@@ -333,19 +339,19 @@ window.SITE_PROPS={
    "guests": 12,
    "extra": [
     {
-     "v": "4.534",
+     "v": "4,534",
      "l": {
-      "es": "ft² · Interior",
-      "en": "",
-      "pt": "F2 Interiores"
+      "es": "ft² interiores",
+      "en": "Interior sq ft",
+      "pt": "ft² internos"
      }
     },
     {
-     "v": "24.600",
+     "v": "24,600",
      "l": {
-      "es": "ft² · Terreno",
-      "en": "",
-      "pt": "FT2 Terreno"
+      "es": "ft² de terreno",
+      "en": "Lot sq ft",
+      "pt": "ft² de terreno"
      }
     }
    ],
@@ -361,23 +367,23 @@ window.SITE_PROPS={
     {
      "es": "Frente al agua",
      "en": "Waterfront",
-     "pt": "Diante da água"
+     "pt": "Frente para a água"
     }
    ],
    "short": {
-    "es": "Frente al lago, con atardeceres sobre el agua",
-    "en": "Lakefront, with sunsets over the water.",
-    "pt": "Em frente ao lago, com pôr do sol sobre a água"
+    "es": "frente al lago",
+    "en": "lakefront",
+    "pt": "de frente para o lago"
    },
    "lead": {
-    "es": "Una residencia contemporánea frente al lago, con techos altos, piscina infinita y vistas al atardecer.",
-    "en": "A contemporary lakefront residence with soaring ceilings, an infinity pool, and sunset views.",
-    "pt": "Uma residência contemporânea em frente ao lago, com tectos altos, piscina infinita e vista para o pôr do sol."
+    "es": "Una casa contemporánea frente al lago, con techos altos, piscina infinita y atardeceres sobre el agua.",
+    "en": "A contemporary lakefront home with soaring ceilings, an infinity pool and sunsets over the water.",
+    "pt": "Uma casa contemporânea de frente para o lago, com pé-direito alto, piscina de borda infinita e pôr do sol sobre a água."
    },
    "desc": {
-    "es": "Villa Laurel es una casa contemporánea de construcción reciente, frente a un lago y sobre un terreno de más de 2.000 m². Los techos altos y los ventanales de impacto de piso a techo llenan de luz su planta abierta. En planta baja hay dos suites, living, comedor, family room y toilette. Arriba están la suite principal, con vestidor y balcón con vista al lago, otras dos suites y un loft amplio. La cocina tiene equipamiento de primera línea, y la piscina infinita mira al agua. Cuatro de los dormitorios tienen vista al lago.\n",
-    "en": "Villa Laurel is a newly built contemporary home set on over 2,000 m² of lakefront grounds. Soaring ceilings and floor-to-ceiling impact-resistant windows fill the open-plan interior with natural light. The ground floor features two bedroom suites, living and dining areas, a family room, and a powder room. Upstairs, the primary suite includes a walk-in closet and a private balcony overlooking the lake, alongside two additional bedroom suites and a spacious loft. The kitchen features top-of-the-line appliances, while the infinity pool overlooks the water. Four of the bedrooms enjoy lake views.",
-    "pt": "Villa Laurel é uma casa contemporânea de construção recente, em frente a um lago e sobre um terreno de mais de 2.000 m2. Os tectos altos e as janelas de impacto de piso a teto enchem de luz a sua planta aberta. No piso térreo há duas suites, living, sala de jantar, family room e toilette. No topo estão a suite principal, com vestiário e varanda com vista para o lago, outras duas suites e um loft amplo. A cozinha tem equipamento de primeira linha, e a piscina infinita olha para a água. Quatro dos quartos têm vista para o lago."
+    "es": "De construcción reciente, Villa Laurel se levanta frente a un lago sobre un terreno de más de 2.000 m². Techos altos y ventanales de impacto de piso a techo llenan de luz su planta abierta. Abajo hay dos suites, living, comedor, family room y toilette; arriba, la suite principal con vestidor y balcón al lago, dos suites más y un loft amplio. La cocina tiene equipamiento de primera línea y la piscina infinita mira al agua. Cuatro de los cinco dormitorios tienen vista al lago.",
+    "en": "Newly built, Villa Laurel sits on more than half an acre of lakefront grounds. Soaring ceilings and floor-to-ceiling impact windows fill the open-plan living spaces with light. Downstairs are two en-suite bedrooms, living and dining rooms, a family room and a powder room; upstairs, the primary suite with a walk-in closet and a balcony over the lake, two more suites and a generous loft. The kitchen is fitted with top-of-the-line appliances, and the infinity pool looks straight out onto the water. Four of the five bedrooms have lake views.",
+    "pt": "Recém-construída, Villa Laurel fica de frente para um lago, em um terreno de mais de 2.000 m². O pé-direito alto e as janelas anti-impacto do piso ao teto enchem de luz os ambientes integrados. No térreo há duas suítes, sala de estar, sala de jantar, family room e lavabo; no andar de cima, a suíte master com closet e varanda para o lago, mais duas suítes e um loft espaçoso. A cozinha tem equipamentos de primeira linha, e a piscina de borda infinita se abre para a água. Quatro dos cinco quartos têm vista para o lago."
    },
    "amen": {
     "es": [
@@ -391,18 +397,18 @@ window.SITE_PROPS={
     "en": [
      "Lakefront",
      "Infinity pool",
-     "5 bedroom suites",
+     "5 en-suite bedrooms",
      "Primary suite with walk-in closet and balcony",
      "Loft",
      "Powder room"
     ],
     "pt": [
-     "Diante do Lago",
-     "Piscina Infinita",
-     "5 Suítes",
-     "Suite principal com vestiário e varanda",
+     "De frente para o lago",
+     "Piscina de borda infinita",
+     "5 suítes",
+     "Suíte master com closet e varanda",
      "Loft",
-     "Toalete"
+     "Lavabo"
     ]
    },
    "photos": [
@@ -679,19 +685,19 @@ window.SITE_PROPS={
    "guests": 12,
    "extra": [
     {
-     "v": "3.700",
+     "v": "3,700",
      "l": {
-      "es": "ft² · Interior",
-      "en": "",
-      "pt": ""
+      "es": "ft² interiores",
+      "en": "Interior sq ft",
+      "pt": "ft² internos"
      }
     },
     {
-     "v": "13.500",
+     "v": "13,500",
      "l": {
-      "es": "ft² · Terreno",
-      "en": "",
-      "pt": ""
+      "es": "ft² de terreno",
+      "en": "Lot sq ft",
+      "pt": "ft² de terreno"
      }
     }
    ],
@@ -700,32 +706,40 @@ window.SITE_PROPS={
    ],
    "tags": [
     {
-     "es": "Piscina"
+     "es": "Piscina",
+     "en": "Pool",
+     "pt": "Piscina"
     },
     {
-     "es": "Jacuzzi"
+     "es": "Jacuzzi",
+     "en": "Jacuzzi",
+     "pt": "Jacuzzi"
     },
     {
-     "es": "Frente al agua"
+     "es": "Frente al agua",
+     "en": "Waterfront",
+     "pt": "Frente para a água"
     },
     {
-     "es": "Muelle privado"
+     "es": "Muelle privado",
+     "en": "Private dock",
+     "pt": "Píer privativo"
     }
    ],
    "short": {
-    "es": "Frente a la bahía, con muelle propio",
-    "en": "",
-    "pt": ""
+    "es": "frente a la bahía, con muelle",
+    "en": "bayfront, with private dock",
+    "pt": "de frente para a baía, com píer"
    },
    "lead": {
     "es": "Una casa renovada frente a la bahía, con vistas abiertas al skyline y atardeceres sobre el agua.",
-    "en": "",
-    "pt": ""
+    "en": "A renovated bayfront home with sweeping skyline views and sunsets over the water.",
+    "pt": "Uma casa reformada de frente para a baía, com vista aberta para o skyline e pôr do sol sobre a água."
    },
    "desc": {
-    "es": " Totalmente renovada, Villa Murano está frente a la bahía, con vistas abiertas al agua, al skyline de Miami y a los atardeceres. Ocupa un lote amplio con 27 metros de frente al agua. Sus interiores son luminosos y modernos, y se integran con el exterior. Tiene piscina, jacuzzi frente al agua, comedor exterior y muelle privado para ver caer el sol. Está a minutos de Miami Beach, Downtown, Brickell y los mejores restaurantes, compras y vida nocturna.\n",
-    "en": "",
-    "pt": ""
+    "es": "Totalmente renovada, Villa Murano está sobre la bahía, con vistas abiertas al agua, al skyline de Miami y a los atardeceres. Ocupa un lote amplio con 27 metros de frente al agua, y sus interiores, luminosos y modernos, se abren al exterior. Hay piscina, jacuzzi frente al agua, comedor al aire libre y un muelle privado para ver caer el sol. Miami Beach, Downtown y Brickell, con sus restaurantes, compras y vida nocturna, quedan a minutos.",
+    "en": "Fully renovated, Villa Murano sits right on the bay, with wide-open views of the water, the Miami skyline and the sunset. The generous lot has 90 feet of water frontage, and the bright, modern interiors open seamlessly to the outdoors. There’s a pool, a waterside Jacuzzi, an outdoor dining area and a private dock made for watching the sun go down. Miami Beach, Downtown and Brickell — with their restaurants, shopping and nightlife — are just minutes away.",
+    "pt": "Totalmente reformada, Villa Murano fica de frente para a baía, com vista aberta para a água, o skyline de Miami e o pôr do sol. O terreno amplo tem 27 metros de frente para a água, e os interiores, claros e modernos, se integram à área externa. Há piscina, jacuzzi à beira d’água, área de jantar ao ar livre e um píer privativo para ver o sol se pôr. Miami Beach, Downtown e Brickell, com seus restaurantes, lojas e vida noturna, ficam a poucos minutos."
    },
    "amen": {
     "es": [
@@ -738,8 +752,26 @@ window.SITE_PROPS={
      "Toilette",
      "Camas: 2 king y 4 queen"
     ],
-    "en": [],
-    "pt": []
+    "en": [
+     "90 ft of bay frontage",
+     "Private dock",
+     "Pool",
+     "Waterside Jacuzzi",
+     "Grill",
+     "Outdoor dining",
+     "Powder room",
+     "Beds: 2 king, 4 queen"
+    ],
+    "pt": [
+     "27 m de frente para a baía",
+     "Píer privativo",
+     "Piscina",
+     "Jacuzzi à beira d’água",
+     "Churrasqueira",
+     "Área de jantar externa",
+     "Lavabo",
+     "Camas: 2 king e 4 queen"
+    ]
    },
    "photos": [
     {
@@ -975,19 +1007,19 @@ window.SITE_PROPS={
    "guests": 16,
    "extra": [
     {
-     "v": "6.000",
+     "v": "6,000",
      "l": {
-      "es": "ft² · Interior",
-      "en": "",
-      "pt": ""
+      "es": "ft² interiores",
+      "en": "Interior sq ft",
+      "pt": "ft² internos"
      }
     },
     {
-     "v": "65.340",
+     "v": "65,340",
      "l": {
-      "es": "ft² · Terreno",
-      "en": "",
-      "pt": ""
+      "es": "ft² de terreno",
+      "en": "Lot sq ft",
+      "pt": "ft² de terreno"
      }
     }
    ],
@@ -996,44 +1028,66 @@ window.SITE_PROPS={
    ],
    "tags": [
     {
-     "es": "Piscina"
+     "es": "Piscina",
+     "en": "Pool",
+     "pt": "Piscina"
     },
     {
-     "es": "Cancha deportiva"
+     "es": "Cancha deportiva",
+     "en": "Sports court",
+     "pt": "Quadra esportiva"
     },
     {
-     "es": "Sala de juegos"
+     "es": "Sala de juegos",
+     "en": "Game room",
+     "pt": "Sala de jogos"
     },
     {
-     "es": "Cocina exterior"
+     "es": "Cocina exterior",
+     "en": "Outdoor kitchen",
+     "pt": "Cozinha externa"
     }
    ],
    "short": {
-    "es": "Estilo español con cancha y piscina resort",
-    "en": "",
-    "pt": ""
+    "es": "estilo español, con cancha privada",
+    "en": "Spanish-style, with private court",
+    "pt": "estilo espanhol, com quadra privativa"
    },
    "lead": {
-    "es": "Una gran casa de estilo español sobre más de media hectárea, pensada para descansar y para divertirse.",
-    "en": "",
-    "pt": ""
+    "es": "Una gran casa de estilo español sobre más de media hectárea, pensada tanto para descansar como para divertirse.",
+    "en": "A grand Spanish-style home on a 1.5-acre lot, made for slowing down and having fun in equal measure.",
+    "pt": "Uma grande casa em estilo espanhol, em mais de meio hectare, feita tanto para descansar quanto para se divertir."
    },
    "desc": {
-    "es": "Villa Cádiz es una casa de estilo español con más de 550 m² cubiertos, sobre un terreno de más de media hectárea. Tiene siete dormitorios amplios, varios livings y comedores, cocina de chef y sala de juegos. Los ambientes son abiertos, luminosos y con terminaciones elegantes, ideales para familias, grupos o estadías largas. Afuera, la experiencia es de resort: piscina, cabañas con sombra, livings exteriores, comedor cubierto, barbacoa y bar. Suma una cancha privada de básquet y pickleball. Está cerca de los mejores restaurantes, compras, vida nocturna y playas de Miami.",
-    "en": "",
-    "pt": ""
+    "es": "Villa Cádiz es una casa de estilo español con más de 550 m² cubiertos sobre un terreno de más de media hectárea. Tiene siete dormitorios amplios, varios livings y comedores, cocina de chef y sala de juegos, en ambientes abiertos, luminosos y con terminaciones elegantes, ideales para familias, grupos o estadías largas. Afuera, la experiencia es de resort: piscina, cabañas a la sombra, livings exteriores, comedor cubierto, barbacoa y bar, además de una cancha privada de básquet y pickleball. Los mejores restaurantes, compras, vida nocturna y playas de Miami están cerca.",
+    "en": "Villa Cadiz is a Spanish-style estate with 6,000 square feet of living space on a 1.5-acre lot. Seven spacious bedrooms, multiple living and dining areas, a chef’s kitchen and a game room come together in bright, open spaces with elegant finishes — ideal for families, groups or longer stays. Outside, it’s pure resort: a pool, shaded cabanas, outdoor lounges, covered dining, a barbecue and bar, plus a private basketball and pickleball court. Miami’s best restaurants, shopping, nightlife and beaches are all close by.",
+    "pt": "Villa Cádiz é uma casa em estilo espanhol com mais de 550 m² de área construída, em um terreno de mais de meio hectare. São sete quartos amplos, várias salas de estar e de jantar, cozinha de chef e sala de jogos, em ambientes abertos, iluminados e com acabamento elegante, ideais para famílias, grupos ou temporadas longas. Do lado de fora, clima de resort: piscina, cabanas sombreadas, salas de estar externas, área de jantar coberta, churrasqueira e bar, além de uma quadra privativa de basquete e pickleball. Os melhores restaurantes, lojas, a vida noturna e as praias de Miami ficam perto."
    },
    "amen": {
     "es": [
      "Piscina estilo resort",
-     "Cabañas con sombra",
+     "Cabañas a la sombra",
      "Barbacoa y bar exterior",
      "Cancha de básquet y pickleball",
      "Sala de juegos",
      "Cocina de chef"
     ],
-    "en": [],
-    "pt": []
+    "en": [
+     "Resort-style pool",
+     "Shaded cabanas",
+     "Outdoor barbecue and bar",
+     "Basketball and pickleball court",
+     "Game room",
+     "Chef’s kitchen"
+    ],
+    "pt": [
+     "Piscina estilo resort",
+     "Cabanas sombreadas",
+     "Churrasqueira e bar externo",
+     "Quadra de basquete e pickleball",
+     "Sala de jogos",
+     "Cozinha de chef"
+    ]
    },
    "photos": [
     {
@@ -1253,19 +1307,19 @@ window.SITE_PROPS={
    "guests": 14,
    "extra": [
     {
-     "v": "10.500 ft²",
+     "v": "5,000",
      "l": {
-      "es": "Terreno",
-      "en": "",
-      "pt": ""
+      "es": "ft² interiores",
+      "en": "Interior sq ft",
+      "pt": "ft² internos"
      }
     },
     {
-     "v": "5.000 ft²",
+     "v": "10,500",
      "l": {
-      "es": "Interior",
-      "en": "",
-      "pt": ""
+      "es": "ft² de terreno",
+      "en": "Lot sq ft",
+      "pt": "ft² de terreno"
      }
     }
    ],
@@ -1274,32 +1328,40 @@ window.SITE_PROPS={
    ],
    "tags": [
     {
-     "es": "Piscina"
+     "es": "Piscina",
+     "en": "Pool",
+     "pt": "Piscina"
     },
     {
-     "es": "Jacuzzi"
+     "es": "Jacuzzi",
+     "en": "Jacuzzi",
+     "pt": "Jacuzzi"
     },
     {
-     "es": "Sala de juegos"
+     "es": "Sala de juegos",
+     "en": "Game room",
+     "pt": "Sala de jogos"
     },
     {
-     "es": "Cocina exterior"
+     "es": "Cocina exterior",
+     "en": "Outdoor kitchen",
+     "pt": "Cozinha externa"
     }
    ],
    "short": {
-    "es": "Piscina resort y sala de juegos",
-    "en": "",
-    "pt": ""
+    "es": "piscina resort y sala de juegos",
+    "en": "resort pool & game room",
+    "pt": "piscina resort e sala de jogos"
    },
    "lead": {
     "es": "Arquitectura moderna con aire caribeño, cinco suites y un jardín tropical bajo grandes árboles.",
-    "en": "",
-    "pt": ""
+    "en": "Modern architecture with a Caribbean soul, five suites and a tropical garden beneath towering trees.",
+    "pt": "Arquitetura moderna com alma caribenha, cinco suítes e um jardim tropical sob árvores imponentes."
    },
    "desc": {
-    "es": "Diseñada por un arquitecto premiado, Villa Céleste combina el estilo moderno de Miami con un toque caribeño. Sus cinco suites se rodean de un jardín tropical cubierto por árboles imponentes. Paredes de vidrio unen el interior con terrazas cubiertas para descansar o comer al aire libre. La cocina a medida, con una isla de cuarzo de casi 4 metros, cava de vinos y equipamiento de alta gama, es ideal para una cena con chef privado. Afuera hay una piscina estilo resort con jacuzzi, deck de piedra coralina y cocina de verano. Adentro, una sala de juegos con pool, ping-pong y arcades.",
-    "en": "",
-    "pt": ""
+    "es": "Diseñada por un arquitecto premiado, Villa Celeste combina el estilo moderno de Miami con un aire caribeño. Sus cinco suites se rodean de un jardín tropical bajo árboles imponentes, y las paredes de vidrio unen el interior con terrazas cubiertas para descansar o comer al aire libre. La cocina a medida, con una isla de cuarzo de casi 4 metros, cava de vinos y equipamiento de alta gama, es ideal para una cena con chef privado. Afuera hay piscina estilo resort con jacuzzi, deck de piedra coralina y cocina de verano; adentro, una sala de juegos con pool, ping-pong y arcades.",
+    "en": "Designed by an award-winning architect, Villa Celeste blends Miami modern with a laid-back Caribbean feel. Its five suites are wrapped in a tropical garden beneath towering trees, and walls of glass open onto covered terraces for lounging or dining outdoors. The custom kitchen — with a 13-foot quartz island, a wine cellar and high-end appliances — is made for a private-chef dinner. Outside, a resort-style pool with a Jacuzzi, a coral-stone deck and a summer kitchen; inside, a game room with billiards, ping-pong and arcade games.",
+    "pt": "Projetada por um arquiteto premiado, Villa Celeste une o estilo moderno de Miami a um clima caribenho. As cinco suítes ficam cercadas por um jardim tropical sob árvores imponentes, e paredes de vidro conectam o interior a varandas cobertas para relaxar ou comer ao ar livre. A cozinha sob medida, com ilha de quartzo de quase 4 metros, adega e equipamentos de alto padrão, é perfeita para um jantar com chef particular. Do lado de fora, piscina estilo resort com jacuzzi, deck de pedra coralina e cozinha gourmet externa; dentro, uma sala de jogos com sinuca, pingue-pongue e fliperamas."
    },
    "amen": {
     "es": [
@@ -1310,8 +1372,22 @@ window.SITE_PROPS={
      "Cava de vinos",
      "Terrazas cubiertas"
     ],
-    "en": [],
-    "pt": []
+    "en": [
+     "5 en-suite bedrooms",
+     "Resort-style pool with Jacuzzi",
+     "Summer kitchen",
+     "Game room: billiards, ping-pong, arcade",
+     "Wine cellar",
+     "Covered terraces"
+    ],
+    "pt": [
+     "5 suítes",
+     "Piscina estilo resort com jacuzzi",
+     "Cozinha gourmet externa",
+     "Sala de jogos: sinuca, pingue-pongue e fliperama",
+     "Adega",
+     "Varandas cobertas"
+    ]
    },
    "photos": [
     {
@@ -1563,19 +1639,19 @@ window.SITE_PROPS={
    "guests": 12,
    "extra": [
     {
-     "v": "3000",
+     "v": "3,000",
      "l": {
-      "es": "FT2 Interior",
-      "en": "",
-      "pt": ""
+      "es": "ft² interiores",
+      "en": "Interior sq ft",
+      "pt": "ft² internos"
      }
     },
     {
-     "v": "8500",
+     "v": "8,500",
      "l": {
-      "es": "FT2 Terreno",
-      "en": "",
-      "pt": ""
+      "es": "ft² de terreno",
+      "en": "Lot sq ft",
+      "pt": "ft² de terreno"
      }
     }
    ],
@@ -1584,26 +1660,30 @@ window.SITE_PROPS={
    ],
    "tags": [
     {
-     "es": "Piscina"
+     "es": "Piscina",
+     "en": "Pool",
+     "pt": "Piscina"
     },
     {
-     "es": "Ubicación céntrica"
+     "es": "Ubicación céntrica",
+     "en": "Prime location",
+     "pt": "Localização central"
     }
    ],
    "short": {
-    "es": "En el corazón del Design District",
-    "en": "",
-    "pt": ""
+    "es": "en pleno Design District",
+    "en": "in the heart of the Design District",
+    "pt": "no coração do Design District"
    },
    "lead": {
-    "es": "Arte, diseño y moda a la puerta de casa, con piscina estilo spa y jardín tropical.",
-    "en": "",
-    "pt": ""
+    "es": "Arte, diseño y moda a la vuelta de la esquina, con piscina estilo spa y jardín tropical.",
+    "en": "Art, design and fashion right on your doorstep, with a spa-style pool and a tropical garden.",
+    "pt": "Arte, design e moda na porta de casa, com piscina estilo spa e jardim tropical."
    },
    "desc": {
-    "es": "En el barrio de compras más buscado de Miami, Villa Alma permite ir caminando a galerías, boutiques de grandes marcas y restaurantes. La casa está pensada para recibir: planta abierta que fluye del interior al exterior, cocina de chef con electrodomésticos Sub-Zero, Bosch y Wolf, y ventanales de impacto de piso a techo que llenan todo de luz. La terraza cubierta da a un jardín tropical y a una piscina estilo spa. En pocos minutos en auto llegás a la playa, Wynwood o Downtown.",
-    "en": "",
-    "pt": ""
+    "es": "En el barrio de compras más buscado de Miami, Villa Alma permite ir caminando a galerías, boutiques de grandes marcas y restaurantes. La casa está pensada para recibir: planta abierta que fluye del interior al exterior, cocina de chef con electrodomésticos Sub-Zero, Bosch y Wolf, y ventanales de impacto de piso a techo que llenan todo de luz. La terraza cubierta da a un jardín tropical y a una piscina estilo spa. La playa, Wynwood y Downtown quedan a pocos minutos en auto.",
+    "en": "In Miami’s most coveted shopping district, Villa Alma puts galleries, designer boutiques and restaurants within walking distance. The house is made for entertaining: an open plan that flows from indoors to out, a chef’s kitchen with Sub-Zero, Bosch and Wolf appliances, and floor-to-ceiling impact windows that fill every room with light. The covered terrace opens onto a tropical garden and a spa-style pool. The beach, Wynwood and Downtown are a short drive away.",
+    "pt": "No bairro de compras mais desejado de Miami, Villa Alma deixa galerias, boutiques de grife e restaurantes a uma curta caminhada. A casa foi pensada para receber: planta aberta que integra interior e exterior, cozinha de chef com eletrodomésticos Sub-Zero, Bosch e Wolf, e janelas anti-impacto do piso ao teto que enchem tudo de luz. A varanda coberta se abre para um jardim tropical e uma piscina estilo spa. A praia, Wynwood e Downtown ficam a poucos minutos de carro."
    },
    "amen": {
     "es": [
@@ -1612,12 +1692,27 @@ window.SITE_PROPS={
      "Cocina de chef (Sub-Zero, Bosch, Wolf)",
      "Ventanales de impacto de piso a techo",
      "Jardín tropical",
-     "Camas: 2 king y 4 queen",
-     "Piscina",
-     "Ubicación céntrica"
+     "A pasos de galerías y boutiques",
+     "Camas: 2 king y 4 queen"
     ],
-    "en": [],
-    "pt": []
+    "en": [
+     "Spa-style pool",
+     "Covered terrace",
+     "Chef’s kitchen (Sub-Zero, Bosch, Wolf)",
+     "Floor-to-ceiling impact windows",
+     "Tropical garden",
+     "Steps from galleries and boutiques",
+     "Beds: 2 king, 4 queen"
+    ],
+    "pt": [
+     "Piscina estilo spa",
+     "Varanda coberta",
+     "Cozinha de chef (Sub-Zero, Bosch, Wolf)",
+     "Janelas anti-impacto do piso ao teto",
+     "Jardim tropical",
+     "A poucos passos de galerias e boutiques",
+     "Camas: 2 king e 4 queen"
+    ]
    },
    "photos": [
     {
@@ -1845,19 +1940,19 @@ window.SITE_PROPS={
    "guests": 14,
    "extra": [
     {
-     "v": "2.954",
+     "v": "2,954",
      "l": {
-      "es": "ft² · Interior",
-      "en": "",
-      "pt": ""
+      "es": "ft² interiores",
+      "en": "Interior sq ft",
+      "pt": "ft² internos"
      }
     },
     {
-     "v": "7.500",
+     "v": "7,500",
      "l": {
-      "es": "ft² · Terreno",
-      "en": "",
-      "pt": ""
+      "es": "ft² de terreno",
+      "en": "Lot sq ft",
+      "pt": "ft² de terreno"
      }
     }
    ],
@@ -1866,26 +1961,30 @@ window.SITE_PROPS={
    ],
    "tags": [
     {
-     "es": "Piscina"
+     "es": "Piscina",
+     "en": "Pool",
+     "pt": "Piscina"
     },
     {
-     "es": "Juegos al aire libre"
+     "es": "Juegos al aire libre",
+     "en": "Outdoor games",
+     "pt": "Jogos ao ar livre"
     }
    ],
    "short": {
-    "es": "A minutos de Coral Gables",
-    "en": "",
-    "pt": ""
+    "es": "a minutos de Coral Gables",
+    "en": "minutes from Coral Gables",
+    "pt": "a minutos de Coral Gables"
    },
    "lead": {
-    "es": "Estilo mediterráneo con un giro moderno, piscina de agua salada y jardín para vivir al aire libre.",
-    "en": "",
-    "pt": ""
+    "es": "Estilo mediterráneo con un giro moderno, piscina de agua salada y un jardín para vivir al aire libre.",
+    "en": "Mediterranean style with a modern twist, a saltwater pool and a garden made for outdoor living.",
+    "pt": "Estilo mediterrâneo com um toque moderno, piscina de água salgada e um jardim para viver ao ar livre."
    },
    "desc": {
-    "es": "De construcción reciente, Villa Nácar reinterpreta el estilo mediterráneo con líneas modernas, a minutos de Coral Gables. Sus cinco dormitorios amplios reciben cómodamente a 14 huéspedes. El recibidor lleva al family room con cocina comedor, y los ventanales de doble altura dan a la piscina de agua salada con solárium. Un sector sombreado del jardín está pensado para comer y jugar. Cerca de los cafés y restaurantes de Miracle Mile, y con acceso rápido a la autopista para llegar a Downtown, Wynwood o la playa.",
-    "en": "",
-    "pt": ""
+    "es": "De construcción reciente, Villa Nácar reinterpreta el estilo mediterráneo con líneas modernas, a minutos de Coral Gables. Sus cinco dormitorios amplios reciben con comodidad a 14 huéspedes. El recibidor lleva al family room con cocina comedor, y los ventanales de doble altura dan a la piscina de agua salada con solárium. Un sector a la sombra del jardín está pensado para comer y jugar. Los cafés y restaurantes de Miracle Mile están cerca, y la autopista lleva rápido a Downtown, Wynwood o la playa.",
+    "en": "Newly built, Villa Nacar puts a modern spin on Mediterranean style, just minutes from Coral Gables. Five generous bedrooms comfortably sleep 14. The foyer leads into a family room with an eat-in kitchen, and double-height windows look out onto a saltwater pool with a sun shelf. A shaded corner of the garden is set up for dining and games. The cafés and restaurants of Miracle Mile are close by, with quick highway access to Downtown, Wynwood and the beach.",
+    "pt": "Recém-construída, Villa Nácar reinterpreta o estilo mediterrâneo com linhas modernas, a minutos de Coral Gables. Os cinco quartos amplos recebem 14 hóspedes com conforto. O hall leva à family room com cozinha integrada, e as janelas de pé-direito duplo se abrem para a piscina de água salgada com prainha. Um canto sombreado do jardim foi pensado para comer e brincar. Os cafés e restaurantes da Miracle Mile ficam perto, e a autoestrada leva rapidamente a Downtown, Wynwood ou à praia."
    },
    "amen": {
     "es": [
@@ -1896,8 +1995,22 @@ window.SITE_PROPS={
      "Cornhole",
      "Ventanales de doble altura"
     ],
-    "en": [],
-    "pt": []
+    "en": [
+     "Saltwater pool",
+     "Sun shelf with jets",
+     "Shaded outdoor dining",
+     "Ping-pong",
+     "Cornhole",
+     "Double-height windows"
+    ],
+    "pt": [
+     "Piscina de água salgada",
+     "Prainha com hidromassagem",
+     "Área de jantar externa à sombra",
+     "Pingue-pongue",
+     "Cornhole",
+     "Janelas com pé-direito duplo"
+    ]
    },
    "photos": [
     {
@@ -2119,25 +2232,25 @@ window.SITE_PROPS={
    "name": "VILLA ORILLA",
    "type": "Villa",
    "zone": "Hollywood",
-   "area": "Sur de Florida",
+   "area": "Florida",
    "beds": 5,
    "baths": 5,
    "guests": 10,
    "extra": [
     {
-     "v": "3.660",
+     "v": "3,660",
      "l": {
-      "es": "ft² · Interior",
-      "en": "",
-      "pt": ""
+      "es": "ft² interiores",
+      "en": "Interior sq ft",
+      "pt": "ft² internos"
      }
     },
     {
-     "v": "12.000",
+     "v": "12,000",
      "l": {
-      "es": "ft² · Terreno",
-      "en": "",
-      "pt": ""
+      "es": "ft² de terreno",
+      "en": "Lot sq ft",
+      "pt": "ft² de terreno"
      }
     }
    ],
@@ -2146,38 +2259,56 @@ window.SITE_PROPS={
    ],
    "tags": [
     {
-     "es": "Piscina"
+     "es": "Piscina",
+     "en": "Pool",
+     "pt": "Piscina"
     },
     {
-     "es": "Frente al agua"
+     "es": "Frente al agua",
+     "en": "Waterfront",
+     "pt": "Frente para a água"
     }
    ],
    "short": {
-    "es": "Frente al agua",
-    "en": "",
-    "pt": ""
+    "es": "frente al agua, con salida al mar",
+    "en": "waterfront, with ocean access",
+    "pt": "frente para a água, com saída para o mar"
    },
    "lead": {
-    "es": "Una casa sobre el agua, con acceso directo al océano y vistas desde la entrada.",
-    "en": "",
-    "pt": ""
+    "es": "Una casa sobre el agua, con salida directa al océano y vistas desde la entrada.",
+    "en": "A home right on the water, with direct ocean access and views from the moment you walk in.",
+    "pt": "Uma casa à beira d’água, com saída direta para o oceano e vista já na entrada."
    },
    "desc": {
-    "es": "En una de las zonas más exclusivas de Hollywood Beach, Villa Orilla ocupa un lote con 30 metros de frente al agua y salida directa al océano. Pensada para la vida junto al agua, integra interior y exterior con terminaciones de diseño, cocina y baños de firma italiana y electrodomésticos Miele. La suite principal y una segunda suite tienen balcón propio, ideal para el café de la mañana o una copa al atardecer. Tardes en la piscina y, al caer el sol, una cena con chef privado en casa. A minutos de restaurantes y vida nocturna.",
-    "en": "",
-    "pt": ""
+    "es": "En una de las zonas más exclusivas de Hollywood Beach, Villa Orilla ocupa un lote con 30 metros de frente al agua y salida directa al océano. Pensada para vivir junto al agua, integra interior y exterior con terminaciones de diseño, cocina y baños de firma italiana y electrodomésticos Miele. La suite principal y una segunda suite tienen balcón propio, ideal para el café de la mañana o una copa al atardecer. Tardes de piscina y, al caer el sol, una cena con chef privado en casa. Restaurantes y vida nocturna, a minutos.",
+    "en": "In one of Hollywood Beach’s most exclusive enclaves, Villa Orilla sits on a lot with 100 feet of water frontage and direct ocean access. Made for life on the water, it blends indoors and out with designer finishes, an Italian kitchen and baths, and Miele appliances. The primary suite and a second suite each have a private balcony — perfect for morning coffee or a sunset drink. Spend the afternoon by the pool, then end the day with a private chef at home. Restaurants and nightlife are minutes away.",
+    "pt": "Em uma das áreas mais exclusivas de Hollywood Beach, Villa Orilla ocupa um terreno com 30 metros de frente para a água e saída direta para o oceano. Feita para a vida à beira d’água, integra interior e exterior com acabamentos de design, cozinha e banheiros italianos e eletrodomésticos Miele. A suíte master e uma segunda suíte têm varanda própria, ideal para o café da manhã ou um drink ao pôr do sol. Tardes na piscina e, ao anoitecer, um jantar com chef particular em casa. Restaurantes e vida noturna ficam a poucos minutos."
    },
    "amen": {
     "es": [
      "30 m de frente al agua",
-     "Acceso directo al océano",
+     "Salida directa al océano",
      "Piscina",
-     "Balcones privados en 2 suites",
+     "Balcón privado en 2 suites",
      "Electrodomésticos Miele",
      "2 toilettes"
     ],
-    "en": [],
-    "pt": []
+    "en": [
+     "100 ft of water frontage",
+     "Direct ocean access",
+     "Pool",
+     "Private balconies in 2 suites",
+     "Miele appliances",
+     "2 powder rooms"
+    ],
+    "pt": [
+     "30 m de frente para a água",
+     "Saída direta para o oceano",
+     "Piscina",
+     "Varanda privativa em 2 suítes",
+     "Eletrodomésticos Miele",
+     "2 lavabos"
+    ]
    },
    "photos": [
     {
@@ -2397,19 +2528,19 @@ window.SITE_PROPS={
    "guests": 14,
    "extra": [
     {
-     "v": "3.600",
+     "v": "3,600",
      "l": {
-      "es": "ft² · Interior",
-      "en": "",
-      "pt": ""
+      "es": "ft² interiores",
+      "en": "Interior sq ft",
+      "pt": "ft² internos"
      }
     },
     {
-     "v": "11.400",
+     "v": "11,400",
      "l": {
-      "es": "ft² · Terreno",
-      "en": "",
-      "pt": ""
+      "es": "ft² de terreno",
+      "en": "Lot sq ft",
+      "pt": "ft² de terreno"
      }
     }
    ],
@@ -2418,35 +2549,45 @@ window.SITE_PROPS={
    ],
    "tags": [
     {
-     "es": "Piscina"
+     "es": "Piscina",
+     "en": "Pool",
+     "pt": "Piscina"
     },
     {
-     "es": "Jacuzzi"
+     "es": "Jacuzzi",
+     "en": "Jacuzzi",
+     "pt": "Jacuzzi"
     },
     {
-     "es": "Cancha deportiva"
+     "es": "Cancha deportiva",
+     "en": "Sports court",
+     "pt": "Quadra esportiva"
     },
     {
-     "es": "Cocina exterior"
+     "es": "Cocina exterior",
+     "en": "Outdoor kitchen",
+     "pt": "Cozinha externa"
     },
     {
-     "es": "Propiedad cerrada"
+     "es": "Propiedad cerrada",
+     "en": "Gated",
+     "pt": "Propriedade fechada"
     }
    ],
    "short": {
-    "es": "",
-    "en": "",
-    "pt": ""
+    "es": "propiedad cerrada, con cancha",
+    "en": "gated, with sports court",
+    "pt": "propriedade fechada, com quadra"
    },
    "lead": {
     "es": "Una casa moderna y cerrada, pensada para disfrutar en grupo, con piscina, jacuzzi y área de juegos.",
-    "en": "",
-    "pt": ""
+    "en": "A modern gated home built for groups, with a pool, a Jacuzzi and plenty of room to play.",
+    "pt": "Uma casa moderna e fechada, pensada para curtir em grupo, com piscina, jacuzzi e área de jogos."
    },
    "desc": {
-    "es": "Villa Gala combina estilo, comodidad y entretenimiento en una propiedad totalmente cerrada. Tiene piscina con camastros dentro del agua, jacuzzi, y una cocina y bar exterior con lounge cubierto y TV, para disfrutar de día y de noche. Hay cancha de básquet, ping-pong y espacios abiertos para reunirse. Adentro, los cinco dormitorios son cómodos y los livings se abren al exterior. Está a minutos de la autopista, con acceso rápido a restaurantes, compras y playas.Dormitorio principal: 1 cama king.\nDormitorio 2: 1 cama king.\nDormitorio 3: 1 cama queen.\nDormitorio 4: 2 camas queen.\nDormitorio 5: 2 camas queen.",
-    "en": "",
-    "pt": ""
+    "es": "Villa Gala combina estilo, comodidad y entretenimiento en una propiedad totalmente cerrada. Tiene piscina con camastros dentro del agua, jacuzzi, y cocina y bar exteriores con lounge cubierto y TV, para disfrutar de día y de noche. Suma cancha de básquet, ping-pong y espacios abiertos para reunirse. Adentro, cinco dormitorios cómodos y livings que se abren al exterior. Está a minutos de la autopista, con acceso rápido a restaurantes, compras y playas.",
+    "en": "Villa Gala brings together style, comfort and entertainment on a fully gated property. There’s a pool with in-water loungers, a Jacuzzi, and an outdoor kitchen and bar with a covered lounge and TV — made for days and nights alike. Add a basketball court, ping-pong and open spaces to gather. Inside, five comfortable bedrooms and living areas that open to the outdoors. It’s minutes from the highway, with quick access to restaurants, shopping and the beach.",
+    "pt": "Villa Gala reúne estilo, conforto e diversão em uma propriedade totalmente fechada. Tem piscina com espreguiçadeiras dentro d’água, jacuzzi, e cozinha e bar externos com lounge coberto e TV, para curtir de dia e de noite. Ainda tem quadra de basquete, pingue-pongue e espaços abertos para reunir todo mundo. Por dentro, cinco quartos confortáveis e salas que se abrem para a área externa. Fica a minutos da autoestrada, com acesso rápido a restaurantes, lojas e praias."
    },
    "amen": {
     "es": [
@@ -2456,10 +2597,29 @@ window.SITE_PROPS={
      "Cocina y bar exterior",
      "Lounge cubierto con TV",
      "Cancha de básquet",
-     "Ping-pong"
+     "Ping-pong",
+     "Camas: 2 king y 5 queen"
     ],
-    "en": [],
-    "pt": []
+    "en": [
+     "Fully gated",
+     "Pool with in-water loungers",
+     "Jacuzzi",
+     "Outdoor kitchen and bar",
+     "Covered lounge with TV",
+     "Basketball court",
+     "Ping-pong",
+     "Beds: 2 king, 5 queen"
+    ],
+    "pt": [
+     "Propriedade fechada",
+     "Piscina com espreguiçadeiras na água",
+     "Jacuzzi",
+     "Cozinha e bar externos",
+     "Lounge coberto com TV",
+     "Quadra de basquete",
+     "Pingue-pongue",
+     "Camas: 2 king e 5 queen"
+    ]
    },
    "photos": [
     {
@@ -2695,19 +2855,19 @@ window.SITE_PROPS={
    "guests": 16,
    "extra": [
     {
-     "v": "8.143",
+     "v": "8,143",
      "l": {
-      "es": "ft² · Interior",
-      "en": "",
-      "pt": ""
+      "es": "ft² interiores",
+      "en": "Interior sq ft",
+      "pt": "ft² internos"
      }
     },
     {
-     "v": "48.350",
+     "v": "48,350",
      "l": {
-      "es": "ft² · Terreno",
-      "en": "",
-      "pt": ""
+      "es": "ft² de terreno",
+      "en": "Lot sq ft",
+      "pt": "ft² de terreno"
      }
     }
    ],
@@ -2716,35 +2876,45 @@ window.SITE_PROPS={
    ],
    "tags": [
     {
-     "es": "Piscina"
+     "es": "Piscina",
+     "en": "Pool",
+     "pt": "Piscina"
     },
     {
-     "es": "Jacuzzi"
+     "es": "Jacuzzi",
+     "en": "Jacuzzi",
+     "pt": "Jacuzzi"
     },
     {
-     "es": "Gimnasio"
+     "es": "Gimnasio",
+     "en": "Gym",
+     "pt": "Academia"
     },
     {
-     "es": "Sala de cine"
+     "es": "Sala de cine",
+     "en": "Home cinema",
+     "pt": "Sala de cinema"
     },
     {
-     "es": "Cocina exterior"
+     "es": "Cocina exterior",
+     "en": "Outdoor kitchen",
+     "pt": "Cozinha externa"
     }
    ],
    "short": {
-    "es": "casi media hectárea y piscina infinita",
-    "en": "",
-    "pt": ""
+    "es": "piscina infinita de 23 m",
+    "en": "75-ft infinity pool",
+    "pt": "piscina de borda infinita de 23 m"
    },
    "lead": {
-    "es": "Una obra moderna que une elegancia y naturaleza, con piscina infinita de 23 metros",
-    "en": "",
-    "pt": ""
+    "es": "Una obra moderna que une elegancia y naturaleza, con una piscina infinita de 23 metros.",
+    "en": "A modern estate where elegance meets nature, with a 75-foot infinity pool.",
+    "pt": "Uma obra moderna que une elegância e natureza, com uma piscina de borda infinita de 23 metros."
    },
    "desc": {
-    "es": "Villa Cima es una residencia moderna sobre un terreno de casi media hectárea. Se entra por un bosque zen bordeado de piedra caliza, y adentro los techos de doble altura y las paredes de vidrio miran a espejos de agua y vegetación. A estrenar, tiene casa inteligente, sala de cine, gimnasio, estudio y cocina italiana con Wolf y Sub-Zero. Sus seis suites tienen baño propio, y la principal ocupa 120 m², con ventanales envolventes, sala de estar, baño tipo spa y vestidor. Puertas corredizas de 15 metros se abren a la piscina infinita de 23 metros con jacuzzi, livings exteriores, cocina de verano y un living hundido con fogón.",
-    "en": "",
-    "pt": ""
+    "es": "Villa Cima es una residencia moderna a estrenar sobre un terreno de casi media hectárea. Se entra por un bosque zen bordeado de piedra caliza; adentro, techos de doble altura y paredes de vidrio miran a espejos de agua y vegetación. Es una casa inteligente, con sala de cine, gimnasio, estudio y cocina italiana con Wolf y Sub-Zero. Las seis suites tienen baño propio, y la principal ocupa 120 m², con ventanales envolventes, sala de estar, baño tipo spa y vestidor. Puertas corredizas de 15 metros se abren a la piscina infinita de 23 metros con jacuzzi, livings exteriores, cocina de verano y un living hundido con fogón.",
+    "en": "Brand new, Villa Cima is a modern residence on a 1.1-acre lot. You arrive through a Zen garden lined with limestone; inside, double-height ceilings and walls of glass look out onto reflecting pools and greenery. It’s a smart home with a private cinema, gym, study and an Italian kitchen with Wolf and Sub-Zero appliances. All six bedrooms are en suite, and the 1,300-square-foot primary suite has wraparound windows, a sitting room, a spa bath and a walk-in closet. Fifty feet of sliding glass doors open onto a 75-foot infinity pool with a Jacuzzi, outdoor lounges, a summer kitchen and a sunken fire-pit lounge.",
+    "pt": "Nova em folha, Villa Cima é uma residência moderna em um terreno de quase meio hectare. A entrada é por um jardim zen margeado de pedra calcária; por dentro, pé-direito duplo e paredes de vidro se abrem para espelhos d’água e muito verde. É uma casa inteligente, com sala de cinema, academia, escritório e cozinha italiana com Wolf e Sub-Zero. As seis suítes têm banheiro privativo, e a master ocupa 120 m², com janelas panorâmicas, sala de estar, banheiro estilo spa e closet. Portas de correr de 15 metros se abrem para a piscina de borda infinita de 23 metros com jacuzzi, salas de estar externas, cozinha gourmet e um lounge rebaixado com fire pit."
    },
    "amen": {
     "es": [
@@ -2757,8 +2927,26 @@ window.SITE_PROPS={
      "Cocina italiana con Wolf y Sub-Zero",
      "6 suites"
     ],
-    "en": [],
-    "pt": []
+    "en": [
+     "75-ft infinity pool with Jacuzzi",
+     "Home cinema",
+     "Gym",
+     "Summer kitchen",
+     "Outdoor lounge with fire pit",
+     "Smart home",
+     "Italian kitchen with Wolf and Sub-Zero",
+     "6 en-suite bedrooms"
+    ],
+    "pt": [
+     "Piscina de borda infinita de 23 m com jacuzzi",
+     "Sala de cinema",
+     "Academia",
+     "Cozinha gourmet externa",
+     "Lounge externo com fire pit",
+     "Casa inteligente",
+     "Cozinha italiana com Wolf e Sub-Zero",
+     "6 suítes"
+    ]
    },
    "photos": [
     {
@@ -2970,19 +3158,19 @@ window.SITE_PROPS={
    "guests": 12,
    "extra": [
     {
-     "v": "4.300",
+     "v": "4,300",
      "l": {
-      "es": "Interior",
-      "en": "",
-      "pt": ""
+      "es": "ft² interiores",
+      "en": "Interior sq ft",
+      "pt": "ft² internos"
      }
     },
     {
-     "v": "7.150",
+     "v": "7,150",
      "l": {
-      "es": "Terreno",
-      "en": "",
-      "pt": ""
+      "es": "ft² de terreno",
+      "en": "Lot sq ft",
+      "pt": "ft² de terreno"
      }
     }
    ],
@@ -2991,32 +3179,40 @@ window.SITE_PROPS={
    ],
    "tags": [
     {
-     "es": "Piscina"
+     "es": "Piscina",
+     "en": "Pool",
+     "pt": "Piscina"
     },
     {
-     "es": "Jacuzzi"
+     "es": "Jacuzzi",
+     "en": "Jacuzzi",
+     "pt": "Jacuzzi"
     },
     {
-     "es": "Sauna"
+     "es": "Sauna",
+     "en": "Sauna",
+     "pt": "Sauna"
     },
     {
-     "es": "Cocina exterior"
+     "es": "Cocina exterior",
+     "en": "Outdoor kitchen",
+     "pt": "Cozinha externa"
     }
    ],
    "short": {
-    "es": "A minutos de Wynwood y la playa",
-    "en": "",
-    "pt": ""
+    "es": "a minutos de Wynwood y la playa",
+    "en": "minutes from Wynwood and the beach",
+    "pt": "a minutos de Wynwood e da praia"
    },
    "lead": {
-    "es": "Lujo moderno a estrenar, con seis suites, piscina, jacuzzi y sauna",
-    "en": "",
-    "pt": ""
+    "es": "Lujo moderno a estrenar, con seis suites, piscina, jacuzzi y sauna.",
+    "en": "Brand-new modern luxury, with six suites, a pool, a Jacuzzi and a sauna.",
+    "pt": "Luxo moderno e novinho, com seis suítes, piscina, jacuzzi e sauna."
    },
    "desc": {
-    "es": "Villa Nébula es una casa nueva de seis suites, pensada para la comodidad y para recibir. Tiene livings amplios, terminaciones de diseño, piscina privada y varios espacios para reunirse adentro y afuera. Suma jacuzzi, sauna y cocina de verano. Está a minutos del Design District, Wynwood, Midtown y Miami Beach, cerca de los mejores restaurantes, compras y vida nocturna, con toda la privacidad de una casa propia.",
-    "en": "",
-    "pt": ""
+    "es": "Villa Nébula es una casa nueva de seis suites, pensada para la comodidad y para recibir. Tiene livings amplios, terminaciones de diseño, piscina privada y varios espacios para reunirse adentro y afuera, además de jacuzzi, sauna y cocina de verano. Está a minutos del Design District, Wynwood, Midtown y Miami Beach, cerca de los mejores restaurantes, compras y vida nocturna, con toda la privacidad de una casa propia.",
+    "en": "Villa Nebula is a brand-new six-suite home designed for comfort and entertaining. Expect spacious living areas, designer finishes, a private pool and plenty of places to gather indoors and out — plus a Jacuzzi, a sauna and a summer kitchen. It’s minutes from the Design District, Wynwood, Midtown and Miami Beach, close to the city’s best restaurants, shopping and nightlife, with all the privacy of a home of your own.",
+    "pt": "Villa Nébula é uma casa nova com seis suítes, pensada para o conforto e para receber. Tem salas amplas, acabamentos de design, piscina privativa e vários espaços para reunir todos dentro e fora, além de jacuzzi, sauna e cozinha gourmet externa. Fica a minutos do Design District, Wynwood, Midtown e Miami Beach, perto dos melhores restaurantes, lojas e vida noturna, com toda a privacidade de uma casa só sua."
    },
    "amen": {
     "es": [
@@ -3028,8 +3224,24 @@ window.SITE_PROPS={
      "Toilette",
      "Camas: 1 king y 5 queen"
     ],
-    "en": [],
-    "pt": []
+    "en": [
+     "6 en-suite bedrooms",
+     "Pool",
+     "Jacuzzi",
+     "Sauna",
+     "Summer kitchen",
+     "Powder room",
+     "Beds: 1 king, 5 queen"
+    ],
+    "pt": [
+     "6 suítes",
+     "Piscina",
+     "Jacuzzi",
+     "Sauna",
+     "Cozinha gourmet externa",
+     "Lavabo",
+     "Camas: 1 king e 5 queen"
+    ]
    },
    "photos": [
     {
@@ -3297,19 +3509,19 @@ window.SITE_PROPS={
    "guests": 12,
    "extra": [
     {
-     "v": "23.400",
+     "v": "6,150",
      "l": {
-      "es": "FT TERRENO",
-      "en": "",
-      "pt": ""
+      "es": "ft² interiores",
+      "en": "Interior sq ft",
+      "pt": "ft² internos"
      }
     },
     {
-     "v": "6150",
+     "v": "23,400",
      "l": {
-      "es": "INTERIOR",
-      "en": "",
-      "pt": ""
+      "es": "ft² de terreno",
+      "en": "Lot sq ft",
+      "pt": "ft² de terreno"
      }
     }
    ],
@@ -3318,39 +3530,59 @@ window.SITE_PROPS={
    ],
    "tags": [
     {
-     "es": "Piscina"
+     "es": "Piscina",
+     "en": "Pool",
+     "pt": "Piscina"
     },
     {
-     "es": "Una planta"
+     "es": "Una planta",
+     "en": "Single-story",
+     "pt": "Casa térrea"
     }
    ],
    "short": {
-    "es": "Un oasis de inspiración marroquí",
-    "en": "",
-    "pt": ""
+    "es": "un oasis de inspiración marroquí",
+    "en": "a Moroccan-inspired oasis",
+    "pt": "um oásis de inspiração marroquina"
    },
    "lead": {
-    "es": "Líneas contemporáneas y espíritu marroquí en una casa de una planta con piscina climatizada",
-    "en": "",
-    "pt": ""
+    "es": "Líneas contemporáneas y espíritu marroquí en una casa de una sola planta con piscina climatizada.",
+    "en": "Contemporary lines and a Moroccan soul in a single-story home with a heated pool.",
+    "pt": "Linhas contemporâneas e alma marroquina em uma casa térrea com piscina aquecida."
    },
    "desc": {
-    "es": "Villa Atlas recibe con una entrada de inspiración marroquí. Por dentro, su planta abierta es luminosa y fluida, entre vegetación exuberante. La terraza y el interior se integran, con espacios al sol y a la sombra, piscina climatizada iluminada y parrilla para comer en la galería. Pisos de cemento pulido, detalles de madera y piezas de arte africano y contemporáneo completan el interior, junto a un lounge con TV. Los seis dormitorios están en una sola planta y se abren a patios o terrazas. La suite principal tiene cama king y mira a la piscina. Está a minutos de Wynwood, Downtown y Miami Beach.\n\n\n",
-    "en": "",
-    "pt": ""
+    "es": "Villa Atlas recibe con una entrada de inspiración marroquí. Adentro, la planta abierta es luminosa y fluida, rodeada de vegetación exuberante. Interior y terraza se integran con rincones al sol y a la sombra, piscina climatizada iluminada y parrilla para comer en la galería. Pisos de cemento pulido, detalles de madera y piezas de arte africano y contemporáneo completan los ambientes, junto a un lounge con TV. Los seis dormitorios están en una sola planta y se abren a patios o terrazas; la suite principal tiene cama king y mira a la piscina. Wynwood, Downtown y Miami Beach quedan a minutos.",
+    "en": "Villa Atlas welcomes you through a Moroccan-inspired entrance. Inside, the open plan is bright and flowing, framed by lush greenery. Indoors and out blend together, with spots in the sun and shade, a lit, heated pool and a grill for dining on the covered patio. Polished concrete floors, wood accents and African and contemporary art complete the interiors, along with a TV lounge. All six bedrooms are on one level and open onto patios or terraces; the primary suite has a king bed and looks out over the pool. Wynwood, Downtown and Miami Beach are minutes away.",
+    "pt": "Villa Atlas recebe com uma entrada de inspiração marroquina. Por dentro, a planta aberta é clara e fluida, cercada de vegetação exuberante. Interior e varanda se integram, com cantos ao sol e à sombra, piscina aquecida e iluminada e churrasqueira para comer na varanda coberta. Piso de cimento queimado, detalhes em madeira e peças de arte africana e contemporânea completam os ambientes, junto a um lounge com TV. Os seis quartos ficam no térreo e se abrem para pátios ou varandas; a suíte master tem cama king e vista para a piscina. Wynwood, Downtown e Miami Beach ficam a poucos minutos."
    },
    "amen": {
     "es": [
      "Piscina climatizada",
      "Parrilla",
-     "Galería",
+     "Galería cubierta",
      "Lounge con TV",
      "Todo en una planta",
      "Dormitorios con salida a patio o terraza",
      "Toilette"
     ],
-    "en": [],
-    "pt": []
+    "en": [
+     "Heated pool",
+     "Grill",
+     "Covered patio",
+     "TV lounge",
+     "Single-story living",
+     "Bedrooms opening onto patios or terraces",
+     "Powder room"
+    ],
+    "pt": [
+     "Piscina aquecida",
+     "Churrasqueira",
+     "Varanda coberta",
+     "Lounge com TV",
+     "Tudo no térreo",
+     "Quartos com saída para pátio ou varanda",
+     "Lavabo"
+    ]
    },
    "photos": [
     {
@@ -3586,19 +3818,19 @@ window.SITE_PROPS={
    "guests": 20,
    "extra": [
     {
-     "v": "6.679",
+     "v": "6,679",
      "l": {
-      "es": "ft² · Interior",
-      "en": "",
-      "pt": ""
+      "es": "ft² interiores",
+      "en": "Interior sq ft",
+      "pt": "ft² internos"
      }
     },
     {
-     "v": "17.570",
+     "v": "17,570",
      "l": {
-      "es": "ft² · Terreno",
-      "en": "",
-      "pt": ""
+      "es": "ft² de terreno",
+      "en": "Lot sq ft",
+      "pt": "ft² de terreno"
      }
     }
    ],
@@ -3607,29 +3839,40 @@ window.SITE_PROPS={
    ],
    "tags": [
     {
-     "es": "Piscina"
+     "es": "Piscina",
+     "en": "Pool",
+     "pt": "Piscina"
     },
     {
-     "es": "Sala de cine"
+     "es": "Sala de cine",
+     "en": "Home cinema",
+     "pt": "Sala de cinema"
     },
     {
-     "es": "Sala de juegos"
+     "es": "Sala de juegos",
+     "en": "Game room",
+     "pt": "Sala de jogos"
+    },
+    {
+     "es": "Propiedad cerrada",
+     "en": "Gated",
+     "pt": "Propriedade fechada"
     }
    ],
    "short": {
-    "es": "Paraíso privado",
-    "en": "",
-    "pt": ""
+    "es": "paraíso privado",
+    "en": "private paradise",
+    "pt": "paraíso particular"
    },
    "lead": {
     "es": "Un resort privado, con cine, bar y una piscina con tobogán y cascadas.",
-    "en": "",
-    "pt": ""
+    "en": "A private resort with a home cinema, a bar and a pool with a waterslide and waterfalls.",
+    "pt": "Um resort particular, com cinema, bar e uma piscina com tobogã e cascatas."
    },
    "desc": {
-    "es": "Villa Julieta reúne todo lo de un paraíso privado bajo un mismo techo. Su arquitectura mezcla un interior moderno con fachadas de estilo Tudor y mediterráneo. Tiene siete dormitorios, cocina comedor de chef, family room con TV y juegos, comedor de techos altos y un salón. Suma una sala de cine con sonido Dolby y cortinas blackout, y un bar con mesa de pool que mira a la piscina con tobogán y cascadas, todo dentro de una propiedad cerrada. La suite principal tiene escritorio y dos baños, uno con jacuzzi y otro con ducha de vapor. Afuera hay parrilla a gas.",
-    "en": "",
-    "pt": ""
+    "es": "Villa Julieta reúne todo lo de un resort privado en una sola casa. Su arquitectura combina interiores modernos con fachadas de estilo Tudor y mediterráneo. Tiene siete dormitorios, cocina comedor de chef, family room con TV y juegos, un comedor de techos altos y un salón. Suma una sala de cine con sonido Dolby y cortinas blackout, y un bar con mesa de pool que mira a la piscina con tobogán y cascadas, todo dentro de una propiedad cerrada. La suite principal tiene escritorio y dos baños, uno con jacuzzi y otro con ducha de vapor. Afuera, parrilla a gas.",
+    "en": "Villa Julieta packs everything you’d want from a private resort into one home. The architecture pairs modern interiors with Tudor and Mediterranean-style façades. There are seven bedrooms, a chef’s eat-in kitchen, a family room with TV and games, a high-ceilinged dining room and a formal living room. Add a home cinema with Dolby sound and blackout curtains, and a bar with a billiards table overlooking the pool, complete with a waterslide and waterfalls — all on a gated property. The primary suite has a desk and two bathrooms, one with a Jacuzzi tub and one with a steam shower. Outside, a gas grill.",
+    "pt": "Villa Julieta reúne tudo de um resort particular em uma única casa. A arquitetura combina interiores modernos com fachadas em estilo Tudor e mediterrâneo. São sete quartos, cozinha de chef com copa, family room com TV e jogos, sala de jantar com pé-direito alto e um salão. Ainda tem sala de cinema com som Dolby e cortinas blackout, e um bar com mesa de sinuca de frente para a piscina com tobogã e cascatas, tudo dentro de uma propriedade fechada. A suíte master tem escrivaninha e dois banheiros, um com banheira de hidromassagem e outro com ducha a vapor. Na área externa, churrasqueira a gás."
    },
    "amen": {
     "es": [
@@ -3642,8 +3885,26 @@ window.SITE_PROPS={
      "2 toilettes",
      "Camas: 1 king, 6 queen, 2 individuales y 1 sofá cama"
     ],
-    "en": [],
-    "pt": []
+    "en": [
+     "Home cinema with Dolby sound",
+     "Pool with waterslide and waterfalls",
+     "Bar with billiards table",
+     "Fully gated",
+     "Primary suite with Jacuzzi tub and steam shower",
+     "Gas grill",
+     "2 powder rooms",
+     "Beds: 1 king, 6 queen, 2 twin, 1 sofa bed"
+    ],
+    "pt": [
+     "Sala de cinema com som Dolby",
+     "Piscina com tobogã e cascatas",
+     "Bar com mesa de sinuca",
+     "Propriedade fechada",
+     "Suíte master com hidromassagem e ducha a vapor",
+     "Churrasqueira a gás",
+     "2 lavabos",
+     "Camas: 1 king, 6 queen, 2 de solteiro e 1 sofá-cama"
+    ]
    },
    "photos": [
     {
@@ -3887,19 +4148,19 @@ window.SITE_PROPS={
    "guests": 16,
    "extra": [
     {
-     "v": "5.500",
+     "v": "5,500",
      "l": {
-      "es": "ft² · Interior",
-      "en": "",
-      "pt": ""
+      "es": "ft² interiores",
+      "en": "Interior sq ft",
+      "pt": "ft² internos"
      }
     },
     {
-     "v": "1 Acre",
+     "v": "43,560",
      "l": {
-      "es": "Terreno",
-      "en": "",
-      "pt": ""
+      "es": "ft² de terreno",
+      "en": "Lot sq ft",
+      "pt": "ft² de terreno"
      }
     }
    ],
@@ -3908,42 +4169,54 @@ window.SITE_PROPS={
    ],
    "tags": [
     {
-     "es": "Piscina"
+     "es": "Piscina",
+     "en": "Pool",
+     "pt": "Piscina"
     },
     {
-     "es": "Jacuzzi"
+     "es": "Jacuzzi",
+     "en": "Jacuzzi",
+     "pt": "Jacuzzi"
     },
     {
-     "es": "Cancha deportiva"
+     "es": "Cancha deportiva",
+     "en": "Sports court",
+     "pt": "Quadra esportiva"
     },
     {
-     "es": "Sala de juegos"
+     "es": "Sala de juegos",
+     "en": "Game room",
+     "pt": "Sala de jogos"
     },
     {
-     "es": "Cocina exterior"
+     "es": "Cocina exterior",
+     "en": "Outdoor kitchen",
+     "pt": "Cozinha externa"
     },
     {
-     "es": "Propiedad cerrada"
+     "es": "Propiedad cerrada",
+     "en": "Gated",
+     "pt": "Propriedade fechada"
     }
    ],
    "short": {
-    "es": "Resort privado con mini golf y cancha",
-    "en": "",
-    "pt": ""
+    "es": "con mini golf y cancha",
+    "en": "mini golf & sports court",
+    "pt": "com minigolfe e quadra"
    },
    "lead": {
     "es": "Una propiedad cerrada de casi media hectárea, con piscina estilo resort, cancha y mini golf iluminado.",
-    "en": "",
-    "pt": ""
+    "en": "A gated one-acre estate with a resort-style pool, a sports court and a lit mini-golf green.",
+    "pt": "Uma propriedade fechada de quase meio hectare, com piscina estilo resort, quadra e minigolfe iluminado."
    },
    "desc": {
     "es": "Villa Ceiba es un refugio privado sobre un terreno cerrado de casi media hectárea, con jardines tropicales y diseño moderno. Sus siete dormitorios se completan con una casa de huéspedes independiente, ideal para grupos. Afuera hay piscina estilo resort con jacuzzi, cocina exterior, lounge y comedor cubierto. Para jugar: cancha de básquet y pickleball, ping-pong, mesa de pool y un green de mini golf con luces LED para la noche. Perfecta para familias o grupos, a minutos de playas, vida nocturna y atracciones.",
-    "en": "",
-    "pt": ""
+    "en": "Villa Ceiba is a private retreat on a gated one-acre lot, with tropical gardens and modern design. Seven bedrooms plus a separate guest house make it ideal for groups. Outside, there’s a resort-style pool with a Jacuzzi, an outdoor kitchen, a lounge and covered dining. And for play: a basketball and pickleball court, ping-pong, a billiards table and an LED-lit mini-golf green for after dark. Perfect for families and groups, minutes from the beach, nightlife and attractions.",
+    "pt": "Villa Ceiba é um refúgio particular em um terreno fechado de quase meio hectare, com jardins tropicais e design moderno. Os sete quartos se completam com uma casa de hóspedes independente, ideal para grupos. Do lado de fora, piscina estilo resort com jacuzzi, cozinha externa, lounge e área de jantar coberta. Para se divertir: quadra de basquete e pickleball, pingue-pongue, mesa de sinuca e um green de minigolfe com iluminação LED para a noite. Perfeita para famílias ou grupos, a minutos das praias, da vida noturna e das atrações."
    },
    "amen": {
     "es": [
-     "ropiedad cerrada",
+     "Propiedad cerrada",
      "Piscina estilo resort con jacuzzi",
      "Cancha de básquet y pickleball",
      "Mini golf con luces LED",
@@ -3952,8 +4225,26 @@ window.SITE_PROPS={
      "Casa de huéspedes",
      "Camas: 1 king y 7 queen"
     ],
-    "en": [],
-    "pt": []
+    "en": [
+     "Fully gated",
+     "Resort-style pool with Jacuzzi",
+     "Basketball and pickleball court",
+     "LED-lit mini golf",
+     "Billiards and ping-pong",
+     "Outdoor kitchen and covered dining",
+     "Guest house",
+     "Beds: 1 king, 7 queen"
+    ],
+    "pt": [
+     "Propriedade fechada",
+     "Piscina estilo resort com jacuzzi",
+     "Quadra de basquete e pickleball",
+     "Minigolfe com iluminação LED",
+     "Mesa de sinuca e pingue-pongue",
+     "Cozinha externa e área de jantar coberta",
+     "Casa de hóspedes",
+     "Camas: 1 king e 7 queen"
+    ]
    },
    "photos": [
     {
@@ -4181,11 +4472,11 @@ window.SITE_PROPS={
    "guests": 14,
    "extra": [
     {
-     "v": "7.400",
+     "v": "7,400",
      "l": {
-      "es": "ft² · Interior",
-      "en": "",
-      "pt": ""
+      "es": "ft² interiores",
+      "en": "Interior sq ft",
+      "pt": "ft² internos"
      }
     }
    ],
@@ -4194,35 +4485,45 @@ window.SITE_PROPS={
    ],
    "tags": [
     {
-     "es": "Piscina"
+     "es": "Piscina",
+     "en": "Pool",
+     "pt": "Piscina"
     },
     {
-     "es": "Jacuzzi"
+     "es": "Jacuzzi",
+     "en": "Jacuzzi",
+     "pt": "Jacuzzi"
     },
     {
-     "es": "Sauna"
+     "es": "Sauna",
+     "en": "Sauna",
+     "pt": "Sauna"
     },
     {
-     "es": "Sala de cine"
+     "es": "Sala de cine",
+     "en": "Home cinema",
+     "pt": "Sala de cinema"
     },
     {
-     "es": "Frente al agua"
+     "es": "Frente al agua",
+     "en": "Waterfront",
+     "pt": "Frente para a água"
     }
    ],
    "short": {
-    "es": "Piscina infinita en la azotea",
-    "en": "",
-    "pt": ""
+    "es": "piscina infinita en la azotea",
+    "en": "rooftop infinity pool",
+    "pt": "piscina de borda infinita no rooftop"
    },
    "lead": {
-    "es": "Un santuario sobre la bahía de Biscayne, con piscina infinita en la azotea y vistas a la ciudad y al mar.",
-    "en": "",
-    "pt": ""
+    "es": "Un refugio sobre la bahía de Biscayne, con piscina infinita en la azotea y vistas a la ciudad y al mar.",
+    "en": "A Biscayne Bay sanctuary with a rooftop infinity pool and views over the city and the sea.",
+    "pt": "Um refúgio na baía de Biscayne, com piscina de borda infinita no rooftop e vista para a cidade e o mar."
    },
    "desc": {
-    "es": "Sobre las aguas de la bahía de Biscayne, Villa Sabina tiene una piscina infinita en la azotea con vistas a Downtown, South Beach y los atardeceres. Arriba también hay jacuzzi, bar y varias terrazas al aire libre para cócteles y cenas bajo las estrellas. Adentro, una sala de cine privada y un spa con sauna y vapor, todo con integración entre interior y exterior. Está entre la ciudad y la playa, a minutos de Lincoln Road, Sunset Harbour y los lugares más icónicos de Miami.",
-    "en": "",
-    "pt": ""
+    "es": "Sobre la bahía de Biscayne, Villa Sabina tiene una piscina infinita en la azotea con vistas a Downtown, South Beach y los atardeceres. Arriba también hay jacuzzi, bar y varias terrazas para cócteles y cenas bajo las estrellas. Adentro, una sala de cine privada y un spa con sauna y baño de vapor, con ambientes que se abren al exterior. Está entre la ciudad y la playa, a minutos de Lincoln Road, Sunset Harbour y los lugares más icónicos de Miami.",
+    "en": "Set on Biscayne Bay, Villa Sabina has a rooftop infinity pool overlooking Downtown, South Beach and the sunset. Up top there’s also a Jacuzzi, a bar and several terraces for cocktails and dinners under the stars. Inside, a private cinema and a spa with a sauna and steam room, with interiors that open seamlessly to the outdoors. It sits between the city and the beach, minutes from Lincoln Road, Sunset Harbour and Miami’s most iconic spots.",
+    "pt": "Na baía de Biscayne, Villa Sabina tem uma piscina de borda infinita no rooftop com vista para Downtown, South Beach e o pôr do sol. Lá em cima também há jacuzzi, bar e vários terraços para drinks e jantares sob as estrelas. Por dentro, sala de cinema privativa e um spa com sauna e banho a vapor, com ambientes que se abrem para a área externa. Fica entre a cidade e a praia, a minutos da Lincoln Road, de Sunset Harbour e dos lugares mais icônicos de Miami."
    },
    "amen": {
     "es": [
@@ -4231,12 +4532,30 @@ window.SITE_PROPS={
      "Bar",
      "Terrazas al aire libre",
      "Sala de cine",
-     "Sauna y vapor",
+     "Sauna y baño de vapor",
      "Toilette",
      "Camas: 6 king y 3 queen"
     ],
-    "en": [],
-    "pt": []
+    "en": [
+     "Rooftop infinity pool",
+     "Rooftop Jacuzzi",
+     "Bar",
+     "Open-air terraces",
+     "Home cinema",
+     "Sauna and steam room",
+     "Powder room",
+     "Beds: 6 king, 3 queen"
+    ],
+    "pt": [
+     "Piscina de borda infinita no rooftop",
+     "Jacuzzi no rooftop",
+     "Bar",
+     "Terraços ao ar livre",
+     "Sala de cinema",
+     "Sauna e banho a vapor",
+     "Lavabo",
+     "Camas: 6 king e 3 queen"
+    ]
    },
    "photos": [
     {
@@ -4597,8 +4916,8 @@ window.SITE_PROPS={
    ],
    "feat": "villa-prueba-muxnj0ikncn",
    "card": "villa-prueba-muxnj0ikncn",
-   "home": true,
-   "visible": true
+   "home": false,
+   "visible": false
   }
  ]
 };

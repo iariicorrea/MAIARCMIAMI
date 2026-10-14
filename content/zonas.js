@@ -3,7 +3,7 @@
 export const ZONAS = [
   {
     id: 'miami', name: 'Miami',
-    match: ['Miami', 'Miami Beach', 'South Beach', 'Mid-Beach', 'North Beach', 'Brickell', 'Downtown', 'Brickell / Downtown', 'Edgewater', 'Coral Gables', 'Coconut Grove', 'Coral Gables / Coconut Grove', 'Key Biscayne', 'North Miami', 'Bal Harbour', 'Sunny Isles', 'Fisher Island', 'Star Island'],
+    match: ['Miami', 'Miami Beach', 'South Beach', 'Mid-Beach', 'North Beach', 'Brickell', 'Downtown', 'Brickell / Downtown', 'Edgewater', 'Coral Gables', 'Coconut Grove', 'Coral Gables / Coconut Grove', 'Key Biscayne', 'North Miami', 'Bal Harbour', 'Sunny Isles', 'Fisher Island', 'Star Island', 'Venetian Islands', 'Design District', 'Miami Shores', 'South Miami', 'West Miami', 'Little Gables', 'Pinecrest'],
     title: {
       es: 'Concierge de lujo y alquiler de residencias en Miami | MAIARC',
       en: 'Luxury concierge & villa rentals in Miami | MAIARC',
@@ -18,7 +18,7 @@ export const ZONAS = [
   },
   {
     id: 'miami-beach', name: 'Miami Beach',
-    match: ['Miami Beach', 'South Beach', 'Mid-Beach', 'North Beach', 'Star Island', 'Fisher Island'],
+    match: ['Miami Beach', 'South Beach', 'Mid-Beach', 'North Beach', 'Star Island', 'Fisher Island', 'Venetian Islands'],
     title: {
       es: 'Alquiler de residencias de lujo en Miami Beach | MAIARC',
       en: 'Luxury home rentals in Miami Beach | MAIARC',
@@ -48,7 +48,7 @@ export const ZONAS = [
   },
   {
     id: 'coral-gables', name: 'Coral Gables',
-    match: ['Coral Gables', 'Coconut Grove', 'Coral Gables / Coconut Grove'],
+    match: ['Coral Gables', 'Coconut Grove', 'Coral Gables / Coconut Grove', 'Little Gables'],
     title: {
       es: 'Residencias de lujo en Coral Gables y Coconut Grove | MAIARC',
       en: 'Luxury homes in Coral Gables & Coconut Grove | MAIARC',
